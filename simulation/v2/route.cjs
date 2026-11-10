@@ -29,20 +29,45 @@ const poiPrior={
 function choosePOI(s,t,hero,candidates,territoryOf){
  if(!s.options.poiAware)return null;
  const h=s.heroes[hero],energyNeed=Math.max(0,K.cfg.final.requirements[s.n]-s.energy);
+ const marginal=s.options.poiStrategy==='marginal';
+ const next=exit(s,t),open=s.capitals[1].solved[0],v=Math.max(.75,speed(s,s.active||[hero]));
+ const direct=next?Math.max(0,G.dist(t,h.cell,next[0],open)-(s.options.conservativePort?0:1)):0;
  let best=null;
  for(const [cell,type] of candidates){
-  const d=G.dist(t,h.cell,cell,s.capitals[1].solved[0]);if(!Number.isFinite(d))continue;
+  const d=G.dist(t,h.cell,cell,open);if(!Number.isFinite(d))continue;
   const terr=territoryOf(t,cell),pr=poiPrior[type]||{energy:.5,trust:.5,item:.1};
   const ci=nations.indexOf(terr);
   const trustTarget=s.options.trustTarget??0;
   const trustNeed=ci>=0&&!s.capitals[ci].stable?Math.max(0,Math.min(2,trustTarget)-s.trust[terr]):0;
-  // On Wild Lands a Trust reward converts to Tree Energy, so Trust-heavy decks are also valid energy sources there.
   const effectiveEnergy=pr.energy+(terr==='wild'?pr.trust*.55:0);
-  let utility=(energyNeed?2.4*effectiveEnergy:0)+(trustNeed?2.0*pr.trust:0);
-  if(!energyNeed&&!trustNeed)utility=0;
-  // A POI ends this hero's movement; charge distance modestly rather than treating all on-tile POIs as equal.
-  utility-=.14*d;
-  if(!best||utility>best.utility)best={cell,type,territory:terr,distance:d,utility};
+  let utility;
+  let detour=d;
+  if(next){
+   const after=G.dist(t,cell,next[0],open);
+   if(Number.isFinite(after))detour=Math.max(0,d+Math.max(0,after-(s.options.conservativePort?0:1))-direct);
+  }
+  if(marginal){
+   // Value resources by expected world-days saved, not by raw reward count.
+   // One Trust removes one required capital problem. With success probability p,
+   // the expected retry overhead of that problem is (1-p)/p; add a small
+   // positioning/service term because a removed problem also shortens the city sequence.
+   const p=probability(s,s.active||[hero]);
+   const trustMarginal=ci>=0&&!s.capitals[ci].stable&&s.trust[terr]<2
+     ? pr.trust*(0.35+(1-p)/p)
+     : 0;
+   // Energy is mandatory only while below the final requirement. Approximate the
+   // replacement cost of finding another useful POI as one group activation share.
+   const energyMarginal=energyNeed>0?effectiveEnergy*(0.65+1/Math.max(1,(s.active||[hero]).length)):0;
+   // POI activation ends this hero's movement; detours are charged in expected
+   // movement-days. This deliberately penalizes off-route farming.
+   const actionCost=0.18+detour/v;
+   utility=energyMarginal+trustMarginal-actionCost;
+  }else{
+   utility=(energyNeed?2.4*effectiveEnergy:0)+(trustNeed?2.0*pr.trust:0);
+   if(!energyNeed&&!trustNeed)utility=0;
+   utility-=.14*d;
+  }
+  if(!best||utility>best.utility)best={cell,type,territory:terr,distance:d,detour,utility};
  }
  return best&&best.utility>0?best:null;
 }
