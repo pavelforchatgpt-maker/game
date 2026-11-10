@@ -19,8 +19,8 @@ function movementOptions(s,i){
  const out=[];for(const [face,p] of K.faces){let t=K.clone(s),hh=t.heroes[i];
  // Reroll a movement failure only; the replacement is mandatory, including another failure.
  const reroll=face===-1&&itemReady(hh,'Камень пути');if(reroll)item(t,i,'Камень пути');
- for(const [v,q]of reroll?K.faces:[[face,1]]){const u=K.clone(t),hero=u.heroes[i];let value=K.movement(hero,u.day,v);
- if(!reroll){if(K.affected(hero,'slow',u.day)&&itemReady(hero,'Плащ лёгкого шага')){item(u,i,'Плащ лёгкого шага');value=Math.max(1,2+K.cfg.moveFaces[v]);}
+ for(const [v,q]of reroll?K.faces:[[face,1]]){const u=K.clone(t),hero=u.heroes[i];let value=K.movement(hero,u.day,v)+(u.options?.movementBonus||0);
+ if(!reroll){if(K.affected(hero,'slow',u.day)&&itemReady(hero,'Плащ лёгкого шага')){item(u,i,'Плащ лёгкого шага');value=Math.max(1,2+K.cfg.moveFaces[v]+(u.options?.movementBonus||0));}
  else if(itemReady(hero,'Сапоги скороходы')){item(u,i,'Сапоги скороходы');value++;}}
  if(ready(hero,8)){use(u,i,8);value+=2;}out.push({state:u,p:p*q,value});}}
  return out;
