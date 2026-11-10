@@ -1,0 +1,43 @@
+name: 25-day capital scaling diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/deadline25_capital_scaling.cjs"
+      - ".github/workflows/deadline25-capital-scaling.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            shift: -1
+          - players: 2
+            shift: -2
+          - players: 2
+            shift: -3
+          - players: 3
+            shift: -1
+          - players: 3
+            shift: -2
+          - players: 3
+            shift: -3
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/deadline25_capital_scaling.cjs ${{ matrix.players }} ${{ matrix.shift }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deadline25-${{ matrix.players }}p-${{ matrix.shift }}
+          path: simulation/analysis/deadline25-capital-scaling/${{ matrix.players }}p-shift${{ matrix.shift }}.json
