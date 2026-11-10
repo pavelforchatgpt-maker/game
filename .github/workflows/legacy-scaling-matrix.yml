@@ -1,1 +1,42 @@
-name: Legacy policy scaling matrix\n\non:\n  push:\n    branches: [main]\n    paths:\n      - ".github/workflows/legacy-scaling-matrix.yml"\n  workflow_dispatch:\n\npermissions:\n  contents: read\n\njobs:\n  compare:\n    runs-on: ubuntu-latest\n    timeout-minutes: 15\n    strategy:\n      fail-fast: false\n      matrix:\n        include:\n          - { players: 2, shift: 0, move: 0, label: p2-base }\n          - { players: 2, shift: -2, move: 0, label: p2-cap }\n          - { players: 2, shift: 0, move: 1, label: p2-move }\n          - { players: 2, shift: -2, move: 1, label: p2-both }\n          - { players: 3, shift: 0, move: 0, label: p3-base }\n          - { players: 3, shift: -1, move: 0, label: p3-cap }\n          - { players: 3, shift: 0, move: 1, label: p3-move }\n          - { players: 3, shift: -1, move: 1, label: p3-both }\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: "22"\n      - run: node simulation/analysis/legacy_scaling_counterfactual.cjs ${{ matrix.players }} ${{ matrix.shift }} ${{ matrix.move }} 128\n      - uses: actions/upload-artifact@v4\n        with:\n          name: legacy-scaling-${{ matrix.label }}\n          path: simulation/analysis/legacy-scaling/*.json\n          if-no-files-found: error\n
+name: Legacy policy scaling matrix
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/legacy-scaling-matrix.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: 2p baseline
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 2 0 0 96
+      - name: 2p capital scaling
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 2 -2 0 96
+      - name: 2p movement
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 2 0 1 96
+      - name: 2p both
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 2 -2 1 96
+      - name: 3p baseline
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 3 0 0 96
+      - name: 3p capital scaling
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 3 -1 0 96
+      - name: 3p movement
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 3 0 1 96
+      - name: 3p both
+        run: node simulation/analysis/legacy_scaling_counterfactual.cjs 3 -1 1 96
+      - uses: actions/upload-artifact@v4
+        with:
+          name: legacy-scaling-all
+          path: simulation/analysis/legacy-scaling/*.json
+          if-no-files-found: error
