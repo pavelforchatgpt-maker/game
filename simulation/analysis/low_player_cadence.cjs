@@ -63,3 +63,5 @@ const dir=path.join(__dirname,'low-player-cadence');
 fs.mkdirSync(dir,{recursive:true});
 fs.writeFileSync(path.join(dir,players+'p-c'+cadence+'.json'),JSON.stringify(out,null,2));
 console.log(JSON.stringify(out,null,2));
+
+// trigger workflow registration
