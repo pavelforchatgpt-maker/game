@@ -63,3 +63,5 @@ const dir=path.join(__dirname,'split-resource-bottleneck');fs.mkdirSync(dir,{rec
 const name='s'+shift+'-e'+initialEnergy+'-t'+initialTrust+'.json';
 fs.writeFileSync(path.join(dir,name),JSON.stringify(out,null,2));
 console.log(JSON.stringify(out,null,2));
+
+// trigger resource diagnostic
