@@ -56,6 +56,9 @@ jobs:
       - name: Render V2 report
         run: node simulation/v2/render_report.cjs
 
+      - name: POI policy A/B benchmark
+        run: node simulation/v2/poi_policy_benchmark.cjs 128
+
       - name: Upload audit outputs
         uses: actions/upload-artifact@v4
         with:
@@ -65,6 +68,7 @@ jobs:
             simulation/v2/bounds.json
             simulation/v2/validation.json
             simulation/v2/verified-facts.json
+            simulation/v2/poi-policy-benchmark.json
             simulation/analysis/capital-audit/CAPITAL_PROBABILITY_AUDIT_V3.md
             simulation/analysis/capital-audit/capital_probability.json
           if-no-files-found: error
