@@ -1,0 +1,47 @@
+name: Low-player activation cadence diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/low_player_cadence.cjs"
+      - ".github/workflows/low-player-cadence.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            cadence: 2
+          - players: 2
+            cadence: 3
+          - players: 2
+            cadence: 4
+          - players: 2
+            cadence: 5
+          - players: 3
+            cadence: 2
+          - players: 3
+            cadence: 3
+          - players: 3
+            cadence: 4
+          - players: 3
+            cadence: 5
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/low_player_cadence.cjs ${{ matrix.players }} ${{ matrix.cadence }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: low-player-${{ matrix.players }}p-c${{ matrix.cadence }}
+          path: simulation/analysis/low-player-cadence/${{ matrix.players }}p-c${{ matrix.cadence }}.json
