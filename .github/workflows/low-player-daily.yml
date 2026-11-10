@@ -1,0 +1,30 @@
+name: Low-player daily second activation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/low-player-daily.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        players: [2, 3]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/low_player_cadence.cjs ${{ matrix.players }} 1 1024
+      - uses: actions/upload-artifact@v4
+        with:
+          name: low-player-${{ matrix.players }}p-daily
+          path: simulation/analysis/low-player-cadence/${{ matrix.players }}p-c1.json
