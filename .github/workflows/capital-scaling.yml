@@ -1,0 +1,46 @@
+name: Capital scaling counterfactual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/capital_scaling_counterfactual.cjs"
+      - ".github/workflows/capital-scaling.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            shift: 0
+            tag: 2-base
+          - players: 2
+            shift: -2
+            tag: 2-scaled
+          - players: 3
+            shift: 0
+            tag: 3-base
+          - players: 3
+            shift: -1
+            tag: 3-scaled
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run counterfactual
+        run: node simulation/analysis/capital_scaling_counterfactual.cjs ${{ matrix.players }} ${{ matrix.shift }} 1024
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: capital-scaling-${{ matrix.tag }}
+          path: simulation/analysis/capital-scaling/*.json
+          if-no-files-found: error
