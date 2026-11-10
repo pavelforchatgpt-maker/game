@@ -4,7 +4,14 @@ on:
   push:
     branches: [main]
     paths:
-      - "simulation/**"
+      - "simulation/config.json"
+      - "simulation/src/**"
+      - "simulation/tests/**"
+      - "simulation/v2/engine.cjs"
+      - "simulation/v2/route.cjs"
+      - "simulation/v2/build.cjs"
+      - "simulation/v2/kernel.cjs"
+      - "simulation/v2/effects.cjs"
       - ".github/workflows/simulation.yml"
   workflow_dispatch:
 
