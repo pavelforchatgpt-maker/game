@@ -1,0 +1,58 @@
+name: Candidate robustness
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/candidate-robustness.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  p2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix: { st: [ST-NEUTRAL, ST-MODERATE, ST-HARSH] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_robustness.cjs 2 together ${{ matrix.st }} 192
+      - uses: actions/upload-artifact@v4
+        with:
+          name: robust-p2-${{ matrix.st }}
+          path: simulation/analysis/candidate-robustness/*.json
+  p3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix: { st: [ST-NEUTRAL, ST-MODERATE, ST-HARSH] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_robustness.cjs 3 together ${{ matrix.st }} 192
+      - uses: actions/upload-artifact@v4
+        with:
+          name: robust-p3-${{ matrix.st }}
+          path: simulation/analysis/candidate-robustness/*.json
+  p4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix: { st: [ST-NEUTRAL, ST-MODERATE, ST-HARSH] }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_robustness.cjs 4 dynamic ${{ matrix.st }} 192
+      - uses: actions/upload-artifact@v4
+        with:
+          name: robust-p4-${{ matrix.st }}
+          path: simulation/analysis/candidate-robustness/*.json
