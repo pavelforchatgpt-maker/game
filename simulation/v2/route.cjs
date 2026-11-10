@@ -2,7 +2,7 @@ const K=require('../src/kernel.cjs'),G=K.geo;
 const cities=['A-3','A-5','A-7','A-9','A-11'],nations=['Рост','Поток','Искра','Слово','Камень'],keys=[[10],[10,14],[10],[10],[11]];
 const memo=new Map();
 class Heap{constructor(){this.a=[];}push(x){let a=this.a,i=a.length;a.push(x);while(i){let p=(i-1)>>1;if(a[p].cost<=x.cost)break;a[i]=a[p];i=p;}a[i]=x;}pop(){let a=this.a,r=a[0],x=a.pop();if(a.length){let i=0;while(i*2+1<a.length){let j=i*2+1;if(j+1<a.length&&a[j+1].cost<a[j].cost)j++;if(a[j].cost>=x.cost)break;a[i]=a[j];i=j;}a[i]=x;}return r;}get length(){return this.a.length;}}
-function speed(s,g){let d=[[[],1]];for(const i of g)d=d.flatMap(([a,p])=>[[1,1/6],[2,2/6],[3,2/6],[4,1/6]].map(([m,q])=>[[...a,m+([8,19].includes(s.heroes[i].ability)?2:0)],p*q]));return d.reduce((a,[v,p])=>a+Math.min(...v)*p,0);}
+function speed(s,g){let d=[[[],1]];for(const i of g)d=d.flatMap(([a,p])=>[[1,1/6],[2,2/6],[3,2/6],[4,1/6]].map(([m,q])=>[[...a,m+(s.options.movementBonus||0)+([8,19].includes(s.heroes[i].ability)?2:0)],p*q]));return d.reduce((a,[v,p])=>a+Math.min(...v)*p,0);}
 function probability(s,g){const distributions=K.distribution(g.length);let best=0;for(const i of g){const a=Object.values(s.heroes[i].attributes);let p=0,count=0;for(let j=0;j<5;j++)for(let k=j+1;k<5;k++){for(const dc0 of [9,10]){const dc=dc0+(s.options.capitalDifficultyShift||0);p+=distributions.reduce((v,[r,w])=>v+(Math.max(a[j],a[k])+r>=dc?w:0),0);count++;}}best=Math.max(best,p/count);}return Math.max(.05,best);}
 function mask(s){return s.capitals.reduce((a,c,i)=>a|(!c.stable?1<<i:0),0);}
 // Exact shortest path in a RELAXED weighted service graph. Its cost is a heuristic, not a game-day proof.
