@@ -15,7 +15,10 @@ function initial(n,options){let s=K.initial(n,options.profiles||[1,6,4,8]);s.cap
 function publicView(s){return {day:s.day,stage:s.stage,opened:s.opened,heroes:s.heroes,trust:s.trust,energy:s.energy,capitals:s.capitals,tree:s.tree,used:s.used,visibleTiles:Object.fromEntries(s.opened.map(id=>[id,geo.tiles[id]])),card:s.card?cards[s.card]:null};}
 const metric=(s,k,v=1)=>s.metrics[k]=(s.metrics[k]||0)+v;function advance(s){s.audit.push({type:'dayEnd',day:s.day});K.nextDay(s);}
 function branch(s,values,fn){return values.map(([value,p])=>{const t=clone(s);t.metrics={...s.metrics};fn(t,value);return {state:t,p};});}
-function finish(s){s.lastGroup=[...s.active];const owner=s.active.find(i=>s.heroes[i].ability===9&&!s.heroes[i].once);if(owner!==undefined&&!s.tree.started&&!s.isBonus){K.timeAbility(s,s.active,owner);metric(s,'ability9');}delete s.active;delete s.budget;delete s.target;delete s.mode;delete s.walk;s.phase='plan';}
+function finish(s){s.lastGroup=[...s.active];const owner=s.active.find(i=>s.heroes[i].ability===9&&!s.heroes[i].once);if(owner!==undefined&&!s.tree.started&&!s.isBonus){K.timeAbility(s,s.active,owner);metric(s,'ability9');}
+ const cadence=s.options?.lowPlayerExtraCadence;
+ if(!s.bonus&&!s.tree.started&&!s.isBonus&&s.n<4&&cadence&&s.day%cadence===0&&s.extraActivationDay!==s.day){s.bonus=[...s.active];s.extraActivationDay=s.day;metric(s,'diagnosticExtraActivation');}
+ delete s.active;delete s.budget;delete s.target;delete s.mode;delete s.walk;s.phase='plan';}
 function distance(s,t,a,b){return geo.dist(t,a,b,s.capitals[1].solved[0]);}
 function walk(s,i,target){const previous=s.heroes[i].cell;E.jumpToward(s,i,target);if(previous!==s.heroes[i].cell)s.audit.push({type:'jump',hero:i,tile:s.heroes[i].tile,from:previous,to:s.heroes[i].cell});const h=s.heroes[i],p=geo.path(h.tile,h.cell,target,s.capitals[1].solved[0]);if(!p)return false;const steps=Math.min(s.budget[i],p.length-1);s.audit.push({type:'walk',hero:i,tile:h.tile,path:p.slice(0,steps+1),budgetBefore:s.budget[i],steps});h.cell=p[steps];s.budget[i]-=steps;metric(s,'cells',steps);return h.cell===target;}
 function available(s,t){return geo.tiles[t].poi.filter(([c])=>!s.used.includes(t+':'+c));}
