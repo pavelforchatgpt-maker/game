@@ -19,7 +19,9 @@ function finish(s){s.lastGroup=[...s.active];const owner=s.active.find(i=>s.hero
  const cadence=s.options?.lowPlayerExtraCadence;
  const twoSlot=s.options?.teamActivationSlots===2&&s.groups.length===1;
  const cadenceEligible=s.n<4&&cadence&&s.day%cadence===0;
- if(!s.bonus&&!s.tree.started&&!s.isBonus&&(twoSlot||cadenceEligible)&&s.extraActivationDay!==s.day){s.bonus=[...s.active];s.extraActivationDay=s.day;metric(s,'diagnosticExtraActivation');}
+ const groupKey=[...s.active].sort((a,b)=>a-b).join('-'),perGroup=s.options?.perGroupDailyActivations===2;
+ s.groupExtraUsed??={};const perGroupEligible=perGroup&&s.groupExtraUsed[groupKey]!==s.day;
+ if(!s.bonus&&!s.tree.started&&!s.isBonus&&(twoSlot||cadenceEligible||perGroupEligible)&&((perGroupEligible)||s.extraActivationDay!==s.day)){s.bonus=[...s.active];if(perGroupEligible)s.groupExtraUsed[groupKey]=s.day;else s.extraActivationDay=s.day;metric(s,'diagnosticExtraActivation');}
  delete s.active;delete s.budget;delete s.target;delete s.mode;delete s.walk;s.phase='plan';}
 function distance(s,t,a,b){return geo.dist(t,a,b,s.capitals[1].solved[0]);}
 function walk(s,i,target){const previous=s.heroes[i].cell;E.jumpToward(s,i,target);if(previous!==s.heroes[i].cell)s.audit.push({type:'jump',hero:i,tile:s.heroes[i].tile,from:previous,to:s.heroes[i].cell});const h=s.heroes[i],p=geo.path(h.tile,h.cell,target,s.capitals[1].solved[0]);if(!p)return false;const steps=Math.min(s.budget[i],p.length-1);s.audit.push({type:'walk',hero:i,tile:h.tile,path:p.slice(0,steps+1),budgetBefore:s.budget[i],steps});h.cell=p[steps];s.budget[i]-=steps;metric(s,'cells',steps);return h.cell===target;}
