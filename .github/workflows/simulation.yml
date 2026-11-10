@@ -1,0 +1,58 @@
+name: Simulation audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/**"
+      - ".github/workflows/simulation.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Kernel tests
+        run: node simulation/tests/kernel.test.cjs
+
+      - name: Effects tests
+        run: node simulation/tests/effects.test.cjs
+
+      - name: V2 bounds
+        run: node simulation/v2/bounds.cjs
+
+      - name: V2 facts
+        run: node simulation/v2/facts.cjs
+
+      - name: Validate successful witnesses
+        run: |
+          node simulation/v2/validate.cjs \
+            simulation/v2/successful-2.json \
+            simulation/v2/successful-3.json \
+            simulation/v2/successful-4.json
+
+      - name: Render V2 report
+        run: node simulation/v2/render_report.cjs
+
+      - name: Upload audit outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: simulation-audit
+          path: |
+            simulation/FEASIBILITY_REPORT_V2.md
+            simulation/v2/bounds.json
+            simulation/v2/validation.json
+            simulation/v2/verified-facts.json
+          if-no-files-found: error
