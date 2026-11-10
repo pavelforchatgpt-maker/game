@@ -38,8 +38,11 @@ function plan(s){if(s.terminal)return;R.regroup(s);if(!s.deadMarked){const remai
  if(allStable(s)&&s.heroes.every(h=>h.tile==='C-1'))K.merge(s);
  let g=s.bonus;s.isBonus=!!g;if(g)s.bonus=null;else {
    g=s.groups.find(g=>g.some(i=>!s.heroes[i].acted));
-   if(!g&&s.options?.teamDailyBonusActivations===1&&s.teamDailyBonusDay!==s.day){
-     // One shared team bonus activation after all normal group activations.
+   const teamBonusCadence=s.options?.teamBonusCadence||1;
+   const teamBonusEligible=s.day%teamBonusCadence===0;
+   if(!g&&s.options?.teamDailyBonusActivations===1&&teamBonusEligible&&s.teamDailyBonusDay!==s.day){
+     // Diagnostic shared team bonus activation after all normal group activations.
+     // teamBonusCadence=1 preserves the previous daily diagnostic behaviour.
      // Choose the group with the least route slack (most urgent remaining work).
      g=s.groups.slice().sort((a,b)=>R.score(s,a).slack-R.score(s,b).slack)[0];
      s.isBonus=true;s.teamDailyBonusDay=s.day;metric(s,'diagnosticTeamBonusActivation');
