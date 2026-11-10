@@ -1,0 +1,34 @@
+name: Strong-success reward choice counterfactual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/strong_success_choice_counterfactual.cjs"
+      - ".github/workflows/strong-success-choice.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        players: [2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run strong-success choice test
+        run: node simulation/analysis/strong_success_choice_counterfactual.cjs ${{ matrix.players }} 256
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: strong-success-choice-${{ matrix.players }}
+          path: simulation/analysis/strong-choice/*.json
+          if-no-files-found: error
