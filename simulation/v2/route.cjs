@@ -21,6 +21,31 @@ function ownership(s,g){let m=mask(s);for(let i=0;i<5;i++){const job=s.jobs?.[ci
 function score(s,g){const route=tour(s,g,ownership(s,g));const need=Math.max(0,K.cfg.final.requirements[s.n]-s.energy),resource=need/(.5*g.length);return {remainingDays:route.cost+resource,slack:21-s.day-route.cost-resource,energyDeficit:need,routeCost:route.cost,problems:nations.reduce((a,n,i)=>a+(s.capitals[i].stable?0:3-s.trust[n]),0),probability:probability(s,g),route};}
 function exit(s,t){if(s.rendezvous)return tour(s,s.active,0,s.rendezvous).first;const required=ownership(s,s.active);if(!required&&s.energy<K.cfg.final.requirements[s.n]){const candidates=Object.keys(G.tiles).filter(id=>G.tiles[id].poi.some(([c])=>!s.used.includes(id+':'+c)));const routes=candidates.map(id=>tour(s,s.active,0,id)).filter(r=>r.first).sort((a,b)=>a.cost-b.cost);if(routes.length)return routes[0].first;}if(s.options.order){const next=s.options.order.find(i=>required&(1<<i));if(next!==undefined)return tour(s,s.active,0,cities[next]).first;}return tour(s,s.active,required).first;}
 function wantPOI(s,t,territory){const need=Math.max(0,K.cfg.final.requirements[s.n]-s.energy);if(need)return true;const ci=nations.indexOf(territory);if(ci<0||s.capitals[ci].stable||s.trust[territory]>=2)return false;if(s.options.trustTarget!==undefined)return s.trust[territory]<s.options.trustTarget;const p=probability(s,s.active),saved=(1-p)/p;return (s.options.trustWeight??1)*.45*saved>1/s.active.length+.15;}
+const poiPrior={
+ 'Исследование':{energy:.44,trust:.75,item:.19},
+ 'Встреча':{energy:.62,trust:.94,item:.06},
+ 'Испытание':{energy:.78,trust:.28,item:.17}
+};
+function choosePOI(s,t,hero,candidates,territoryOf){
+ if(!s.options.poiAware)return null;
+ const h=s.heroes[hero],energyNeed=Math.max(0,K.cfg.final.requirements[s.n]-s.energy);
+ let best=null;
+ for(const [cell,type] of candidates){
+  const d=G.dist(t,h.cell,cell,s.capitals[1].solved[0]);if(!Number.isFinite(d))continue;
+  const terr=territoryOf(t,cell),pr=poiPrior[type]||{energy:.5,trust:.5,item:.1};
+  const ci=nations.indexOf(terr);
+  const trustTarget=s.options.trustTarget??0;
+  const trustNeed=ci>=0&&!s.capitals[ci].stable?Math.max(0,Math.min(2,trustTarget)-s.trust[terr]):0;
+  // On Wild Lands a Trust reward converts to Tree Energy, so Trust-heavy decks are also valid energy sources there.
+  const effectiveEnergy=pr.energy+(terr==='wild'?pr.trust*.55:0);
+  let utility=(energyNeed?2.4*effectiveEnergy:0)+(trustNeed?2.0*pr.trust:0);
+  if(!energyNeed&&!trustNeed)utility=0;
+  // A POI ends this hero's movement; charge distance modestly rather than treating all on-tile POIs as equal.
+  utility-=.14*d;
+  if(!best||utility>best.utility)best={cell,type,territory:terr,distance:d,utility};
+ }
+ return best&&best.utility>0?best:null;
+}
 function arrangements(){return [[[0,1,2,3]],[[0,1],[2,3]],[[0,2],[1,3]],[[0,3],[1,2]]];}
 function setGroups(s,groups){const flat=groups.flat();if(flat.length!==4||new Set(flat).size!==4||flat.some(i=>i<0||i>3)||groups.some(g=>g.length<2||new Set(g.map(i=>s.heroes[i].tile)).size!==1))throw Error('Illegal regroup');s.groups=groups.map(g=>[...g]);}
 function regroup(s){if(s.n!==4||s.heroes.some(h=>h.acted))return;
@@ -41,4 +66,4 @@ function regroup(s){if(s.n!==4||s.heroes.some(h=>h.acted))return;
  }
  if(best){const old=JSON.stringify(s.groups);setGroups(s,best.groups);s.jobs=best.jobs;s.regrouped=true;if(old!==JSON.stringify(s.groups)){s.metrics.regroups=(s.metrics.regroups||0)+1;s.audit?.push({type:'regroup',groups:s.groups,positions:s.heroes.map(h=>[h.tile,h.cell])});}}
 }
-module.exports={tour,exit,score,wantPOI,regroup,setGroups,arrangements,mask,ownership,speed,probability};
+module.exports={tour,exit,score,wantPOI,choosePOI,regroup,setGroups,arrangements,mask,ownership,speed,probability};
