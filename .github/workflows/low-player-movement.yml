@@ -1,0 +1,39 @@
+name: Low-player movement bonus diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/low_player_movement.cjs"
+      - ".github/workflows/low-player-movement.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            bonus: 1
+          - players: 2
+            bonus: 2
+          - players: 3
+            bonus: 1
+          - players: 4
+            bonus: 0
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/low_player_movement.cjs ${{ matrix.players }} ${{ matrix.bonus }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: movement-${{ matrix.players }}p-m${{ matrix.bonus }}
+          path: simulation/analysis/low-player-movement/${{ matrix.players }}p-m${{ matrix.bonus }}.json
