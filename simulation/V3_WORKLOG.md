@@ -144,3 +144,16 @@ C. Для режима 4 together:
 - отдельно проверить, что 2+2 не становится настолько сильным, что снимает напряжение 20 суток.
 
 Канонические правила групп не изменены.
+
+
+## 2026-11-10 — Low-player movement diagnostic
+
+Flat movement compensation was tested under the canonical 20-day structure, with no extra activations or DC/resource/map changes.
+
+Results (512 each):
+- 2p +1 movement: 0.0% win;
+- 2p +2 movement: 0.2% win;
+- 3p +1 movement: 0.0% win;
+- 4p split control: 1.6% win.
+
+Conclusion: local movement speed alone is not the main bottleneck. Even +2 for 2p does not create a viable win corridor. The next diagnostic should decompose the value of a full extra activation into travel/exploration vs POI resolution vs capital work and identify the smallest throughput compensation for low-player games. Canonical movement remains unchanged.
