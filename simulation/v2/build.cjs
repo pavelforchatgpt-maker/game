@@ -26,6 +26,7 @@ replace("attribute:p.attribute,difficulty,total,reward:", "attribute:p.attribute
 replace("const zone=[s.target[0],...geo.graph(t,s.capitals[1].solved[0])[s.target[0]]];", "const zone=s.options.conservativePort?[s.target[0]]:[s.target[0],...geo.graph(t,s.capitals[1].solved[0])[s.target[0]]];");
 replace("distance(s,t,s.heroes[i].cell,s.target[0])<=1", "distance(s,t,s.heroes[i].cell,s.target[0])<=(s.options.conservativePort?0:1)");
 replace("let sc=chance*value;", "if(s.options.resourceAware&&r){if(r==='Энергия')value=s.energy<cfg.final.requirements[s.n]?2.5:.05;else if(r==='Доверие')value=1.6;else value=r==='Сапоги скороходы'?1.5:.2;}let sc=chance*value;");
+replace("choice=pathIndex(s,pr.paths,leader,true),[attr,diff]=pr.paths[choice],participants=", "choice=pathIndex(s,pr.paths,leader,true),[attr,baseDiff]=pr.paths[choice],diff=baseDiff+(s.options.capitalDifficultyShift||0),participants=");
 // Emit the day BEFORE deterministic state transitions, so mixed-day steps are not misattributed.
 replace("const metric=(s,k,v=1)=>s.metrics[k]=(s.metrics[k]||0)+v;", "const metric=(s,k,v=1)=>s.metrics[k]=(s.metrics[k]||0)+v;function advance(s){s.audit.push({type:'dayEnd',day:s.day});K.nextDay(s);}");
 s=s.replaceAll('K.nextDay(s);return;', 'advance(s);return;');
