@@ -1,0 +1,55 @@
+name: Four-player split resource bottleneck
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/split_resource_bottleneck.cjs"
+      - ".github/workflows/split-resource-bottleneck.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shift: -2
+            energy: 0
+            trust: 0
+          - shift: -2
+            energy: 1
+            trust: 0
+          - shift: -2
+            energy: 2
+            trust: 0
+          - shift: -2
+            energy: 3
+            trust: 0
+          - shift: -2
+            energy: 0
+            trust: 1
+          - shift: -1
+            energy: 2
+            trust: 0
+          - shift: -1
+            energy: 0
+            trust: 1
+          - shift: -2
+            energy: 2
+            trust: 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/split_resource_bottleneck.cjs ${{ matrix.shift }} ${{ matrix.energy }} ${{ matrix.trust }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: split-resource-s${{ matrix.shift }}-e${{ matrix.energy }}-t${{ matrix.trust }}
+          path: simulation/analysis/split-resource-bottleneck/s${{ matrix.shift }}-e${{ matrix.energy }}-t${{ matrix.trust }}.json
