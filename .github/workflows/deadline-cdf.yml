@@ -1,0 +1,63 @@
+name: Deadline sensitivity CDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/deadline-cdf.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  p2-base:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 2 together 0 128
+      - uses: actions/upload-artifact@v4
+        with: { name: deadline-p2-base, path: simulation/analysis/deadline-cdf/*.json }
+  p2-scaled:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 2 together -2 128
+      - uses: actions/upload-artifact@v4
+        with: { name: deadline-p2-scaled, path: simulation/analysis/deadline-cdf/*.json }
+  p3-base:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 3 together 0 128
+      - uses: actions/upload-artifact@v4
+        with: { name: deadline-p3-base, path: simulation/analysis/deadline-cdf/*.json }
+  p3-scaled:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 3 together -1 128
+      - uses: actions/upload-artifact@v4
+        with: { name: deadline-p3-scaled, path: simulation/analysis/deadline-cdf/*.json }
+  p4-split:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 4 split 0 128
+      - uses: actions/upload-artifact@v4
+        with: { name: deadline-p4-split, path: simulation/analysis/deadline-cdf/*.json }
