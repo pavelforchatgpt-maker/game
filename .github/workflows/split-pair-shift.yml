@@ -1,0 +1,33 @@
+name: Split-pair capital scaling diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/split-pair-shift.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/split_pair_shift_candidate.cjs split -1 192
+      - uses: actions/upload-artifact@v4
+        with: { name: split-pair-shift-split, path: simulation/analysis/split-pair-shift/*.json }
+  dynamic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/split_pair_shift_candidate.cjs dynamic -1 192
+      - uses: actions/upload-artifact@v4
+        with: { name: split-pair-shift-dynamic, path: simulation/analysis/split-pair-shift/*.json }
