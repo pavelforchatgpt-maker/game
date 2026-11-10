@@ -1,0 +1,58 @@
+name: Movement scaling counterfactual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/movement_scaling_counterfactual.cjs"
+      - ".github/workflows/movement-scaling.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            shift: 0
+            move: 1
+            tag: 2-move
+          - players: 2
+            shift: -2
+            move: 0
+            tag: 2-cap
+          - players: 2
+            shift: -2
+            move: 1
+            tag: 2-both
+          - players: 3
+            shift: 0
+            move: 1
+            tag: 3-move
+          - players: 3
+            shift: -1
+            move: 0
+            tag: 3-cap
+          - players: 3
+            shift: -1
+            move: 1
+            tag: 3-both
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run movement scaling test
+        run: node simulation/analysis/movement_scaling_counterfactual.cjs ${{ matrix.players }} ${{ matrix.shift }} ${{ matrix.move }} 256
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: movement-scaling-${{ matrix.tag }}
+          path: simulation/analysis/movement-scaling/*.json
+          if-no-files-found: error
