@@ -1,0 +1,41 @@
+name: Four-together cadence diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/four_together_cadence.cjs"
+      - ".github/workflows/four-together-cadence.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cadence:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - cadence: 2
+            offset: 0
+          - cadence: 2
+            offset: 1
+          - cadence: 3
+            offset: 0
+          - cadence: 3
+            offset: 1
+          - cadence: 3
+            offset: 2
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/four_together_cadence.cjs ${{ matrix.cadence }} ${{ matrix.offset }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cadence-c${{ matrix.cadence }}-o${{ matrix.offset }}
+          path: simulation/analysis/four-together-cadence/c${{ matrix.cadence }}-o${{ matrix.offset }}.json
