@@ -1,0 +1,29 @@
+name: POI policy quick benchmark
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/poi-policy-quick.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Quick A/B
+        run: node simulation/v2/poi_policy_benchmark.cjs 24 930000
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: poi-policy-quick
+          path: simulation/v2/poi-policy-benchmark.json
+          if-no-files-found: error
