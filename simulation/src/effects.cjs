@@ -14,13 +14,14 @@ function helper(s,leader,consume=false){
  if(!candidates.length)return null;const c=candidates[0];if(consume){if(c.effect==='ring')item(s,c.i,'Кольцо связи');if(c.effect==='root')use(s,c.i,17);}return c;
 }
 function recover(s){for(const i of s.active){const h=s.heroes[i];if(!ready(h,2))continue;const target=s.active.filter(j=>distance(s,i,j)<=3&&K.affected(s.heroes[j],'slow',s.day)).sort((a,b)=>s.heroes[b].slow-s.heroes[a].slow)[0];if(target===undefined)continue;const t=s.heroes[target];use(s,i,2);if(t.conditionDays?.slow){t.conditionDays.slow.pop();t.slow=Math.max(0,...t.conditionDays.slow);}else t.slow--;}}
+function largeGroupBonus(s){if((s.active?.length||0)!==4)return 0;const b=s.options?.largeGroupMovementBonus||0,c=s.options?.largeGroupMovementCadence||1,offset=s.options?.largeGroupMovementOffset||0;return c<=1?b:(((s.day-1-offset)%c+c)%c===0?b:0);}
 function movementOptions(s,i){
  const h=s.heroes[i];if(K.affected(h,'delay',s.day)){const t=K.clone(s);let value=0;if(ready(t.heroes[i],3)){use(t,i,3);value=1;}return [{state:t,p:1,value}];}
  const out=[];for(const [face,p] of K.faces){let t=K.clone(s),hh=t.heroes[i];
  // Reroll a movement failure only; the replacement is mandatory, including another failure.
  const reroll=face===-1&&itemReady(hh,'Камень пути');if(reroll)item(t,i,'Камень пути');
- for(const [v,q]of reroll?K.faces:[[face,1]]){const u=K.clone(t),hero=u.heroes[i];let value=K.movement(hero,u.day,v)+(u.options?.movementBonus||0)+((u.active?.length===4)?(u.options?.largeGroupMovementBonus||0):0);
- if(!reroll){if(K.affected(hero,'slow',u.day)&&itemReady(hero,'Плащ лёгкого шага')){item(u,i,'Плащ лёгкого шага');value=Math.max(1,2+K.cfg.moveFaces[v]+(u.options?.movementBonus||0)+((u.active?.length===4)?(u.options?.largeGroupMovementBonus||0):0));}
+ for(const [v,q]of reroll?K.faces:[[face,1]]){const u=K.clone(t),hero=u.heroes[i];let value=K.movement(hero,u.day,v)+(u.options?.movementBonus||0)+largeGroupBonus(u);
+ if(!reroll){if(K.affected(hero,'slow',u.day)&&itemReady(hero,'Плащ лёгкого шага')){item(u,i,'Плащ лёгкого шага');value=Math.max(1,2+K.cfg.moveFaces[v]+(u.options?.movementBonus||0)+largeGroupBonus(u));}
  else if(itemReady(hero,'Сапоги скороходы')){item(u,i,'Сапоги скороходы');value++;}}
  if(ready(hero,8)){use(u,i,8);value+=2;}out.push({state:u,p:p*q,value});}}
  return out;
@@ -50,4 +51,4 @@ function award(s,reward,territory,i){
  const h=s.heroes[i];if(h.items.length>=2){const ally=s.heroes.find(x=>x!==h&&x.tile===h.tile&&x.items.length<2);if(ally)return K.reward(s,reward,territory,ally);}
  return K.reward(s,reward,territory,h);
 }
-module.exports={ready,use,itemReady,item,distance,helper,recover,movementOptions,jumpToward,failure,diceOptions,heart,award,rawDice};
+module.exports={ready,use,itemReady,item,distance,helper,recover,movementOptions,jumpToward,failure,diceOptions,heart,award,rawDice,largeGroupBonus};
