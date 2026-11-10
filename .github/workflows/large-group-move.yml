@@ -1,0 +1,33 @@
+name: Large-group movement compensation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/large-group-move.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  b1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/large_group_move_candidate.cjs together 1 128
+      - uses: actions/upload-artifact@v4
+        with: { name: large-group-move-b1, path: simulation/analysis/large-group-move/*.json }
+  b2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/large_group_move_candidate.cjs together 2 128
+      - uses: actions/upload-artifact@v4
+        with: { name: large-group-move-b2, path: simulation/analysis/large-group-move/*.json }
