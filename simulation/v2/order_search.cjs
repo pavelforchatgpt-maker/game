@@ -1,0 +1,4 @@
+const fs=require('fs'),X=require('./experiment.cjs');
+function perms(a){return a.length?a.flatMap((v,i)=>perms(a.filter((_,j)=>i!==j)).map(t=>[v,...t])):[[]];}
+const n=+process.argv[2],tag=process.argv[3]||'',file=__dirname+'/runs/orders-'+n+tag+'.json',rows=[];let best=Infinity;
+for(const order of perms([0,1,2,3,4])){const cfg={players:n,group:'together',experiment:'perfect',planner:'global',abilities:[8,19,9,12],resourceAware:true,trustTarget:0,movementModel:'perfect',...(tag?{conservativePort:true,preferBoots:true,heroOrder:n===3?[2,0,1]:n===2?[1,0]:[2,3,0,1]}:{}),order};const r=X.simulate(cfg,42,true);rows.push({order,day:r.completionDay,poi:r.terminal.poi.length});if(r.completionDay<best){best=r.completionDay;fs.writeFileSync(__dirname+'/order-best-'+n+tag+'.json',JSON.stringify(r));console.log(n,best,order);}if(rows.length%20===0)fs.writeFileSync(file,JSON.stringify(rows,null,2));}

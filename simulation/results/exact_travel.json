@@ -1,0 +1,145 @@
+{
+  "label": "EXACT isolated common destination: independent ordinary movement, no items, magic, conditions or events",
+  "minimumDailyMove": [
+    {
+      "players": 2,
+      "expectation": 1.9722222222222223
+    },
+    {
+      "players": 3,
+      "expectation": 1.7083333333333333
+    },
+    {
+      "players": 4,
+      "expectation": 1.5455246913580247
+    }
+  ],
+  "rows": [
+    {
+      "distance": 1,
+      "players": 2,
+      "expectedArrivalDay": 1,
+      "arriveByDay2": 0.9999999999999998
+    },
+    {
+      "distance": 1,
+      "players": 3,
+      "expectedArrivalDay": 1,
+      "arriveByDay2": 0.9999999999999997
+    },
+    {
+      "distance": 1,
+      "players": 4,
+      "expectedArrivalDay": 1,
+      "arriveByDay2": 0.9999999999999996
+    },
+    {
+      "distance": 2,
+      "players": 2,
+      "expectedArrivalDay": 1.3055555555555558,
+      "arriveByDay2": 0.9999999999999996
+    },
+    {
+      "distance": 2,
+      "players": 3,
+      "expectedArrivalDay": 1.4212962962962965,
+      "arriveByDay2": 0.9999999999999993
+    },
+    {
+      "distance": 2,
+      "players": 4,
+      "expectedArrivalDay": 1.517746913580247,
+      "arriveByDay2": 0.9999999999999991
+    },
+    {
+      "distance": 3,
+      "players": 2,
+      "expectedArrivalDay": 1.804783950617284,
+      "arriveByDay2": 0.945216049382716
+    },
+    {
+      "distance": 3,
+      "players": 3,
+      "expectedArrivalDay": 1.9560399519890261,
+      "arriveByDay2": 0.9189600480109739
+    },
+    {
+      "distance": 3,
+      "players": 4,
+      "expectedArrivalDay": 2.044066619989331,
+      "arriveByDay2": 0.8934333800106691
+    },
+    {
+      "distance": 4,
+      "players": 2,
+      "expectedArrivalDay": 2.2399477023319614,
+      "arriveByDay2": 0.7415123456790125
+    },
+    {
+      "distance": 4,
+      "players": 3,
+      "expectedArrivalDay": 2.3706705381865056,
+      "arriveByDay2": 0.6385245198902607
+    },
+    {
+      "distance": 4,
+      "players": 4,
+      "expectedArrivalDay": 2.4677781504195373,
+      "arriveByDay2": 0.5498405587943912
+    },
+    {
+      "distance": 5,
+      "players": 2,
+      "expectedArrivalDay": 2.657128176916628,
+      "arriveByDay2": 0.4081790123456791
+    },
+    {
+      "distance": 5,
+      "players": 3,
+      "expectedArrivalDay": 2.835637531101318,
+      "arriveByDay2": 0.260781035665295
+    },
+    {
+      "distance": 5,
+      "players": 4,
+      "expectedArrivalDay": 2.9599359717513014,
+      "arriveByDay2": 0.16661010611949403
+    },
+    {
+      "distance": 8,
+      "players": 2,
+      "expectedArrivalDay": 3.9490190070029234,
+      "arriveByDay2": 0.0007716049382716049
+    },
+    {
+      "distance": 8,
+      "players": 3,
+      "expectedArrivalDay": 4.1615157138070975,
+      "arriveByDay2": 0.000021433470507544577
+    },
+    {
+      "distance": 8,
+      "players": 4,
+      "expectedArrivalDay": 4.303127677078962,
+      "arriveByDay2": 5.953741807651272e-7
+    },
+    {
+      "distance": 12,
+      "players": 2,
+      "expectedArrivalDay": 5.639068723646588,
+      "arriveByDay2": 0
+    },
+    {
+      "distance": 12,
+      "players": 3,
+      "expectedArrivalDay": 5.891463201083268,
+      "arriveByDay2": 0
+    },
+    {
+      "distance": 12,
+      "players": 4,
+      "expectedArrivalDay": 6.0626585246830285,
+      "arriveByDay2": 0
+    }
+  ]
+}

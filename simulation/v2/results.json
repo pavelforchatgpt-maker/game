@@ -1,0 +1,3413 @@
+{
+  "label": "FAVOURABLE OUTCOME WITNESS, not a valid information-limited strategy or probability estimate",
+  "fingerprint": "2a0fe0ef34817795191f02e4d69d0098c1c421d29021bb07bb40217d87c6cdbd",
+  "results": [
+    {
+      "players": 2,
+      "group": "together",
+      "terminal": "win",
+      "day": 19,
+      "stableCapitals": 5,
+      "energy": 0,
+      "logProbability": -173.0599228457053,
+      "steps": 89,
+      "trace": [
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "draftAbility9": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:16",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1,
+            "wild": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:8"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "ability9": 1,
+            "travelActivations": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-12:10",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:1",
+            "A-12:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Разум": 1,
+            "energy": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:1",
+            "A-12:14"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 3,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:1",
+            "A-12:2"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-11:11",
+            "A-11:5"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-11:11",
+            "A-11:5"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 0,
+            "attribute_Воля": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-11:11",
+            "A-11:5"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-11:18",
+            "A-11:5"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-11:18",
+            "A-11:5"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:14",
+            "A-12:15"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 9,
+            "crossings": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-2:9",
+            "A-2:15"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-3:10",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-3:10",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 2,
+            "attribute_Сила": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-3:4",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 3,
+            "attribute_Общение": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 9,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-4:6",
+            "A-4:14"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 5,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-5:14",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Ловкость": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-5:14",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 2,
+            "attribute_Сила": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-5:11",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 1,
+            "attribute_Общение": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-6:11",
+            "A-6:9"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-7:3",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-7:3",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 16,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 10,
+            "crossings": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:9",
+            "A-9:1"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:10",
+            "A-9:5"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:10",
+            "A-9:5"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:10",
+            "A-9:5"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 2,
+            "attribute_Воля": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:19",
+            "A-9:5"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-9:19",
+            "A-9:5"
+          ]
+        },
+        {
+          "day": 19,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "B-5:14",
+            "B-5:10"
+          ]
+        },
+        {
+          "day": 19,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "finalEntryDay": 19,
+            "finalEntryEnergy": 4,
+            "sparkAttempts": 1,
+            "attribute_Разум": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4"
+          ]
+        },
+        {
+          "day": 19,
+          "phase": "teamRoll",
+          "metrics": {
+            "wordAttempts": 1,
+            "attribute_Общение": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4"
+          ]
+        }
+      ]
+    },
+    {
+      "players": 3,
+      "group": "together",
+      "terminal": "win",
+      "day": 20,
+      "stableCapitals": 5,
+      "energy": 0,
+      "logProbability": -264.5296793730073,
+      "steps": 136,
+      "trace": [
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility9": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "draftAbility4": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1,
+            "wild": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "ability9": 1,
+            "travelActivations": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:11"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "rollMove",
+          "metrics": {
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:1",
+            "A-12:14",
+            "A-12:18"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Разум": 1,
+            "energy": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:1",
+            "A-12:14",
+            "A-12:18"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:1",
+            "A-12:2",
+            "A-12:2"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "event",
+          "metrics": {
+            "cells": 5,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-11:3",
+            "A-11:8",
+            "A-11:8"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "move",
+          "metrics": {
+            "attribute_Ловкость": 1,
+            "energy": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:3",
+            "A-11:8",
+            "A-11:8"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 5,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:3",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 0,
+            "attribute_Воля": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 11,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-10:6",
+            "A-10:6",
+            "A-10:15"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 12,
+            "crossings": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "B-4:3",
+            "B-4:3",
+            "B-4:12"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-7:3",
+            "A-7:19",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-7:3",
+            "A-7:19",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 14,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-6:9",
+            "A-6:2",
+            "A-6:9"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Ловкость": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 2,
+            "attribute_Ловкость": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-5:17",
+            "A-5:11",
+            "A-5:6"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-5:17",
+            "A-5:11",
+            "A-5:6"
+          ]
+        },
+        {
+          "day": 16,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 12,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-4:14",
+            "A-4:11",
+            "A-4:11"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 10,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-3:19",
+            "A-3:4",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-3:19",
+            "A-3:4",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 19,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 14,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-4:11",
+            "A-4:11",
+            "A-4:11"
+          ]
+        },
+        {
+          "day": 20,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 14,
+            "crossings": 3,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "C-1:1",
+            "C-1:8",
+            "C-1:8"
+          ]
+        },
+        {
+          "day": 20,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 6,
+            "finalEntryDay": 20,
+            "finalEntryEnergy": 6,
+            "sparkAttempts": 1,
+            "attribute_Разум": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "C-1:7"
+          ]
+        },
+        {
+          "day": 20,
+          "phase": "teamRoll",
+          "metrics": {
+            "wordAttempts": 1,
+            "attribute_Общение": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "C-1:7"
+          ]
+        }
+      ]
+    },
+    {
+      "players": 4,
+      "group": "together",
+      "terminal": "loss",
+      "day": 20,
+      "stableCapitals": 5,
+      "energy": 8,
+      "logProbability": -335.7865554175163,
+      "steps": 171,
+      "trace": [
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility9": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility4": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "draftAbility10": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1,
+            "wild": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 4,
+            "ability9": 1,
+            "travelActivations": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:11",
+            "A-1:11"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-12:13",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-12:13",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18",
+            "A-12:13"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18",
+            "A-12:1"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Разум": 1,
+            "energy": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18",
+            "A-12:1"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "rollMove",
+          "metrics": {
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-12:18",
+            "A-12:1"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 14,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-11:3",
+            "A-11:8",
+            "A-11:8",
+            "A-11:8"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Ловкость": 1,
+            "energy": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:3",
+            "A-11:8",
+            "A-11:8",
+            "A-11:8"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 4,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:3",
+            "A-11:9",
+            "A-11:8",
+            "A-11:15"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "event",
+          "metrics": {
+            "cells": 4,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:19",
+            "A-11:9",
+            "A-11:8",
+            "A-11:15"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "trust_Камень": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:19",
+            "A-11:9",
+            "A-11:8",
+            "A-11:15"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 5,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:19",
+            "A-11:5",
+            "A-11:18",
+            "A-11:11"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18",
+            "A-11:11"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18",
+            "A-11:11"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 0,
+            "attribute_Воля": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18",
+            "A-11:11"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-11:18",
+            "A-11:11"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "event",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-10:17",
+            "A-10:18",
+            "A-10:18",
+            "A-10:18"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "move",
+          "metrics": {
+            "attribute_Сила": 1,
+            "energy": 1
+          },
+          "energy": 7,
+          "positions": [
+            "A-10:17",
+            "A-10:18",
+            "A-10:18",
+            "A-10:18"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 7,
+          "positions": [
+            "A-10:17",
+            "A-10:12",
+            "A-10:18",
+            "A-10:18"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "move",
+          "metrics": {
+            "attribute_Разум": 1,
+            "energy": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-10:17",
+            "A-10:12",
+            "A-10:18",
+            "A-10:18"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 4,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-10:17",
+            "A-10:12",
+            "A-10:15",
+            "A-10:6"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 15,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:9",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-9:19",
+            "A-9:10"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 16,
+            "crossings": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "B-4:3",
+            "B-4:3",
+            "B-4:12",
+            "B-4:3"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 9,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-7:10",
+            "A-7:19",
+            "A-7:10",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-7:3",
+            "A-7:19",
+            "A-7:10",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-7:3",
+            "A-7:19",
+            "A-7:10",
+            "A-7:10"
+          ]
+        },
+        {
+          "day": 14,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 18,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-6:9",
+            "A-6:2",
+            "A-6:9",
+            "A-6:9"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6",
+            "A-5:10"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Ловкость": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6",
+            "A-5:10"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-5:10",
+            "A-5:11",
+            "A-5:6",
+            "A-5:10"
+          ]
+        },
+        {
+          "day": 15,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 2,
+            "attribute_Ловкость": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-5:17",
+            "A-5:11",
+            "A-5:6",
+            "A-5:10"
+          ]
+        },
+        {
+          "day": 16,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-5:17",
+            "A-5:11",
+            "A-5:6",
+            "A-5:10"
+          ]
+        },
+        {
+          "day": 17,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 16,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-4:14",
+            "A-4:11",
+            "A-4:11",
+            "A-4:10"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 13,
+            "crossings": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-3:10",
+            "A-3:4",
+            "A-3:10",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 18,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-3:19",
+            "A-3:4",
+            "A-3:10",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 19,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-3:19",
+            "A-3:4",
+            "A-3:10",
+            "A-3:10"
+          ]
+        },
+        {
+          "day": 20,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 18,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-4:11",
+            "A-4:11",
+            "A-4:11",
+            "A-4:11"
+          ]
+        },
+        {
+          "day": 20,
+          "phase": "plan",
+          "metrics": {
+            "cells": 18,
+            "crossings": 3
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:1",
+            "C-1:8",
+            "C-1:8",
+            "C-1:8"
+          ]
+        }
+      ]
+    },
+    {
+      "players": 4,
+      "group": "split",
+      "terminal": "win",
+      "day": 13,
+      "stableCapitals": 5,
+      "energy": 0,
+      "logProbability": -240.91031492541904,
+      "steps": 121,
+      "trace": [
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility9": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "draft",
+          "metrics": {
+            "draftAbility4": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "draftAbility10": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:18",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 0,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1,
+            "wild": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:18",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 1,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "ability9": 1,
+            "travelActivations": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-1:16",
+            "A-1:8",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 2,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:13",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 1,
+            "travelActivations": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-1:18",
+            "A-1:18"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "event",
+          "metrics": {
+            "cells": 5,
+            "crossings": 1,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 3,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-2:11",
+            "A-2:16"
+          ]
+        },
+        {
+          "day": 1,
+          "phase": "move",
+          "metrics": {
+            "attribute_Воля": 1,
+            "energy": 1,
+            "wild": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-2:11",
+            "A-2:16"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:10",
+            "A-12:14",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 2,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 4,
+          "positions": [
+            "A-12:1",
+            "A-12:14",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Разум": 1,
+            "energy": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:1",
+            "A-12:14",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 1,
+            "poi": 1,
+            "poi_Встреча": 1
+          },
+          "energy": 5,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Общение": 1,
+            "energy": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "rollMove",
+          "metrics": {
+            "travelActivations": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:11",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 3,
+            "poi": 1,
+            "poi_Исследование": 1
+          },
+          "energy": 6,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:10",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Ловкость": 1,
+            "energy": 1
+          },
+          "energy": 7,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:10",
+            "A-2:14"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "event",
+          "metrics": {
+            "cells": 1,
+            "poi": 1,
+            "poi_Испытание": 1
+          },
+          "energy": 7,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:10",
+            "A-2:17"
+          ]
+        },
+        {
+          "day": 2,
+          "phase": "move",
+          "metrics": {
+            "attribute_Сила": 1,
+            "energy": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:10",
+            "A-2:17"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "rollMove",
+          "metrics": {
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-12:1",
+            "A-12:18",
+            "A-2:10",
+            "A-2:17"
+          ]
+        },
+        {
+          "day": 3,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:8",
+            "A-2:10",
+            "A-2:17"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:8",
+            "A-3:10",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 2,
+            "capitalActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:10",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:10",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 2,
+            "attribute_Ловкость": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:4",
+            "A-3:6"
+          ]
+        },
+        {
+          "day": 4,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "cells": 3,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Рост": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Сила": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 0,
+            "attribute_Воля": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:11",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:18",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 5,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Камень": 1,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:18",
+            "A-11:5",
+            "A-3:4",
+            "A-3:19"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-11:18",
+            "A-11:5",
+            "A-4:11",
+            "A-4:14"
+          ]
+        },
+        {
+          "day": 6,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 10,
+            "crossings": 2,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:18",
+            "A-9:14",
+            "A-4:11",
+            "A-4:14"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:18",
+            "A-9:14",
+            "A-5:14",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 4,
+            "capitalActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:14",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:14",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:11",
+            "A-5:14"
+          ]
+        },
+        {
+          "day": 7,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "cells": 1,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Поток": 1,
+            "capitalActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:10",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "cells": 2,
+            "attribute_Воля": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:19",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 8,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Слово": 1,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:19",
+            "A-9:5",
+            "A-5:11",
+            "A-5:17"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "A-9:19",
+            "A-9:5",
+            "A-6:11",
+            "A-6:9"
+          ]
+        },
+        {
+          "day": 9,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 1,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "B-5:2",
+            "B-5:3",
+            "A-6:11",
+            "A-6:9"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "B-5:2",
+            "B-5:3",
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 6,
+            "crossings": 1,
+            "capitalActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:7",
+            "C-1:7",
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 0,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:7",
+            "C-1:7",
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 0,
+            "attribute_Общение": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:7",
+            "C-1:7",
+            "A-7:10",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 10,
+          "phase": "teamRoll",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "cells": 2,
+            "attribute_Разум": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:7",
+            "C-1:7",
+            "A-7:3",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "rollMove",
+          "metrics": {
+            "capitalAttempts": 1,
+            "problems_Искра": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:7",
+            "C-1:7",
+            "A-7:3",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 11,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 5,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "A-7:3",
+            "A-7:19"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 7,
+            "crossings": 1,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "A-8:10",
+            "A-8:14"
+          ]
+        },
+        {
+          "day": 12,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 0,
+            "travelActivations": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "A-8:10",
+            "A-8:14"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "rollMove",
+          "metrics": {
+            "cells": 8,
+            "crossings": 2,
+            "travelActivations": 1,
+            "ability8": 1
+          },
+          "energy": 8,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "C-1:7",
+            "C-1:6"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "teamRoll",
+          "metrics": {
+            "cells": 3,
+            "finalEntryDay": 13,
+            "finalEntryEnergy": 8,
+            "sparkAttempts": 1,
+            "attribute_Разум": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "C-1:7",
+            "C-1:13"
+          ]
+        },
+        {
+          "day": 13,
+          "phase": "teamRoll",
+          "metrics": {
+            "wordAttempts": 1,
+            "attribute_Общение": 1
+          },
+          "energy": 0,
+          "positions": [
+            "C-1:2",
+            "C-1:4",
+            "C-1:7",
+            "C-1:13"
+          ]
+        }
+      ]
+    }
+  ]
+}

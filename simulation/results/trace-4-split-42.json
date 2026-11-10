@@ -1,0 +1,4970 @@
+{
+  "fingerprint": "2a0fe0ef34817795191f02e4d69d0098c1c421d29021bb07bb40217d87c6cdbd",
+  "options": {
+    "players": 4,
+    "group": "split",
+    "policy": "WIN-MAX-HEURISTIC",
+    "st": "ST-NEUTRAL",
+    "talentRate": 0
+  },
+  "seed": 42,
+  "terminal": "loss",
+  "trace": [
+    {
+      "step": 0,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 1,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 2,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 3,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "draftAbility9": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 4,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 5,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 6,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "draftAbility10": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 7,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 8,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 9,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "draftAbility19": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 10,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 11,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "draft",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": null,
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 12,
+      "day": 1,
+      "beforePhase": "draft",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 3
+      },
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "draftAbility8": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 13,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:18",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 2
+      },
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 14,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-07",
+      "positions": [
+        "A-1:16",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 0,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 15,
+      "day": 1,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-07",
+      "positions": [
+        "A-1:16",
+        "A-1:18",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 1,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "energy": 1,
+        "wild": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 16,
+      "day": 1,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:16",
+        "A-1:09",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 3
+      },
+      "energy": 1,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "ability9": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 17,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:16",
+        "A-1:09",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 3
+      },
+      "energy": 1,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 18,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-01",
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 1,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 4,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 19,
+      "day": 1,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-01",
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "energy": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 20,
+      "day": 1,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "2": 4
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 21,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-1:18",
+        "A-1:18"
+      ],
+      "budget": {
+        "2": 4,
+        "3": 3
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 22,
+      "day": 1,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСП-11",
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-12:10",
+        "A-12:13"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 1
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "ability19": 1,
+        "cells": 4,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Испытание": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 23,
+      "day": 1,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСП-11",
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-12:10",
+        "A-12:13"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 1
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Сила": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 24,
+      "day": 2,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 25,
+      "day": 2,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-1:09",
+        "A-1:08",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 1
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 26,
+      "day": 2,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-08",
+      "positions": [
+        "A-2:11",
+        "A-2:16",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 1
+      },
+      "energy": 2,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 1,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 27,
+      "day": 2,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-08",
+      "positions": [
+        "A-2:11",
+        "A-2:16",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 1
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Общение": 1,
+        "energy": 1,
+        "wild": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 28,
+      "day": 2,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 1,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 29,
+      "day": 2,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:10",
+        "A-12:14"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 30,
+      "day": 2,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-08",
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:14"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 3
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 0
+      },
+      "stable": 0,
+      "metrics": {
+        "ability19": 1,
+        "cells": 0,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 31,
+      "day": 2,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-08",
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:14"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 3
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Воля": 1,
+        "trust_Камень": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 32,
+      "day": 2,
+      "beforePhase": "move",
+      "phase": "event",
+      "card": "ВСТ-18",
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 33,
+      "day": 2,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-18",
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "Задержка": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 34,
+      "day": 3,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 35,
+      "day": 3,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:11",
+        "A-2:15",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 36,
+      "day": 3,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-03",
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 4,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 37,
+      "day": 3,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-03",
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "ability10": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 38,
+      "day": 3,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 39,
+      "day": 3,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:01",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "delayMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 40,
+      "day": 4,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability19": 1,
+        "cells": 0,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 41,
+      "day": 4,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:06",
+        "A-2:10",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 2
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 42,
+      "day": 4,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСП-04",
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 3,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 4,
+        "poi": 1,
+        "poi_Испытание": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 43,
+      "day": 4,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСП-04",
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Воля": 1,
+        "ability10": 1,
+        "energy": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 44,
+      "day": 4,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 45,
+      "day": 4,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-12:02",
+        "A-12:18"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 6
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 46,
+      "day": 4,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-20",
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-11:03",
+        "A-11:08"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 2
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 6,
+        "crossings": 1,
+        "ability19": 1,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 47,
+      "day": 4,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-20",
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-11:03",
+        "A-11:08"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 2
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 48,
+      "day": 5,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-11:03",
+        "A-11:10"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 49,
+      "day": 5,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:14",
+        "A-2:17",
+        "A-11:03",
+        "A-11:10"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 1
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 50,
+      "day": 5,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:03",
+        "A-11:10"
+      ],
+      "budget": {
+        "2": 1
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 51,
+      "day": 5,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:03",
+        "A-11:10"
+      ],
+      "budget": {
+        "2": 1,
+        "3": 5
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 52,
+      "day": 5,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-25",
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 4,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability19": 1,
+        "cells": 3,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 53,
+      "day": 5,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-25",
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Сила": 1,
+        "energy": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 54,
+      "day": 6,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "0": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 55,
+      "day": 6,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-2:09",
+        "A-2:13",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "0": 4,
+        "1": 1
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 56,
+      "day": 6,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-33",
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 0,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 3,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 57,
+      "day": 6,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-33",
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Сила": 1,
+        "trust_Рост": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 58,
+      "day": 6,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 59,
+      "day": 6,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:15",
+        "A-11:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 3
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 60,
+      "day": 7,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 1
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability19": 1,
+        "cells": 3,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 61,
+      "day": 7,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:18",
+        "A-3:16",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 1
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 62,
+      "day": 7,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 63,
+      "day": 7,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 64,
+      "day": 7,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 65,
+      "day": 7,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 66,
+      "day": 7,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Камень": 1,
+        "cells": 0,
+        "attribute_Сила": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 67,
+      "day": 7,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 68,
+      "day": 8,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "capitalAttempts": 1,
+        "capitalFailures": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 69,
+      "day": 8,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:14",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 4,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 70,
+      "day": 8,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-27",
+      "positions": [
+        "A-3:08",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 71,
+      "day": 8,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-27",
+      "positions": [
+        "A-3:08",
+        "A-3:11",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "attribute_Разум": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 72,
+      "day": 8,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 2,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 73,
+      "day": 8,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 74,
+      "day": 8,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {
+        "cells": 0,
+        "attribute_Сила": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 75,
+      "day": 8,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 0,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 76,
+      "day": 9,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Камень": 1,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 77,
+      "day": 9,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:08",
+        "A-3:05",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 4
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 78,
+      "day": 9,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "cells": 3,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 79,
+      "day": 9,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-11:11",
+        "A-11:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 80,
+      "day": 9,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСП-07",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "ability19": 1,
+        "cells": 1,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Испытание": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 81,
+      "day": 9,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСП-07",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "attribute_Сила": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 82,
+      "day": 9,
+      "beforePhase": "move",
+      "phase": "event",
+      "card": "ИСС-14",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 0,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "cells": 3,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 83,
+      "day": 9,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-14",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "attribute_Сила": 1,
+        "trust_Слово": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 84,
+      "day": 10,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "capitalActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 85,
+      "day": 10,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 86,
+      "day": 10,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 87,
+      "day": 10,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 88,
+      "day": 10,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Рост": 1,
+        "cells": 0,
+        "attribute_Сила": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 89,
+      "day": 10,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 1,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 90,
+      "day": 10,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 1
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Рост": 1,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 91,
+      "day": 10,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:17",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 1,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 92,
+      "day": 10,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-11",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:04",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability19": 1,
+        "cells": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 93,
+      "day": 10,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-11",
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:04",
+        "A-10:12"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 5
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "attribute_Разум": 1,
+        "Замедление": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 94,
+      "day": 11,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:04",
+        "A-10:03"
+      ],
+      "budget": {
+        "0": 3
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 2,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 95,
+      "day": 11,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-3:10",
+        "A-3:04",
+        "A-10:04",
+        "A-10:03"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 96,
+      "day": 11,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-10:04",
+        "A-10:03"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 5,
+        "crossings": 1,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 97,
+      "day": 11,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-10:04",
+        "A-10:03"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 6
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 98,
+      "day": 11,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-03",
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 6
+      },
+      "energy": 5,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability19": 1,
+        "cells": 2,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 99,
+      "day": 11,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-03",
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:18"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 6
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "attribute_Общение": 1,
+        "energy": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 100,
+      "day": 11,
+      "beforePhase": "move",
+      "phase": "event",
+      "card": "ИСС-31",
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 3,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 101,
+      "day": 11,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-31",
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 0
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "attribute_Общение": 1,
+        "Задержка": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 102,
+      "day": 12,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 103,
+      "day": 12,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:16",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 4,
+        "1": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 104,
+      "day": 12,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-26",
+      "positions": [
+        "A-4:12",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 1,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 105,
+      "day": 12,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-26",
+      "positions": [
+        "A-4:12",
+        "A-4:15",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "attribute_Разум": 1,
+        "trust_Рост": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 106,
+      "day": 12,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:12",
+        "A-4:10",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 1
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 2,
+        "travelActivations": 1,
+        "slowMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 107,
+      "day": 12,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:12",
+        "A-4:10",
+        "A-9:13",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 1,
+        "3": 0
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "delayMovementLost": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 108,
+      "day": 13,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:12",
+        "A-4:10",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 1
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability19": 1,
+        "cells": 0,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 109,
+      "day": 13,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:12",
+        "A-4:10",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 110,
+      "day": 13,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ИСС-13",
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 0,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 3,
+        "poi": 1,
+        "poi_Исследование": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 111,
+      "day": 13,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ИСС-13",
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "0": 0,
+        "1": 0
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "attribute_Воля": 1,
+        "ability10": 1,
+        "trust_Поток": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 112,
+      "day": 13,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 113,
+      "day": 13,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:07"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 6
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 114,
+      "day": 14,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 3,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 115,
+      "day": 14,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-4:11",
+        "A-4:08",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 116,
+      "day": 14,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 5,
+        "crossings": 1,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 117,
+      "day": 14,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 118,
+      "day": 14,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 119,
+      "day": 14,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 120,
+      "day": 14,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Слово": 1,
+        "cells": 0,
+        "attribute_Общение": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 121,
+      "day": 14,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 2,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 122,
+      "day": 15,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Слово": 1,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 123,
+      "day": 15,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 124,
+      "day": 15,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {
+        "cells": 0,
+        "attribute_Ловкость": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 125,
+      "day": 15,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:14",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {
+        "ability10": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 126,
+      "day": 15,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Поток": 1,
+        "cells": 2,
+        "attribute_Сила": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 127,
+      "day": 15,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "0": 1,
+        "1": 4
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 3,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 128,
+      "day": 15,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Поток": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 129,
+      "day": 15,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-9:10",
+        "A-9:05"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 130,
+      "day": 15,
+      "beforePhase": "rollMove",
+      "phase": "event",
+      "card": "ВСТ-24",
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-8:10",
+        "A-8:16"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 2
+      },
+      "energy": 6,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability19": 1,
+        "cells": 3,
+        "crossings": 1,
+        "poi": 1,
+        "poi_Встреча": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 131,
+      "day": 15,
+      "beforePhase": "event",
+      "phase": "move",
+      "card": "ВСТ-24",
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-8:10",
+        "A-8:16"
+      ],
+      "budget": {
+        "2": 0,
+        "3": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "attribute_Ловкость": 1,
+        "energy": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 132,
+      "day": 16,
+      "beforePhase": "move",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-8:10",
+        "A-8:06"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 2,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 133,
+      "day": 16,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-5:11",
+        "A-5:14",
+        "A-8:10",
+        "A-8:06"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 134,
+      "day": 16,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-6:05",
+        "A-6:13",
+        "A-8:10",
+        "A-8:06"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 4,
+        "crossings": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 135,
+      "day": 16,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-6:05",
+        "A-6:13",
+        "A-8:10",
+        "A-8:06"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 3
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 136,
+      "day": 17,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-6:05",
+        "A-6:13",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability19": 1,
+        "cells": 4,
+        "crossings": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 137,
+      "day": 17,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "A-6:05",
+        "A-6:13",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 138,
+      "day": 17,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 4,
+        "crossings": 1,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 139,
+      "day": 17,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 6
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 140,
+      "day": 17,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 6
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 141,
+      "day": 17,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 6
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 142,
+      "day": 18,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 3
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "capitalFailures": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 143,
+      "day": 18,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-3:02",
+        "B-3:03",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 3,
+        "1": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 144,
+      "day": 18,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 5,
+        "crossings": 1,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 145,
+      "day": 18,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 146,
+      "day": 18,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 147,
+      "day": 18,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 148,
+      "day": 18,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Искра": 1,
+        "cells": 0,
+        "attribute_Общение": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 149,
+      "day": 18,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 150,
+      "day": 19,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "capitalFailures": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 151,
+      "day": 19,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-4:10",
+        "B-4:10",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 4,
+        "1": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 152,
+      "day": 19,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 6,
+        "crossings": 1,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 153,
+      "day": 19,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 154,
+      "day": 19,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 0,
+        "attribute_Общение": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 155,
+      "day": 19,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:10",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 156,
+      "day": 19,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Искра": 1,
+        "ability19": 1,
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 157,
+      "day": 19,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 2,
+        "3": 5
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 158,
+      "day": 20,
+      "beforePhase": "teamRoll",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "capitalAttempts": 1,
+        "capitalFailures": 1,
+        "travelActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 159,
+      "day": 20,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:10",
+        "B-5:01",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "0": 2,
+        "1": 2
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 160,
+      "day": 20,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:15",
+        "B-5:10",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 3,
+        "capitalActivations": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 161,
+      "day": 20,
+      "beforePhase": "rollMove",
+      "phase": "rollMove",
+      "card": null,
+      "positions": [
+        "B-5:15",
+        "B-5:10",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "ability8": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 162,
+      "day": 20,
+      "beforePhase": "rollMove",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:15",
+        "B-5:10",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {
+        "cells": 0,
+        "attribute_Разум": 1
+      },
+      "terminal": null
+    },
+    {
+      "step": 163,
+      "day": 20,
+      "beforePhase": "teamRoll",
+      "phase": "teamRoll",
+      "card": null,
+      "positions": [
+        "B-5:15",
+        "B-5:10",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": {
+        "2": 3,
+        "3": 4
+      },
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 4,
+      "metrics": {},
+      "terminal": null
+    },
+    {
+      "step": 164,
+      "day": 20,
+      "beforePhase": "teamRoll",
+      "phase": "plan",
+      "card": null,
+      "positions": [
+        "B-5:15",
+        "B-5:10",
+        "A-7:03",
+        "A-7:19"
+      ],
+      "budget": null,
+      "energy": 7,
+      "trust": {
+        "Рост": 2,
+        "Поток": 1,
+        "Искра": 0,
+        "Слово": 1,
+        "Камень": 1
+      },
+      "stable": 5,
+      "metrics": {
+        "capitalAttempts": 1,
+        "problems_Искра": 1
+      },
+      "terminal": "loss"
+    }
+  ]
+}

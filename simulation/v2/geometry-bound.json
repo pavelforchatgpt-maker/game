@@ -1,0 +1,6 @@
+{
+  "scope": "single group only; optimistic relaxation, not an attainable game route",
+  "minimumActivations": 11,
+  "lowerBoundDaysWithTime": 10,
+  "states": 11552
+}

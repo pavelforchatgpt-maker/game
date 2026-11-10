@@ -1,0 +1,4094 @@
+[
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 17,
+        "budget": {
+          "poi": 2,
+          "travel": 8,
+          "capital": 5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              1
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 4,
+        "regroups": [],
+        "crossings": 24
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 17,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 20,
+        "budget": {
+          "poi": 7,
+          "travel": 6,
+          "capital": 5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 9,
+        "regroups": [],
+        "crossings": 21
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 20,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 21,
+        "budget": {
+          "poi": 8,
+          "travel": 6,
+          "capital": 5,
+          "return": 1
+        },
+        "trust": {
+          "Рост": 2,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 4,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 13,
+        "regroups": [],
+        "crossings": 21
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 21,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 18,
+        "budget": {
+          "poi": 2,
+          "travel": 9,
+          "capital": 5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              1
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 4,
+        "regroups": [],
+        "crossings": 13
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 18,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 23,
+        "budget": {
+          "poi": 7,
+          "travel": 9,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 4,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 9,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 23,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 2,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 23,
+        "budget": {
+          "poi": 7,
+          "travel": 9,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 2,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 4,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 13,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 23,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 17,
+        "budget": {
+          "poi": 2,
+          "travel": 8,
+          "capital": 5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 6,
+        "regroups": [],
+        "crossings": 23
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 17,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 20,
+        "budget": {
+          "poi": 7,
+          "travel": 6,
+          "capital": 5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 11,
+        "regroups": [],
+        "crossings": 21
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 20,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 22,
+        "budget": {
+          "poi": 9,
+          "travel": 6,
+          "capital": 5
+        },
+        "trust": {
+          "Рост": 2,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 6,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 15,
+        "regroups": [],
+        "crossings": 17
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 22,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 24,
+        "budget": {
+          "poi": 3,
+          "travel": 13,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 6,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 6,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 24,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 25,
+        "budget": {
+          "poi": 7,
+          "travel": 9,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 6,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 11,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 25,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 3,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 25,
+        "budget": {
+          "poi": 7,
+          "travel": 9,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 6,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 14,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 25,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 20,
+        "budget": {
+          "poi": 2,
+          "travel": 10,
+          "capital": 5,
+          "return": 2,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [],
+        "crossings": 24
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 20,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 22,
+        "budget": {
+          "poi": 7,
+          "travel": 7,
+          "capital": 5,
+          "return": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 8,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 13,
+        "regroups": [],
+        "crossings": 21
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 22,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": false,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 23,
+        "budget": {
+          "poi": 8,
+          "travel": 7,
+          "capital": 5
+        },
+        "trust": {
+          "Рост": 2,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 8,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 17,
+        "regroups": [],
+        "crossings": 19
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 23,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 25,
+        "budget": {
+          "poi": 4,
+          "travel": 12,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 8,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              0,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 25,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 25,
+        "budget": {
+          "poi": 7,
+          "travel": 9,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 8,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              0,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 12,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 25,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "together",
+      "conservativePort": true,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": false,
+        "day": 26,
+        "budget": {
+          "poi": 8,
+          "travel": 8,
+          "capital": 4
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 2,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 8,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": false,
+            "solved": [
+              false,
+              false,
+              false
+            ],
+            "leaders": [
+              null,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 16,
+        "regroups": [],
+        "crossings": 10
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 0,
+      "meanDay": 26,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": false,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 2,
+          "travel": 5,
+          "capital": 2.5,
+          "assembly": 2.5,
+          "return": 1,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              3,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              3,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 30
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": false,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 4.5,
+          "travel": 4,
+          "capital": 2.5,
+          "assembly": 1.5,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 1,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              2,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 14,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 22
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": false,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 15,
+        "budget": {
+          "poi": 6,
+          "travel": 4,
+          "capital": 2.5,
+          "assembly": 1,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              2,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              2,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 17,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 25
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 15,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": true,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 2,
+          "travel": 6,
+          "capital": 2.5,
+          "return": 2,
+          "assembly": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              3,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": true,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 4,
+          "travel": 5,
+          "capital": 2.5,
+          "assembly": 1,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 0,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 1,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 13,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "split",
+      "conservativePort": true,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 17,
+        "budget": {
+          "poi": 5.5,
+          "travel": 5,
+          "capital": 2.5,
+          "assembly": 2.5,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 0,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 16,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 17,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": false,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 16,
+        "budget": {
+          "poi": 2,
+          "travel": 7.5,
+          "capital": 3.5,
+          "return": 2,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              3,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          },
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-5",
+                12
+              ],
+              [
+                "A-5",
+                12
+              ],
+              [
+                "A-5",
+                14
+              ],
+              [
+                "A-5",
+                14
+              ]
+            ]
+          }
+        ],
+        "crossings": 40
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 16,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": false,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 4.5,
+          "travel": 4,
+          "capital": 2.5,
+          "assembly": 1.5,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 1,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              2,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 14,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 22
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": false,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 15,
+        "budget": {
+          "poi": 6,
+          "travel": 4,
+          "capital": 2.5,
+          "assembly": 1,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 1,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              2,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              2,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 17,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 25
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 15,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": true,
+      "trustTarget": 0,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 2,
+          "travel": 6,
+          "capital": 2.5,
+          "return": 2,
+          "assembly": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 0,
+          "Поток": 0,
+          "Искра": 0,
+          "Слово": 0,
+          "Камень": 0
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              3,
+              2
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              0,
+              1,
+              0
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 8,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": true,
+      "trustTarget": 1,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 14,
+        "budget": {
+          "poi": 4,
+          "travel": 5,
+          "capital": 2.5,
+          "assembly": 1,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 0,
+          "Искра": 1,
+          "Слово": 1,
+          "Камень": 1
+        },
+        "energy": 1,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              0,
+              1,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 13,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 14,
+      "censored": 0
+    }
+  },
+  {
+    "cfg": {
+      "players": 4,
+      "group": "dynamic",
+      "conservativePort": true,
+      "trustTarget": 2,
+      "resourceAware": true,
+      "abilities": [
+        8,
+        19,
+        9,
+        12
+      ],
+      "planner": "global",
+      "experiment": "perfect",
+      "movementModel": "perfect",
+      "n": 1
+    },
+    "rows": [
+      {
+        "seed": 730000,
+        "win": true,
+        "day": 17,
+        "budget": {
+          "poi": 5.5,
+          "travel": 5,
+          "capital": 2.5,
+          "assembly": 2.5,
+          "return": 0.5,
+          "final": 1
+        },
+        "trust": {
+          "Рост": 1,
+          "Поток": 0,
+          "Искра": 2,
+          "Слово": 2,
+          "Камень": 2
+        },
+        "energy": 0,
+        "capitals": [
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              false
+            ],
+            "leaders": [
+              2,
+              3,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              true,
+              true
+            ],
+            "leaders": [
+              2,
+              2,
+              3
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          },
+          {
+            "stable": true,
+            "solved": [
+              true,
+              false,
+              false
+            ],
+            "leaders": [
+              0,
+              null,
+              null
+            ],
+            "retryDay": 0
+          }
+        ],
+        "failures": 0,
+        "poi": 16,
+        "regroups": [
+          {
+            "type": "regroup",
+            "groups": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "positions": [
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ],
+              [
+                "A-1",
+                18
+              ]
+            ]
+          }
+        ],
+        "crossings": 15
+      }
+    ],
+    "summary": {
+      "n": 1,
+      "wins": 1,
+      "meanDay": 17,
+      "censored": 0
+    }
+  }
+]

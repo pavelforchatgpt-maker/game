@@ -1,0 +1,5762 @@
+{
+  "label": "EXACT for stated isolated models; no whole-game win-rate claim",
+  "finals": [
+    {
+      "players": 2,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 16,
+      "probability": 0.791740679119513
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 17,
+      "probability": 0.6912294238683127
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 18,
+      "probability": 0.5533854166666666
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 19,
+      "probability": 0.3761574074074074
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 20,
+      "probability": 0.17361111111111113
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 16,
+      "probability": 0.9742439829316956
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 17,
+      "probability": 0.939539619637928
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 18,
+      "probability": 0.8626561071101968
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 19,
+      "probability": 0.7029749657064474
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 20,
+      "probability": 0.4081790123456791
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 16,
+      "probability": 0.995361328125
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 17,
+      "probability": 0.984375
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 18,
+      "probability": 0.94921875
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 19,
+      "probability": 0.8437499999999999
+    },
+    {
+      "players": 2,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 20,
+      "probability": 0.5624999999999999
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 16,
+      "probability": 0.890625
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 17,
+      "probability": 0.8125
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 18,
+      "probability": 0.6875
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 19,
+      "probability": 0.5
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 20,
+      "probability": 0.25
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 16,
+      "probability": 0.963927351531026
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 17,
+      "probability": 0.9212190299581704
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 18,
+      "probability": 0.83336191129401
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 19,
+      "probability": 0.663923182441701
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 20,
+      "probability": 0.37345679012345684
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 16,
+      "probability": 0.9940103295670648
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 17,
+      "probability": 0.9808719692311947
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 18,
+      "probability": 0.9410419926340307
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 19,
+      "probability": 0.8278410065157752
+    },
+    {
+      "players": 3,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 20,
+      "probability": 0.5418595679012347
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 16,
+      "probability": 0.8927800995960831
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 17,
+      "probability": 0.815380122742746
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 18,
+      "probability": 0.6909641599496605
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 19,
+      "probability": 0.5034721974149646
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        5,
+        5
+      ],
+      "arrivalDay": 20,
+      "probability": 0.25232017318244165
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 16,
+      "probability": 0.967357689722731
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 17,
+      "probability": 0.9271639178932516
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 18,
+      "probability": 0.8426347036279288
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 19,
+      "probability": 0.6759766990317951
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        6,
+        6
+      ],
+      "arrivalDay": 20,
+      "probability": 0.383902630124981
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 16,
+      "probability": 0.993409984227096
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 17,
+      "probability": 0.9793708068553547
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 18,
+      "probability": 0.9376635888065828
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 19,
+      "probability": 0.821504803868456
+    },
+    {
+      "players": 4,
+      "leaderAttributes": [
+        7,
+        7
+      ],
+      "arrivalDay": 20,
+      "probability": 0.5339369236777928
+    }
+  ],
+  "eventEconomy": [
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08333333333333331,
+      "successPerDraw": 0.19444444444444425
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08333333333333331,
+      "successPerDraw": 0.19444444444444425
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08333333333333331,
+      "successPerDraw": 0.19444444444444425
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08333333333333331,
+      "successPerDraw": 0.19444444444444425
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.06018518518518518,
+      "successPerDraw": 0.17129629629629614
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.06018518518518518,
+      "successPerDraw": 0.1435185185185184
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08333333333333331,
+      "successPerDraw": 0.19444444444444425
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.06018518518518518,
+      "successPerDraw": 0.1435185185185184
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.06018518518518518,
+      "successPerDraw": 0.13425925925925916
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.20370370370370353,
+      "successPerDraw": 0.20370370370370353
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.20370370370370353,
+      "successPerDraw": 0.20370370370370353
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.20370370370370353,
+      "successPerDraw": 0.20370370370370353
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.20370370370370353,
+      "successPerDraw": 0.20370370370370353
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17129629629629614,
+      "successPerDraw": 0.17129629629629614
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1435185185185184,
+      "successPerDraw": 0.1435185185185184
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.20370370370370353,
+      "successPerDraw": 0.20370370370370353
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1435185185185184,
+      "successPerDraw": 0.1435185185185184
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.13425925925925916
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1274509803921568,
+      "successPerDraw": 0.21568627450980407
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1274509803921568,
+      "successPerDraw": 0.21568627450980407
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1274509803921568,
+      "successPerDraw": 0.21568627450980407
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1274509803921568,
+      "successPerDraw": 0.21568627450980407
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08823529411764702,
+      "successPerDraw": 0.20098039215686286
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08823529411764702,
+      "successPerDraw": 0.15686274509803924
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1274509803921568,
+      "successPerDraw": 0.21568627450980407
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08823529411764702,
+      "successPerDraw": 0.15686274509803924
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.08823529411764702,
+      "successPerDraw": 0.1519607843137255
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23529411764705896,
+      "successPerDraw": 0.23529411764705896
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23529411764705896,
+      "successPerDraw": 0.23529411764705896
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23529411764705896,
+      "successPerDraw": 0.23529411764705896
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23529411764705896,
+      "successPerDraw": 0.23529411764705896
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.22058823529411775,
+      "successPerDraw": 0.22058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17647058823529418,
+      "successPerDraw": 0.17647058823529418
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23529411764705896,
+      "successPerDraw": 0.23529411764705896
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17647058823529418,
+      "successPerDraw": 0.17647058823529418
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17156862745098042,
+      "successPerDraw": 0.17156862745098042
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1111111111111111,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1111111111111111,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1111111111111111,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1111111111111111,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.07407407407407407,
+      "successPerDraw": 0.12037037037037036
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.07407407407407407,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1111111111111111,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.07407407407407407,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.07407407407407407,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.12037037037037036,
+      "successPerDraw": 0.12037037037037036
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09259259259259259,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.14814814814814814
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09259259259259259,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09259259259259259,
+      "successPerDraw": 0.09259259259259259
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.32407407407407424
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.32407407407407424
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.32407407407407424
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.32407407407407424
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1203703703703703,
+      "successPerDraw": 0.2824074074074075
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09722222222222218,
+      "successPerDraw": 0.2592592592592592
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.13425925925925916,
+      "successPerDraw": 0.32407407407407424
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09722222222222218,
+      "successPerDraw": 0.2592592592592592
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.09722222222222218,
+      "successPerDraw": 0.22222222222222218
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38888888888888895,
+      "successPerDraw": 0.38888888888888895
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38888888888888895,
+      "successPerDraw": 0.38888888888888895
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38888888888888895,
+      "successPerDraw": 0.38888888888888895
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38888888888888895,
+      "successPerDraw": 0.38888888888888895
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3287037037037037,
+      "successPerDraw": 0.3287037037037037
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2962962962962963,
+      "successPerDraw": 0.2962962962962963
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38888888888888895,
+      "successPerDraw": 0.38888888888888895
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2962962962962963,
+      "successPerDraw": 0.2962962962962963
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.25925925925925924,
+      "successPerDraw": 0.25925925925925924
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15196078431372548,
+      "successPerDraw": 0.2843137254901961
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15196078431372548,
+      "successPerDraw": 0.2843137254901961
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15196078431372548,
+      "successPerDraw": 0.2843137254901961
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15196078431372548,
+      "successPerDraw": 0.2843137254901961
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.142156862745098,
+      "successPerDraw": 0.25490196078431393
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.10294117647058819,
+      "successPerDraw": 0.24019607843137278
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15196078431372548,
+      "successPerDraw": 0.2843137254901961
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.10294117647058819,
+      "successPerDraw": 0.24019607843137278
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.10294117647058819,
+      "successPerDraw": 0.19117647058823542
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47058823529411775,
+      "successPerDraw": 0.47058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47058823529411775,
+      "successPerDraw": 0.47058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47058823529411775,
+      "successPerDraw": 0.47058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47058823529411775,
+      "successPerDraw": 0.47058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3823529411764706,
+      "successPerDraw": 0.3823529411764706
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.36764705882352944,
+      "successPerDraw": 0.36764705882352944
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47058823529411775,
+      "successPerDraw": 0.47058823529411775
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.36764705882352944,
+      "successPerDraw": 0.36764705882352944
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3186274509803922,
+      "successPerDraw": 0.3186274509803922
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.19444444444444436,
+      "successPerDraw": 0.2777777777777776
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.19444444444444436,
+      "successPerDraw": 0.2777777777777776
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.19444444444444436,
+      "successPerDraw": 0.2777777777777776
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.19444444444444436,
+      "successPerDraw": 0.2777777777777776
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18518518518518512,
+      "successPerDraw": 0.2407407407407406
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.21296296296296285
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.19444444444444436,
+      "successPerDraw": 0.2777777777777776
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.21296296296296285
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.14814814814814814,
+      "successPerDraw": 0.18518518518518512
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629617,
+      "successPerDraw": 0.29629629629629617
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629617,
+      "successPerDraw": 0.29629629629629617
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629617,
+      "successPerDraw": 0.29629629629629617
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629617,
+      "successPerDraw": 0.29629629629629617
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2407407407407406,
+      "successPerDraw": 0.2407407407407406
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.21296296296296285,
+      "successPerDraw": 0.21296296296296285
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629617,
+      "successPerDraw": 0.29629629629629617
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.21296296296296285,
+      "successPerDraw": 0.21296296296296285
+    },
+    {
+      "nDice": 1,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18518518518518512,
+      "successPerDraw": 0.18518518518518512
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3101851851851852,
+      "successPerDraw": 0.5185185185185186
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3101851851851852,
+      "successPerDraw": 0.5185185185185186
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3101851851851852,
+      "successPerDraw": 0.5185185185185186
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3101851851851852,
+      "successPerDraw": 0.5185185185185186
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.25462962962962965,
+      "successPerDraw": 0.45370370370370394
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24074074074074076,
+      "successPerDraw": 0.4120370370370372
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3101851851851852,
+      "successPerDraw": 0.5185185185185186
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24074074074074076,
+      "successPerDraw": 0.4120370370370372
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.21759259259259264,
+      "successPerDraw": 0.3611111111111112
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5277777777777778,
+      "successPerDraw": 0.5277777777777778
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5277777777777778,
+      "successPerDraw": 0.5277777777777778
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5277777777777778,
+      "successPerDraw": 0.5277777777777778
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5277777777777778,
+      "successPerDraw": 0.5277777777777778
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4814814814814817,
+      "successPerDraw": 0.4814814814814817
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.42129629629629645,
+      "successPerDraw": 0.42129629629629645
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5277777777777778,
+      "successPerDraw": 0.5277777777777778
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.42129629629629645,
+      "successPerDraw": 0.42129629629629645
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3611111111111112,
+      "successPerDraw": 0.3611111111111112
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.411764705882353,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.411764705882353,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.411764705882353,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.411764705882353,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.33333333333333337,
+      "successPerDraw": 0.4705882352941176
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3235294117647059,
+      "successPerDraw": 0.4411764705882352
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.411764705882353,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3235294117647059,
+      "successPerDraw": 0.4411764705882352
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.28431372549019607,
+      "successPerDraw": 0.3823529411764706
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5686274509803919,
+      "successPerDraw": 0.5686274509803919
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5686274509803919,
+      "successPerDraw": 0.5686274509803919
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5686274509803919,
+      "successPerDraw": 0.5686274509803919
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5686274509803919,
+      "successPerDraw": 0.5686274509803919
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5490196078431371,
+      "successPerDraw": 0.5490196078431371
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46078431372549017,
+      "successPerDraw": 0.46078431372549017
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5686274509803919,
+      "successPerDraw": 0.5686274509803919
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46078431372549017,
+      "successPerDraw": 0.46078431372549017
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40196078431372545,
+      "successPerDraw": 0.40196078431372545
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3796296296296297,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3796296296296297,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3796296296296297,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3796296296296297,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3055555555555555,
+      "successPerDraw": 0.3888888888888889
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2962962962962963,
+      "successPerDraw": 0.3518518518518518
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3796296296296297,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2962962962962963,
+      "successPerDraw": 0.3518518518518518
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.25925925925925924,
+      "successPerDraw": 0.29629629629629634
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4629629629629631,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4629629629629631,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4629629629629631,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4629629629629631,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40740740740740744,
+      "successPerDraw": 0.40740740740740744
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3518518518518518,
+      "successPerDraw": 0.3518518518518518
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4629629629629631,
+      "successPerDraw": 0.4629629629629631
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3518518518518518,
+      "successPerDraw": 0.3518518518518518
+    },
+    {
+      "nDice": 1,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29629629629629634,
+      "successPerDraw": 0.29629629629629634
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1527777777777778,
+      "successPerDraw": 0.3379629629629629
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1527777777777778,
+      "successPerDraw": 0.3379629629629629
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1527777777777778,
+      "successPerDraw": 0.3379629629629629
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1527777777777778,
+      "successPerDraw": 0.3379629629629629
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1103395061728395,
+      "successPerDraw": 0.3001543209876543
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1103395061728395,
+      "successPerDraw": 0.2492283950617285
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1527777777777778,
+      "successPerDraw": 0.3379629629629629
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1103395061728395,
+      "successPerDraw": 0.2492283950617285
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1103395061728395,
+      "successPerDraw": 0.23225308641975317
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3503086419753086,
+      "successPerDraw": 0.3503086419753086
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3503086419753086,
+      "successPerDraw": 0.3503086419753086
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3503086419753086,
+      "successPerDraw": 0.3503086419753086
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3503086419753086,
+      "successPerDraw": 0.3503086419753086
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3001543209876543,
+      "successPerDraw": 0.3001543209876543
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2492283950617285,
+      "successPerDraw": 0.2492283950617285
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3503086419753086,
+      "successPerDraw": 0.3503086419753086
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2492283950617285,
+      "successPerDraw": 0.2492283950617285
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23225308641975317,
+      "successPerDraw": 0.23225308641975317
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2336601307189542,
+      "successPerDraw": 0.37091503267973885
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2336601307189542,
+      "successPerDraw": 0.37091503267973885
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2336601307189542,
+      "successPerDraw": 0.37091503267973885
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2336601307189542,
+      "successPerDraw": 0.37091503267973885
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.16176470588235292,
+      "successPerDraw": 0.348856209150327
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.16176470588235292,
+      "successPerDraw": 0.2679738562091503
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2336601307189542,
+      "successPerDraw": 0.37091503267973885
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.16176470588235292,
+      "successPerDraw": 0.2679738562091503
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.16176470588235292,
+      "successPerDraw": 0.25898692810457513
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.397058823529412,
+      "successPerDraw": 0.397058823529412
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.397058823529412,
+      "successPerDraw": 0.397058823529412
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.397058823529412,
+      "successPerDraw": 0.397058823529412
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.397058823529412,
+      "successPerDraw": 0.397058823529412
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3750000000000002,
+      "successPerDraw": 0.3750000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29411764705882354,
+      "successPerDraw": 0.29411764705882354
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.397058823529412,
+      "successPerDraw": 0.397058823529412
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29411764705882354,
+      "successPerDraw": 0.29411764705882354
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2851307189542484,
+      "successPerDraw": 0.2851307189542484
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2037037037037037,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2037037037037037,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2037037037037037,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2037037037037037,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1358024691358025,
+      "successPerDraw": 0.220679012345679
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1358024691358025,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2037037037037037,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1358024691358025,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1358024691358025,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2716049382716049,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2716049382716049,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2716049382716049,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2716049382716049,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.220679012345679,
+      "successPerDraw": 0.220679012345679
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1697530864197531,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2716049382716049,
+      "successPerDraw": 0.2716049382716049
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1697530864197531,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1697530864197531,
+      "successPerDraw": 0.1697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24151234567901247,
+      "successPerDraw": 0.5154320987654317
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24151234567901247,
+      "successPerDraw": 0.5154320987654317
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24151234567901247,
+      "successPerDraw": 0.5154320987654317
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24151234567901247,
+      "successPerDraw": 0.5154320987654317
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.21604938271604948,
+      "successPerDraw": 0.45756172839506143
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17361111111111116,
+      "successPerDraw": 0.4197530864197529
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.24151234567901247,
+      "successPerDraw": 0.5154320987654317
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17361111111111116,
+      "successPerDraw": 0.4197530864197529
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.17361111111111116,
+      "successPerDraw": 0.35185185185185175
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6018518518518517,
+      "successPerDraw": 0.6018518518518517
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6018518518518517,
+      "successPerDraw": 0.6018518518518517
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6018518518518517,
+      "successPerDraw": 0.6018518518518517
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6018518518518517,
+      "successPerDraw": 0.6018518518518517
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5192901234567898,
+      "successPerDraw": 0.5192901234567898
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4691358024691356,
+      "successPerDraw": 0.4691358024691356
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6018518518518517,
+      "successPerDraw": 0.6018518518518517
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4691358024691356,
+      "successPerDraw": 0.4691358024691356
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40123456790123446,
+      "successPerDraw": 0.40123456790123446
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2785947712418301,
+      "successPerDraw": 0.4624183006535952
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2785947712418301,
+      "successPerDraw": 0.4624183006535952
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2785947712418301,
+      "successPerDraw": 0.4624183006535952
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2785947712418301,
+      "successPerDraw": 0.4624183006535952
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2606209150326797,
+      "successPerDraw": 0.4232026143790854
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1887254901960784,
+      "successPerDraw": 0.4011437908496736
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2785947712418301,
+      "successPerDraw": 0.4624183006535952
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1887254901960784,
+      "successPerDraw": 0.4011437908496736
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.1887254901960784,
+      "successPerDraw": 0.3112745098039217
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7107843137254902,
+      "successPerDraw": 0.7107843137254902
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7107843137254902,
+      "successPerDraw": 0.7107843137254902
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7107843137254902,
+      "successPerDraw": 0.7107843137254902
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7107843137254902,
+      "successPerDraw": 0.7107843137254902
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5931372549019607,
+      "successPerDraw": 0.5931372549019607
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.571078431372549,
+      "successPerDraw": 0.571078431372549
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7107843137254902,
+      "successPerDraw": 0.7107843137254902
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.571078431372549,
+      "successPerDraw": 0.571078431372549
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4812091503267972,
+      "successPerDraw": 0.4812091503267972
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.337962962962963,
+      "successPerDraw": 0.4537037037037039
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.337962962962963,
+      "successPerDraw": 0.4537037037037039
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.337962962962963,
+      "successPerDraw": 0.4537037037037039
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.337962962962963,
+      "successPerDraw": 0.4537037037037039
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3209876543209877,
+      "successPerDraw": 0.4043209876543211
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2530864197530864,
+      "successPerDraw": 0.35339506172839513
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.337962962962963,
+      "successPerDraw": 0.4537037037037039
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2530864197530864,
+      "successPerDraw": 0.35339506172839513
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2530864197530864,
+      "successPerDraw": 0.30246913580246915
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47839506172839524,
+      "successPerDraw": 0.47839506172839524
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47839506172839524,
+      "successPerDraw": 0.47839506172839524
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47839506172839524,
+      "successPerDraw": 0.47839506172839524
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47839506172839524,
+      "successPerDraw": 0.47839506172839524
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4043209876543211,
+      "successPerDraw": 0.4043209876543211
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.35339506172839513,
+      "successPerDraw": 0.35339506172839513
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.47839506172839524,
+      "successPerDraw": 0.47839506172839524
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.35339506172839513,
+      "successPerDraw": 0.35339506172839513
+    },
+    {
+      "nDice": 2,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.30246913580246915,
+      "successPerDraw": 0.30246913580246915
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48533950617283933,
+      "successPerDraw": 0.7500000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48533950617283933,
+      "successPerDraw": 0.7500000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48533950617283933,
+      "successPerDraw": 0.7500000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48533950617283933,
+      "successPerDraw": 0.7500000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40663580246913567,
+      "successPerDraw": 0.6697530864197531
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3811728395061727,
+      "successPerDraw": 0.6118827160493826
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48533950617283933,
+      "successPerDraw": 0.7500000000000002
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3811728395061727,
+      "successPerDraw": 0.6118827160493826
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3387345679012345,
+      "successPerDraw": 0.523148148148148
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.756172839506173,
+      "successPerDraw": 0.756172839506173
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.756172839506173,
+      "successPerDraw": 0.756172839506173
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.756172839506173,
+      "successPerDraw": 0.756172839506173
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.756172839506173,
+      "successPerDraw": 0.756172839506173
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7067901234567903,
+      "successPerDraw": 0.7067901234567903
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6242283950617283,
+      "successPerDraw": 0.6242283950617283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.756172839506173,
+      "successPerDraw": 0.756172839506173
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6242283950617283,
+      "successPerDraw": 0.6242283950617283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.523148148148148,
+      "successPerDraw": 0.523148148148148
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6274509803921567,
+      "successPerDraw": 0.7826797385620916
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6274509803921567,
+      "successPerDraw": 0.7826797385620916
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6274509803921567,
+      "successPerDraw": 0.7826797385620916
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6274509803921567,
+      "successPerDraw": 0.7826797385620916
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.522875816993464,
+      "successPerDraw": 0.684640522875817
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5049019607843137,
+      "successPerDraw": 0.6454248366013071
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6274509803921567,
+      "successPerDraw": 0.7826797385620916
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5049019607843137,
+      "successPerDraw": 0.6454248366013071
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4330065359477122,
+      "successPerDraw": 0.5424836601307187
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7957516339869283,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7957516339869283,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7957516339869283,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7957516339869283,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7761437908496734,
+      "successPerDraw": 0.7761437908496734
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6584967320261438,
+      "successPerDraw": 0.6584967320261438
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7957516339869283,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6584967320261438,
+      "successPerDraw": 0.6584967320261438
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5555555555555555,
+      "successPerDraw": 0.5555555555555555
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5848765432098766,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5848765432098766,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5848765432098766,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5848765432098766,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4861111111111112,
+      "successPerDraw": 0.6018518518518519
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4691358024691359,
+      "successPerDraw": 0.5524691358024693
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5848765432098766,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4691358024691359,
+      "successPerDraw": 0.5524691358024693
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40123456790123463,
+      "successPerDraw": 0.45061728395061734
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7006172839506171,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7006172839506171,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7006172839506171,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7006172839506171,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6265432098765432,
+      "successPerDraw": 0.6265432098765432
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5524691358024693,
+      "successPerDraw": 0.5524691358024693
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7006172839506171,
+      "successPerDraw": 0.7006172839506171
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5524691358024693,
+      "successPerDraw": 0.5524691358024693
+    },
+    {
+      "nDice": 2,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.45061728395061734,
+      "successPerDraw": 0.45061728395061734
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2106481481481482,
+      "successPerDraw": 0.44830246913580263
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2106481481481482,
+      "successPerDraw": 0.44830246913580263
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2106481481481482,
+      "successPerDraw": 0.44830246913580263
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2106481481481482,
+      "successPerDraw": 0.44830246913580263
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15213477366255146,
+      "successPerDraw": 0.40059156378600835
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15213477366255146,
+      "successPerDraw": 0.33037551440329227
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2106481481481482,
+      "successPerDraw": 0.44830246913580263
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15213477366255146,
+      "successPerDraw": 0.33037551440329227
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.15213477366255146,
+      "successPerDraw": 0.3069701646090536
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46090534979423886,
+      "successPerDraw": 0.46090534979423886
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46090534979423886,
+      "successPerDraw": 0.46090534979423886
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46090534979423886,
+      "successPerDraw": 0.46090534979423886
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46090534979423886,
+      "successPerDraw": 0.46090534979423886
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40059156378600835,
+      "successPerDraw": 0.40059156378600835
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.33037551440329227,
+      "successPerDraw": 0.33037551440329227
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.46090534979423886,
+      "successPerDraw": 0.46090534979423886
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.33037551440329227,
+      "successPerDraw": 0.33037551440329227
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3069701646090536,
+      "successPerDraw": 0.3069701646090536
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3221677559912853,
+      "successPerDraw": 0.48801742919389957
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3221677559912853,
+      "successPerDraw": 0.48801742919389957
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3221677559912853,
+      "successPerDraw": 0.48801742919389957
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3221677559912853,
+      "successPerDraw": 0.48801742919389957
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.22303921568627444,
+      "successPerDraw": 0.46228213507625254
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.22303921568627444,
+      "successPerDraw": 0.35076252723311535
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3221677559912853,
+      "successPerDraw": 0.48801742919389957
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.22303921568627444,
+      "successPerDraw": 0.35076252723311535
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.22303921568627444,
+      "successPerDraw": 0.338371459694989
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.514705882352941,
+      "successPerDraw": 0.514705882352941
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.514705882352941,
+      "successPerDraw": 0.514705882352941
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.514705882352941,
+      "successPerDraw": 0.514705882352941
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.514705882352941,
+      "successPerDraw": 0.514705882352941
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.488970588235294,
+      "successPerDraw": 0.488970588235294
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.37745098039215674,
+      "successPerDraw": 0.37745098039215674
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.514705882352941,
+      "successPerDraw": 0.514705882352941
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.37745098039215674,
+      "successPerDraw": 0.37745098039215674
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3650599128540304,
+      "successPerDraw": 0.3650599128540304
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2808641975308642,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2808641975308642,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2808641975308642,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2808641975308642,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18724279835390945,
+      "successPerDraw": 0.3042695473251029
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18724279835390945,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2808641975308642,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18724279835390945,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.18724279835390945,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.374485596707819,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.374485596707819,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.374485596707819,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.374485596707819,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3042695473251029,
+      "successPerDraw": 0.3042695473251029
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23405349794238683,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.374485596707819,
+      "successPerDraw": 0.374485596707819
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23405349794238683,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 5,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23405349794238683,
+      "successPerDraw": 0.23405349794238683
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3285751028806585,
+      "successPerDraw": 0.6355452674897116
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3285751028806585,
+      "successPerDraw": 0.6355452674897116
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3285751028806585,
+      "successPerDraw": 0.6355452674897116
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3285751028806585,
+      "successPerDraw": 0.6355452674897116
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.29346707818930046,
+      "successPerDraw": 0.5734310699588475
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23495370370370375,
+      "successPerDraw": 0.5257201646090536
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3285751028806585,
+      "successPerDraw": 0.6355452674897116
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23495370370370375,
+      "successPerDraw": 0.5257201646090536
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.23495370370370375,
+      "successPerDraw": 0.4320987654320989
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7237654320987656,
+      "successPerDraw": 0.7237654320987656
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7237654320987656,
+      "successPerDraw": 0.7237654320987656
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7237654320987656,
+      "successPerDraw": 0.7237654320987656
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7237654320987656,
+      "successPerDraw": 0.7237654320987656
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.636445473251029,
+      "successPerDraw": 0.636445473251029
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5761316872427985,
+      "successPerDraw": 0.5761316872427985
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7237654320987656,
+      "successPerDraw": 0.7237654320987656
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5761316872427985,
+      "successPerDraw": 0.5761316872427985
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.48251028806584384,
+      "successPerDraw": 0.48251028806584384
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38412309368191705,
+      "successPerDraw": 0.5814270152505445
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38412309368191705,
+      "successPerDraw": 0.5814270152505445
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38412309368191705,
+      "successPerDraw": 0.5814270152505445
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38412309368191705,
+      "successPerDraw": 0.5814270152505445
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.35934095860566434,
+      "successPerDraw": 0.5413943355119825
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2602124183006535,
+      "successPerDraw": 0.5156590413943354
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.38412309368191705,
+      "successPerDraw": 0.5814270152505445
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2602124183006535,
+      "successPerDraw": 0.5156590413943354
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.2602124183006535,
+      "successPerDraw": 0.3917483660130718
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8349673202614383,
+      "successPerDraw": 0.8349673202614383
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8349673202614383,
+      "successPerDraw": 0.8349673202614383
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8349673202614383,
+      "successPerDraw": 0.8349673202614383
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8349673202614383,
+      "successPerDraw": 0.8349673202614383
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7148692810457518,
+      "successPerDraw": 0.7148692810457518
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6891339869281047,
+      "successPerDraw": 0.6891339869281047
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8349673202614383,
+      "successPerDraw": 0.8349673202614383
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6891339869281047,
+      "successPerDraw": 0.6891339869281047
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5652233115468411,
+      "successPerDraw": 0.5652233115468411
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4483024691358026,
+      "successPerDraw": 0.572530864197531
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4483024691358026,
+      "successPerDraw": 0.572530864197531
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4483024691358026,
+      "successPerDraw": 0.572530864197531
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4483024691358026,
+      "successPerDraw": 0.572530864197531
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4248971193415639,
+      "successPerDraw": 0.5221193415637861
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3312757201646091,
+      "successPerDraw": 0.45190329218107006
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4483024691358026,
+      "successPerDraw": 0.572530864197531
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3312757201646091,
+      "successPerDraw": 0.45190329218107006
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.3312757201646091,
+      "successPerDraw": 0.381687242798354
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5977366255144034,
+      "successPerDraw": 0.5977366255144034
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5977366255144034,
+      "successPerDraw": 0.5977366255144034
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5977366255144034,
+      "successPerDraw": 0.5977366255144034
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5977366255144034,
+      "successPerDraw": 0.5977366255144034
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5221193415637861,
+      "successPerDraw": 0.5221193415637861
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.45190329218107006,
+      "successPerDraw": 0.45190329218107006
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5977366255144034,
+      "successPerDraw": 0.5977366255144034
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.45190329218107006,
+      "successPerDraw": 0.45190329218107006
+    },
+    {
+      "nDice": 3,
+      "base": 6,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.381687242798354,
+      "successPerDraw": 0.381687242798354
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5896347736625518,
+      "successPerDraw": 0.8631687242798359
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5896347736625518,
+      "successPerDraw": 0.8631687242798359
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5896347736625518,
+      "successPerDraw": 0.8631687242798359
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5896347736625518,
+      "successPerDraw": 0.8631687242798359
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5032150205761319,
+      "successPerDraw": 0.7842078189300414
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4681069958847739,
+      "successPerDraw": 0.7220936213991771
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5896347736625518,
+      "successPerDraw": 0.8631687242798359
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4681069958847739,
+      "successPerDraw": 0.7220936213991771
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.40959362139917715,
+      "successPerDraw": 0.604166666666667
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8665123456790128,
+      "successPerDraw": 0.8665123456790128
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8665123456790128,
+      "successPerDraw": 0.8665123456790128
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8665123456790128,
+      "successPerDraw": 0.8665123456790128
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8665123456790128,
+      "successPerDraw": 0.8665123456790128
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8220164609053503,
+      "successPerDraw": 0.8220164609053503
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7346965020576134,
+      "successPerDraw": 0.7346965020576134
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8665123456790128,
+      "successPerDraw": 0.8665123456790128
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7346965020576134,
+      "successPerDraw": 0.7346965020576134
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСС",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.604166666666667,
+      "successPerDraw": 0.604166666666667
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.743464052287582,
+      "successPerDraw": 0.8927015250544666
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.743464052287582,
+      "successPerDraw": 0.8927015250544666
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.743464052287582,
+      "successPerDraw": 0.8927015250544666
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.743464052287582,
+      "successPerDraw": 0.8927015250544666
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6367102396514163,
+      "successPerDraw": 0.7957516339869283
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6119281045751634,
+      "successPerDraw": 0.7557189542483662
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.743464052287582,
+      "successPerDraw": 0.8927015250544666
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6119281045751634,
+      "successPerDraw": 0.7557189542483662
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5127995642701526,
+      "successPerDraw": 0.618464052287582
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.899782135076253,
+      "successPerDraw": 0.899782135076253
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.899782135076253,
+      "successPerDraw": 0.899782135076253
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.899782135076253,
+      "successPerDraw": 0.899782135076253
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.899782135076253,
+      "successPerDraw": 0.899782135076253
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8828976034858391,
+      "successPerDraw": 0.8828976034858391
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7627995642701526,
+      "successPerDraw": 0.7627995642701526
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.899782135076253,
+      "successPerDraw": 0.899782135076253
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.7627995642701526,
+      "successPerDraw": 0.7627995642701526
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ВСТ",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6255446623093683,
+      "successPerDraw": 0.6255446623093683
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.700360082304527,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.700360082304527,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.700360082304527,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.700360082304527,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5995370370370371,
+      "successPerDraw": 0.7237654320987655
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5761316872427984,
+      "successPerDraw": 0.6733539094650207
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.700360082304527,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5761316872427984,
+      "successPerDraw": 0.6733539094650207
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "nation",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.4825102880658436,
+      "successPerDraw": 0.5329218106995885
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8245884773662554,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8245884773662554,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-NEUTRAL",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8245884773662554,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8245884773662554,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.748971193415638,
+      "successPerDraw": 0.748971193415638
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-MODERATE",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6733539094650207,
+      "successPerDraw": 0.6733539094650207
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 1,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.8245884773662554,
+      "successPerDraw": 0.8245884773662554
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 2,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.6733539094650207,
+      "successPerDraw": 0.6733539094650207
+    },
+    {
+      "nDice": 3,
+      "base": 7,
+      "deck": "ИСП",
+      "territory": "wild",
+      "st": "ST-HARSH",
+      "stage": 3,
+      "policy": "maximize immediate energy after reveal",
+      "energyPerDraw": 0.5329218106995885,
+      "successPerDraw": 0.5329218106995885
+    }
+  ],
+  "memoization": {
+    "nodes": 90,
+    "hits": 72
+  }
+}

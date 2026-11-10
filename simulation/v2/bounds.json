@@ -1,0 +1,246 @@
+{
+  "results": [
+    {
+      "players": 2,
+      "group": "together",
+      "days": 10,
+      "states": 4785,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 3,
+      "group": "together",
+      "days": 10,
+      "states": 4785,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 4,
+      "group": "together",
+      "days": 10,
+      "states": 4785,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 4,
+      "group": "dynamic",
+      "days": 6,
+      "states": 36076,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    }
+  ],
+  "capitalBounds": [
+    {
+      "players": 2,
+      "days": 9,
+      "states": 3886,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 3,
+      "days": 9,
+      "states": 3886,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 4,
+      "group": "together",
+      "days": 9,
+      "states": 3886,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    },
+    {
+      "players": 4,
+      "group": "dynamic",
+      "days": 5,
+      "states": 23442,
+      "label": "EXACT MINIMUM OF RELAXED ACTIVATION MODEL; LOWER BOUND ONLY"
+    }
+  ],
+  "resourcePareto": [
+    {
+      "players": 2,
+      "energy": 4,
+      "points": [
+        {
+          "trust": 0,
+          "minimumPOI": 4,
+          "minimumProblems": 15
+        },
+        {
+          "trust": 1,
+          "minimumPOI": 5,
+          "minimumProblems": 14
+        },
+        {
+          "trust": 2,
+          "minimumPOI": 6,
+          "minimumProblems": 13
+        },
+        {
+          "trust": 3,
+          "minimumPOI": 7,
+          "minimumProblems": 12
+        },
+        {
+          "trust": 4,
+          "minimumPOI": 8,
+          "minimumProblems": 11
+        },
+        {
+          "trust": 5,
+          "minimumPOI": 9,
+          "minimumProblems": 10
+        },
+        {
+          "trust": 6,
+          "minimumPOI": 10,
+          "minimumProblems": 9
+        },
+        {
+          "trust": 7,
+          "minimumPOI": 11,
+          "minimumProblems": 8
+        },
+        {
+          "trust": 8,
+          "minimumPOI": 12,
+          "minimumProblems": 7
+        },
+        {
+          "trust": 9,
+          "minimumPOI": 13,
+          "minimumProblems": 6
+        },
+        {
+          "trust": 10,
+          "minimumPOI": 14,
+          "minimumProblems": 5
+        }
+      ]
+    },
+    {
+      "players": 3,
+      "energy": 6,
+      "points": [
+        {
+          "trust": 0,
+          "minimumPOI": 6,
+          "minimumProblems": 15
+        },
+        {
+          "trust": 1,
+          "minimumPOI": 7,
+          "minimumProblems": 14
+        },
+        {
+          "trust": 2,
+          "minimumPOI": 8,
+          "minimumProblems": 13
+        },
+        {
+          "trust": 3,
+          "minimumPOI": 9,
+          "minimumProblems": 12
+        },
+        {
+          "trust": 4,
+          "minimumPOI": 10,
+          "minimumProblems": 11
+        },
+        {
+          "trust": 5,
+          "minimumPOI": 11,
+          "minimumProblems": 10
+        },
+        {
+          "trust": 6,
+          "minimumPOI": 12,
+          "minimumProblems": 9
+        },
+        {
+          "trust": 7,
+          "minimumPOI": 13,
+          "minimumProblems": 8
+        },
+        {
+          "trust": 8,
+          "minimumPOI": 14,
+          "minimumProblems": 7
+        },
+        {
+          "trust": 9,
+          "minimumPOI": 15,
+          "minimumProblems": 6
+        },
+        {
+          "trust": 10,
+          "minimumPOI": 16,
+          "minimumProblems": 5
+        }
+      ]
+    },
+    {
+      "players": 4,
+      "energy": 8,
+      "points": [
+        {
+          "trust": 0,
+          "minimumPOI": 8,
+          "minimumProblems": 15
+        },
+        {
+          "trust": 1,
+          "minimumPOI": 9,
+          "minimumProblems": 14
+        },
+        {
+          "trust": 2,
+          "minimumPOI": 10,
+          "minimumProblems": 13
+        },
+        {
+          "trust": 3,
+          "minimumPOI": 11,
+          "minimumProblems": 12
+        },
+        {
+          "trust": 4,
+          "minimumPOI": 12,
+          "minimumProblems": 11
+        },
+        {
+          "trust": 5,
+          "minimumPOI": 13,
+          "minimumProblems": 10
+        },
+        {
+          "trust": 6,
+          "minimumPOI": 14,
+          "minimumProblems": 9
+        },
+        {
+          "trust": 7,
+          "minimumPOI": 15,
+          "minimumProblems": 8
+        },
+        {
+          "trust": 8,
+          "minimumPOI": 16,
+          "minimumProblems": 7
+        },
+        {
+          "trust": 9,
+          "minimumPOI": 17,
+          "minimumProblems": 6
+        },
+        {
+          "trust": 10,
+          "minimumPOI": 18,
+          "minimumProblems": 5
+        }
+      ]
+    }
+  ],
+  "proof": "Each POI awards at most one primary resource. Excess trust replaces its reward and therefore does not reduce E+T. Relaxation removes geometry, resource acquisition and all failures, but preserves activation exclusivity, legal group sizes, meetings and one Time bonus."
+}

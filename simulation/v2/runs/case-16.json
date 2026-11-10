@@ -1,0 +1,5338 @@
+{
+  "fingerprint": "a848cd20d5f92876a655e29663e7d251a8819a94931e435b9bbdcfa9694f5b89",
+  "configuration": {
+    "players": 4,
+    "group": "dynamic",
+    "experiment": "expected",
+    "planner": "global",
+    "label": "expected"
+  },
+  "rows": [
+    {
+      "seed": 730000,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 8.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730001,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730002,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730003,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730004,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730005,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730006,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730007,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730008,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730009,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730010,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 7.333333333333333,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730011,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730012,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730013,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730014,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 12.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730015,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 10.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730016,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730017,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "travel": 10.75,
+        "regroup": 0.5833333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730018,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 9,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 29,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730019,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 7.833333333333333,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730020,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730021,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 12,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730022,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 10.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730023,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 13,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730024,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.8333333333333333,
+        "travel": 8,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730025,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730026,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730027,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730028,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730029,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 39,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730030,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730031,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730032,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730033,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730034,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 11.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730035,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 9.833333333333332,
+        "regroup": 0.6666666666666666,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730036,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730037,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730038,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730039,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 9.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730040,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 7,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730041,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12.5,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730042,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730043,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "travel": 10.5,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730044,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730045,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730046,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730047,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730048,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 8.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730049,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730050,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730051,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730052,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.8333333333333333,
+        "travel": 12.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730053,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 27,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730054,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730055,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730056,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730057,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730058,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730059,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 8.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730060,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 32,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730061,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.4166666666666665,
+        "travel": 12.5,
+        "regroup": 0.5833333333333333,
+        "capital": 4,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730062,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730063,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730064,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730065,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730066,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730067,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730068,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 11.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730069,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730070,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 9.333333333333332,
+        "regroup": 0.8333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730071,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730072,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 11.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730073,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730074,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730075,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730076,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.25,
+        "travel": 13.5,
+        "regroup": 0.25,
+        "capital": 4
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730077,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730078,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 11.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730079,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "regroup": 0.6666666666666666,
+        "travel": 9.333333333333332,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730080,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 13.25,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730081,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730082,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730083,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 9.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730084,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 9,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730085,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "regroup": 0.6666666666666666,
+        "travel": 9.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730086,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.583333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.5833333333333333,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730087,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 9.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730088,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730089,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.5,
+        "travel": 13.25,
+        "regroup": 0.25,
+        "capital": 4
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730090,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 12,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 32,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730091,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.8333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730092,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730093,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "travel": 9.333333333333332,
+        "poi": 2.333333333333333,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730094,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 13.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730095,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730096,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 13,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730097,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730098,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730099,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730100,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730101,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730102,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730103,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730104,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 9.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 39,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730105,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730106,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730107,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730108,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730109,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730110,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730111,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "travel": 11.166666666666666,
+        "regroup": 0.6666666666666666,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730112,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 12.25,
+        "regroup": 0.25,
+        "capital": 4.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730113,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.583333333333333,
+        "regroup": 0.5833333333333333,
+        "travel": 10.833333333333332,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730114,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730115,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730116,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730117,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730118,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730119,
+      "win": false,
+      "day": 22,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 3,
+        "travel": 13.75,
+        "regroup": 0.25,
+        "capital": 3
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730120,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 13,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730121,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730122,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730123,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730124,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730125,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 11.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730126,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 8.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730127,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.25,
+        "travel": 9.5,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730128,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730129,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "regroup": 0.6666666666666666,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730130,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 11,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730131,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "travel": 10.666666666666666,
+        "regroup": 0.6666666666666666,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730132,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 29,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730133,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 11.25,
+        "regroup": 0.75,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730134,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730135,
+      "win": false,
+      "day": 25,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12,
+        "capital": 5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730136,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730137,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730138,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "travel": 12,
+        "poi": 2.25,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730139,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730140,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.9166666666666665,
+        "travel": 11.5,
+        "regroup": 0.5833333333333333,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730141,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 27,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730142,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 11.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730143,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730144,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730145,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.8333333333333333,
+        "travel": 11.083333333333332,
+        "regroup": 0.5833333333333333,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730146,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "regroup": 0.6666666666666666,
+        "travel": 10.333333333333332,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730147,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730148,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730149,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 8.75,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730150,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730151,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "travel": 11,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730152,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730153,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730154,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "regroup": 0.6666666666666666,
+        "travel": 10.5,
+        "capital": 4,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730155,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 10.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730156,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730157,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 3.25,
+        "regroup": 0.25,
+        "travel": 13,
+        "capital": 3.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730158,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 11.75,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730159,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730160,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730161,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.6666666666666666,
+        "travel": 11.166666666666666,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 41,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730162,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730163,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730164,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 9.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730165,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730166,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730167,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.083333333333332,
+        "regroup": 0.5833333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 39,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730168,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.8333333333333333,
+        "travel": 10.083333333333332,
+        "regroup": 0.5833333333333333,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730169,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730170,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730171,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 11.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730172,
+      "win": false,
+      "day": 22,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 12.5,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730173,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.6666666666666665,
+        "travel": 10.75,
+        "regroup": 0.5833333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730174,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 12.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730175,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730176,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 7.833333333333333,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730177,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730178,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "travel": 11.166666666666666,
+        "regroup": 0.6666666666666666,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730179,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.75,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730180,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730181,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 10.333333333333332,
+        "regroup": 0.6666666666666666,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730182,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 11.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730183,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730184,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.25,
+        "travel": 13,
+        "regroup": 0.25,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730185,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 39,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730186,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 12,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730187,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.75,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730188,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730189,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730190,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 39,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730191,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 8,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730192,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 10.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730193,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 11,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730194,
+      "win": true,
+      "day": 14,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 8.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730195,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730196,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 8.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730197,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 11.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730198,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 11.75,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730199,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730200,
+      "win": false,
+      "day": 22,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 13.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730201,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 12,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730202,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730203,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730204,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 7.333333333333333,
+        "regroup": 0.8333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730205,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 12.25,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730206,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730207,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730208,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 13.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730209,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730210,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730211,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 9.25,
+        "regroup": 0.25,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 27,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730212,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730213,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730214,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730215,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.8333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730216,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 14,
+        "capital": 3.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730217,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730218,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.75,
+        "regroup": 0.25,
+        "travel": 9,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730219,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 10.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730220,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730221,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 11.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730222,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 38,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730223,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.25,
+        "regroup": 0.25,
+        "travel": 12.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730224,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "travel": 11,
+        "poi": 2.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730225,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 8.75,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 36,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730226,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.833333333333333,
+        "travel": 13.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730227,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 13,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730228,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.4166666666666665,
+        "regroup": 0.5833333333333333,
+        "travel": 9.5,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730229,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 9.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730230,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 12.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 31,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730231,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 13,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730232,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730233,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 10.333333333333332,
+        "regroup": 0.6666666666666666,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730234,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.25,
+        "regroup": 0.25,
+        "travel": 10,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730235,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 1.9166666666666665,
+        "travel": 12,
+        "regroup": 0.5833333333333333,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 40,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730236,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 12.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730237,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730238,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 10.333333333333332,
+        "regroup": 0.6666666666666666,
+        "capital": 3,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730239,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 12.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730240,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 13.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 34,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730241,
+      "win": true,
+      "day": 15,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 8,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730242,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 13.25,
+        "regroup": 0.25,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730243,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 9.75,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730244,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730245,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2,
+        "travel": 10.75,
+        "regroup": 0.25,
+        "capital": 4,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730246,
+      "win": true,
+      "day": 20,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 12.75,
+        "regroup": 0.25,
+        "capital": 3.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730247,
+      "win": true,
+      "day": 17,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.1666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 10.5,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730248,
+      "win": true,
+      "day": 19,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 12.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 33,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730249,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 3.1666666666666665,
+        "regroup": 0.8333333333333333,
+        "travel": 8.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730250,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 4.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730251,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.5,
+        "travel": 11.25,
+        "regroup": 0.25,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730252,
+      "win": false,
+      "day": 21,
+      "cause": "RETURN_OR_ASSEMBLY",
+      "budget": {
+        "poi": 3.333333333333333,
+        "travel": 12.833333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 37,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730253,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "travel": 9.666666666666666,
+        "regroup": 0.6666666666666666,
+        "capital": 2.5,
+        "final": 0.5
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 26,
+      "failures": 0,
+      "regroups": 2
+    },
+    {
+      "seed": 730254,
+      "win": true,
+      "day": 18,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.6666666666666665,
+        "regroup": 0.3333333333333333,
+        "travel": 11.5,
+        "capital": 2.5,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 30,
+      "failures": 0,
+      "regroups": 1
+    },
+    {
+      "seed": 730255,
+      "win": true,
+      "day": 16,
+      "cause": "WIN",
+      "budget": {
+        "poi": 2.333333333333333,
+        "travel": 9.333333333333332,
+        "regroup": 0.3333333333333333,
+        "capital": 3,
+        "final": 1
+      },
+      "poi": 8,
+      "energy": 8,
+      "trust": 0,
+      "problems": 15,
+      "crossings": 35,
+      "failures": 0,
+      "regroups": 1
+    }
+  ],
+  "batches": [
+    {
+      "n": 64,
+      "summary": {
+        "n": 64,
+        "w": 63,
+        "rate": 0.984375,
+        "win95": [
+          0.9166570109970937,
+          0.9972365292495986
+        ],
+        "meanCompletionDay": 17.21875,
+        "completionMean95Half": 0.38421479271944287,
+        "censored": 0,
+        "meanReserve": 2.78125,
+        "winningMeanReserve": 2.8412698412698414,
+        "causes": {
+          "WIN": 63,
+          "RETURN_OR_ASSEMBLY": 1
+        },
+        "budgets": {
+          "win": {
+            "poi": 2.527777777777777,
+            "regroup": 0.33994708994708983,
+            "travel": 10.410052910052908,
+            "capital": 2.9365079365079363,
+            "final": 0.9444444444444444
+          },
+          "loss": {
+            "poi": 2.25,
+            "regroup": 0.25,
+            "travel": 13,
+            "capital": 4.5
+          }
+        },
+        "meanPOI": 8,
+        "meanEnergy": 8,
+        "meanTrust": 0,
+        "meanProblems": 15,
+        "meanCrossings": 31.734375,
+        "meanCapitalFailures": 0,
+        "meanRegroups": 1.078125
+      }
+    },
+    {
+      "n": 128,
+      "summary": {
+        "n": 128,
+        "w": 123,
+        "rate": 0.9609375,
+        "win95": [
+          0.9118117730873819,
+          0.9832016369440498
+        ],
+        "meanCompletionDay": 17.3671875,
+        "completionMean95Half": 0.2783014057804947,
+        "censored": 0,
+        "meanReserve": 2.6328125,
+        "winningMeanReserve": 2.7886178861788617,
+        "causes": {
+          "WIN": 123,
+          "RETURN_OR_ASSEMBLY": 5
+        },
+        "budgets": {
+          "win": {
+            "poi": 2.5298102981029813,
+            "regroup": 0.34349593495934977,
+            "travel": 10.447831978319781,
+            "capital": 2.9471544715447155,
+            "final": 0.943089430894309
+          },
+          "loss": {
+            "poi": 2.45,
+            "regroup": 0.25,
+            "travel": 13.3,
+            "capital": 4
+          }
+        },
+        "meanPOI": 8,
+        "meanEnergy": 8,
+        "meanTrust": 0,
+        "meanProblems": 15,
+        "meanCrossings": 31.5703125,
+        "meanCapitalFailures": 0,
+        "meanRegroups": 1.09375
+      }
+    },
+    {
+      "n": 192,
+      "summary": {
+        "n": 192,
+        "w": 182,
+        "rate": 0.9479166666666666,
+        "win95": [
+          0.9067939478599413,
+          0.9714668506629466
+        ],
+        "meanCompletionDay": 17.421875,
+        "completionMean95Half": 0.2366987105723341,
+        "censored": 0,
+        "meanReserve": 2.578125,
+        "winningMeanReserve": 2.8076923076923075,
+        "causes": {
+          "WIN": 182,
+          "RETURN_OR_ASSEMBLY": 10
+        },
+        "budgets": {
+          "win": {
+            "poi": 2.4757326007326017,
+            "regroup": 0.352564102564103,
+            "travel": 10.498626373626367,
+            "capital": 2.931318681318681,
+            "final": 0.9340659340659341
+          },
+          "loss": {
+            "poi": 2.6333333333333333,
+            "regroup": 0.26666666666666666,
+            "travel": 12.9,
+            "capital": 4.2
+          }
+        },
+        "meanPOI": 8,
+        "meanEnergy": 8,
+        "meanTrust": 0,
+        "meanProblems": 15,
+        "meanCrossings": 31.473958333333332,
+        "meanCapitalFailures": 0,
+        "meanRegroups": 1.1302083333333333
+      }
+    },
+    {
+      "n": 256,
+      "summary": {
+        "n": 256,
+        "w": 242,
+        "rate": 0.9453125,
+        "win95": [
+          0.9103096388011672,
+          0.9671480123216708
+        ],
+        "meanCompletionDay": 17.5078125,
+        "completionMean95Half": 0.2075472119910783,
+        "censored": 0,
+        "meanReserve": 2.4921875,
+        "winningMeanReserve": 2.7231404958677685,
+        "causes": {
+          "WIN": 242,
+          "RETURN_OR_ASSEMBLY": 14
+        },
+        "budgets": {
+          "win": {
+            "poi": 2.4776170798898067,
+            "regroup": 0.35227272727272696,
+            "travel": 10.587465564738293,
+            "capital": 2.927685950413223,
+            "final": 0.9318181818181818
+          },
+          "loss": {
+            "poi": 2.607142857142857,
+            "regroup": 0.2857142857142857,
+            "travel": 13.035714285714288,
+            "capital": 4.071428571428571
+          }
+        },
+        "meanPOI": 8,
+        "meanEnergy": 8,
+        "meanTrust": 0,
+        "meanProblems": 15,
+        "meanCrossings": 31.44921875,
+        "meanCapitalFailures": 0,
+        "meanRegroups": 1.12890625
+      }
+    }
+  ],
+  "summary": {
+    "n": 256,
+    "w": 242,
+    "rate": 0.9453125,
+    "win95": [
+      0.9103096388011672,
+      0.9671480123216708
+    ],
+    "meanCompletionDay": 17.5078125,
+    "completionMean95Half": 0.2075472119910783,
+    "censored": 0,
+    "meanReserve": 2.4921875,
+    "winningMeanReserve": 2.7231404958677685,
+    "causes": {
+      "WIN": 242,
+      "RETURN_OR_ASSEMBLY": 14
+    },
+    "budgets": {
+      "win": {
+        "poi": 2.4776170798898067,
+        "regroup": 0.35227272727272696,
+        "travel": 10.587465564738293,
+        "capital": 2.927685950413223,
+        "final": 0.9318181818181818
+      },
+      "loss": {
+        "poi": 2.607142857142857,
+        "regroup": 0.2857142857142857,
+        "travel": 13.035714285714288,
+        "capital": 4.071428571428571
+      }
+    },
+    "meanPOI": 8,
+    "meanEnergy": 8,
+    "meanTrust": 0,
+    "meanProblems": 15,
+    "meanCrossings": 31.44921875,
+    "meanCapitalFailures": 0,
+    "meanRegroups": 1.12890625
+  },
+  "cache": {
+    "expanded": 192127,
+    "hits": 1629,
+    "cache": 1500
+  },
+  "stable": true
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-31",
+  "scope": "Current audit sources; historical runs retain original fingerprints",
+  "files": {
+    "bounds.cjs": "b3d06619df46643194f917079812e2144cb245fb0bbecc05067a94a299ab2ab0",
+    "build.cjs": "c1252601ebd62ba3a3994eaffcec62fa063002b7b1b091854bb750adc60eeae0",
+    "compare.cjs": "266c3c8a1d28875e999160bb3be3fa163d9ef30b43ab73e205225f27211e9d2c",
+    "effects.cjs": "fe8c041d5fba3acf739d3b09b80ca94aecb0b45635783af7ef7a7d9cec4218bc",
+    "engine.cjs": "1338900573d9802cadc1125a1e1a1f08ca2e474915a86d29a7dc7628bf05e621",
+    "experiment.cjs": "6f7c5fb57a119a05b4feefb0078e89992006f8d48c0dca1802e310632e22aa71",
+    "extend.cjs": "1a4dfa615fe1966fefe7cb1b24d9be64cd2e1c34a8b5b6b2fe6abd83284632b0",
+    "facts.cjs": "05e90c5c660dfabbc8982c90b03a5a043a9b94283ea3859c41b862ffb2c952a2",
+    "geometry_bound.cjs": "041441aeb5d080ea272d4725a137010811d15fd0ee050439b66fa090fae306e7",
+    "journals.cjs": "fff0c0f79e5f7a45da1b6cbc6ee810ca29dd5c6618e8eb7017fa6f77314535ae",
+    "kernel.cjs": "8fbaca49c115be74db3da06900975c56613496623c738bb9b44cf0fa4bee583a",
+    "legacy.cjs": "41973c4df10a034d9b1326370e11def6db0d2a88a46f2fbc48ef6e7fcfbb4047",
+    "macro_pairs.cjs": "414eeb09591c288f7b8c22e4b86d850f85b6aa50d2a7a2ca511e59ac2979fc95",
+    "order_search.cjs": "5bd69a2f30c5b5dec4ec4088b801484194d006adcb33cd51d49bf5b28fad5498",
+    "planner.cjs": "0bd86450036072682c6d5f7543d347a9cebfe07c0ad5568a9c12f82a392e6650",
+    "render_report.cjs": "405a366714e63f234745036a8ab29e48b2c32a75c994fac06aca166ffb2c205f",
+    "route.cjs": "7939001605ea31f0f434e3e2de592e81c5bd97b1acbd411f63b96d4e0c3edc99",
+    "search.cjs": "7e7bca93fa40e46b148507ae9672cf12a12755a3f532550a5db95e3a5b98f7ac",
+    "suite.cjs": "f755af8f7033e0dc5237e6db57e5d69969cf8a33040a48357b29e2e058ca28a9",
+    "supplement.cjs": "4d031278da9771b04f05dc08fd7cea4f9b87ff563fe28f4b0ce2bcf7751e498e",
+    "validate.cjs": "c0f4caccd1c4feeb7869dead9af07cd39ba784376cb5f44a40a1ae7d19c54ceb"
+  }
+}

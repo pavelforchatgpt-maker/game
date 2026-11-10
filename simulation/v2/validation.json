@@ -1,0 +1,62 @@
+[
+  {
+    "valid": true,
+    "players": 2,
+    "day": 16,
+    "poi": 4,
+    "crossings": 33,
+    "checks": 17,
+    "trust": {
+      "Рост": 0,
+      "Поток": 0,
+      "Искра": 0,
+      "Слово": 0,
+      "Камень": 0
+    },
+    "energyBeforeFinal": 4,
+    "limitations": [
+      "Mirrored-port placement is the explicit V1 entry assumption",
+      "Validator is structural; it does not prove global optimality or all optional-effect interactions"
+    ]
+  },
+  {
+    "valid": true,
+    "players": 3,
+    "day": 17,
+    "poi": 6,
+    "crossings": 23,
+    "checks": 17,
+    "trust": {
+      "Рост": 0,
+      "Поток": 0,
+      "Искра": 0,
+      "Слово": 0,
+      "Камень": 0
+    },
+    "energyBeforeFinal": 6,
+    "limitations": [
+      "Mirrored-port placement is the explicit V1 entry assumption",
+      "Validator is structural; it does not prove global optimality or all optional-effect interactions"
+    ]
+  },
+  {
+    "valid": true,
+    "players": 4,
+    "day": 14,
+    "poi": 8,
+    "crossings": 15,
+    "checks": 17,
+    "trust": {
+      "Рост": 0,
+      "Поток": 0,
+      "Искра": 0,
+      "Слово": 0,
+      "Камень": 0
+    },
+    "energyBeforeFinal": 8,
+    "limitations": [
+      "Mirrored-port placement is the explicit V1 entry assumption",
+      "Validator is structural; it does not prove global optimality or all optional-effect interactions"
+    ]
+  }
+]

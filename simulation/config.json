@@ -1,0 +1,1812 @@
+{
+  "version": "SIMULATION V1 scenario engine revision 2",
+  "status": "ESTIMATED / SENSITIVITY",
+  "lastDay": 20,
+  "stages": [
+    [
+      1,
+      8
+    ],
+    [
+      9,
+      15
+    ],
+    [
+      16,
+      20
+    ]
+  ],
+  "faces": [
+    -1,
+    0,
+    0,
+    2,
+    2,
+    4
+  ],
+  "moveFaces": {
+    "0": 0,
+    "2": 1,
+    "4": 2,
+    "-1": -1
+  },
+  "baseMove": 2,
+  "trustMax": 2,
+  "inventoryMax": 2,
+  "final": {
+    "requirements": {
+      "2": 4,
+      "3": 6,
+      "4": 8
+    },
+    "difficulty": {
+      "2": 8,
+      "3": 9,
+      "4": 10
+    },
+    "targets": {
+      "2": 3,
+      "3": 4,
+      "4": 5
+    },
+    "starts": {
+      "2": [
+        1,
+        2,
+        4,
+        2,
+        2
+      ],
+      "3": [
+        1,
+        2,
+        6,
+        3,
+        2
+      ],
+      "4": [
+        1,
+        2,
+        7,
+        4,
+        3
+      ]
+    },
+    "attributes": [
+      "Разум",
+      "Общение"
+    ],
+    "anchors": [
+      2,
+      4,
+      7,
+      13,
+      16
+    ]
+  },
+  "heroes": [
+    {
+      "id": 1,
+      "attributes": {
+        "Сила": 8,
+        "Ловкость": 7,
+        "Разум": 6,
+        "Воля": 5,
+        "Общение": 4
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Сила": 8,
+        "Ловкость": 5,
+        "Разум": 4,
+        "Воля": 7,
+        "Общение": 6
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "Сила": 5,
+        "Ловкость": 8,
+        "Разум": 6,
+        "Воля": 7,
+        "Общение": 4
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "Сила": 4,
+        "Ловкость": 7,
+        "Разум": 8,
+        "Воля": 5,
+        "Общение": 6
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "Сила": 5,
+        "Ловкость": 4,
+        "Разум": 8,
+        "Воля": 6,
+        "Общение": 7
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "Сила": 4,
+        "Ловкость": 5,
+        "Разум": 6,
+        "Воля": 7,
+        "Общение": 8
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "Сила": 6,
+        "Ловкость": 6,
+        "Разум": 6,
+        "Воля": 6,
+        "Общение": 6
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "Сила": 7,
+        "Ловкость": 6,
+        "Разум": 5,
+        "Воля": 4,
+        "Общение": 8
+      }
+    }
+  ],
+  "cards": [
+    {
+      "id": "ИСС-01",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-02",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-03",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-04",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-05",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-06",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-07",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-08",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-09",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-10",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-11",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-12",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-13",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-14",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-15",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-16",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-17",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-18",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-19",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-20",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-21",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 10,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-22",
+      "deck": "ИСС",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 10,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-23",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Перчатки ловкости"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-24",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Линза мудреца"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-25",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Оберег стойкости"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-26",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Сапоги скороходы"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-27",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Кольцо связи"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-28",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Плащ лёгкого шага"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-29",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Камень пути"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-30",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-31",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-32",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-33",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-34",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-35",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСС-36",
+      "deck": "ИСС",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-01",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-02",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-03",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-04",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-05",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-06",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-07",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-08",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-09",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-10",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-11",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-12",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-13",
+      "deck": "ВСТ",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-14",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Печать посланника"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-15",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Путевой посох"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-16",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-17",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-18",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-19",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-20",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-21",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-22",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-23",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-24",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-25",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-26",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-27",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-28",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-29",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 7,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-30",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-31",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Общение",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-32",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-33",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ВСТ-34",
+      "deck": "ВСТ",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-01",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-02",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-03",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-04",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-05",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 8,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-06",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-07",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-08",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-09",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-10",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-11",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-12",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-13",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 10,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-14",
+      "deck": "ИСП",
+      "template": "1Х",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "difficulty": 10,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-15",
+      "deck": "ИСП",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "difficulty": 10,
+          "reward": "Пояс великана"
+        },
+        {
+          "attribute": "Воля",
+          "difficulty": 8,
+          "reward": "Доверие"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-16",
+      "deck": "ИСП",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "difficulty": 9,
+          "reward": "Щит странника"
+        },
+        {
+          "attribute": "Сила",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Замедление",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-17",
+      "deck": "ИСП",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "difficulty": 9,
+          "reward": "Браслет поддержки"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": false,
+      "stageEffects": null,
+      "talents": null
+    },
+    {
+      "id": "ИСП-18",
+      "deck": "ИСП",
+      "template": "2Х",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "difficulty": 8,
+          "reward": "Доверие"
+        },
+        {
+          "attribute": "Ловкость",
+          "difficulty": 9,
+          "reward": "Энергия"
+        }
+      ],
+      "failure": "Задержка",
+      "stage": true,
+      "stageEffects": null,
+      "talents": null
+    }
+  ],
+  "sources": {
+    "RULES.md": "d7de6b6b79f90b5675e9fd0facd12e7e86185c28701f0ebe067cc06a64c92081",
+    "GAME_DESIGN.md": "25e08b8fc42e5d01f99fc83a37c5504eeec026c84dccb61abbf3c08f0d9048c5",
+    "WORLD.md": "a60abeb19543bbc4eb451ec512082edd66b8dfd241be496e9fef24d775bfca45",
+    "events/EVENT_SLOT_MATRIX.md": "707aea84d866f861e91314194ef86899371456f8eb319cf9b99a164cafc30e58",
+    "characters/README.md": "33bba49b240db377d4a72045a3df8ac17d3ac7d8786a2e13d51f82441a0d8955",
+    "abilities/README.md": "8c885c5b86976550817508819c42c131b6483853ee33cef49870382684eaa1d5",
+    "items/README.md": "403fdc4dbf08bbcd14996f7a8dfb6acd61d0140b47022bfa0cdb96bda3f65f62",
+    "talents/README.md": "6fc6863c558c7030312a721a4e1efec3d10203dbd83e119f2b9c209a3be7734d",
+    "locations/capitals.md": "043778e599ab842af66cbb0b7cfe968de1cd6a43a1a6b79d772bf8e1d1b0ff2d",
+    "tools/map_data.cjs": "d774db1feea676ba7c5627fcb3b292dbeaf780c2531bb0ea946364a521490ae0"
+  },
+  "assumptions": {
+    "stageDifficultyPenalties": {
+      "ST-NEUTRAL": [
+        0,
+        0,
+        0
+      ],
+      "ST-MODERATE": [
+        0,
+        1,
+        2
+      ],
+      "ST-HARSH": [
+        0,
+        2,
+        4
+      ]
+    },
+    "talentRates": [
+      0,
+      0.25
+    ],
+    "borderTerritory": "alternate POI indices; left/right sensitivity",
+    "entryPlacement": "all at mirrored port; placement rule remains unresolved",
+    "conditionReapplication": "union of scheduled affected days; scenario assumption"
+  }
+}

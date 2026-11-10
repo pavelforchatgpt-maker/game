@@ -1,0 +1,18 @@
+{
+  "errors": [],
+  "optimum": 13,
+  "routeCounts": {
+    "13": 1,
+    "14": 24,
+    "15": 226
+  },
+  "bridges": [],
+  "articulation": [],
+  "similar": [
+    [
+      "A-7",
+      "B-3"
+    ]
+  ],
+  "links": 37
+}
