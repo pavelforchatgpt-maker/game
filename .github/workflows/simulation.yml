@@ -43,6 +43,9 @@ jobs:
             simulation/v2/successful-3.json \
             simulation/v2/successful-4.json
 
+      - name: Exact capital probability audit
+        run: node simulation/analysis/capital_probability_v3.cjs
+
       - name: Render V2 report
         run: node simulation/v2/render_report.cjs
 
@@ -55,4 +58,6 @@ jobs:
             simulation/v2/bounds.json
             simulation/v2/validation.json
             simulation/v2/verified-facts.json
+            simulation/analysis/capital-audit/CAPITAL_PROBABILITY_AUDIT_V3.md
+            simulation/analysis/capital-audit/capital_probability.json
           if-no-files-found: error
