@@ -1,0 +1,63 @@
+name: Shared bonus activation candidate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/shared-bonus-candidate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  p2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/shared_bonus_candidate.cjs 2 together 128
+      - uses: actions/upload-artifact@v4
+        with: { name: shared-bonus-p2, path: simulation/analysis/candidate-shared-bonus/*.json }
+  p3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/shared_bonus_candidate.cjs 3 together 128
+      - uses: actions/upload-artifact@v4
+        with: { name: shared-bonus-p3, path: simulation/analysis/candidate-shared-bonus/*.json }
+  p4t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/shared_bonus_candidate.cjs 4 together 128
+      - uses: actions/upload-artifact@v4
+        with: { name: shared-bonus-p4t, path: simulation/analysis/candidate-shared-bonus/*.json }
+  p4s:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/shared_bonus_candidate.cjs 4 split 128
+      - uses: actions/upload-artifact@v4
+        with: { name: shared-bonus-p4s, path: simulation/analysis/candidate-shared-bonus/*.json }
+  p4d:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/shared_bonus_candidate.cjs 4 dynamic 128
+      - uses: actions/upload-artifact@v4
+        with: { name: shared-bonus-p4d, path: simulation/analysis/candidate-shared-bonus/*.json }
