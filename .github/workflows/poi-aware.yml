@@ -1,0 +1,58 @@
+name: POI-aware counterfactual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/poi_aware_counterfactual.cjs"
+      - ".github/workflows/poi-aware.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            shift: 0
+            trust: 0
+            tag: 2-base-t0
+          - players: 2
+            shift: -2
+            trust: 0
+            tag: 2-scaled-t0
+          - players: 2
+            shift: -2
+            trust: 1
+            tag: 2-scaled-t1
+          - players: 3
+            shift: 0
+            trust: 0
+            tag: 3-base-t0
+          - players: 3
+            shift: -1
+            trust: 0
+            tag: 3-scaled-t0
+          - players: 3
+            shift: -1
+            trust: 1
+            tag: 3-scaled-t1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run POI-aware test
+        run: node simulation/analysis/poi_aware_counterfactual.cjs ${{ matrix.players }} ${{ matrix.shift }} ${{ matrix.trust }} 256
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: poi-aware-${{ matrix.tag }}
+          path: simulation/analysis/poi-aware/*.json
+          if-no-files-found: error
