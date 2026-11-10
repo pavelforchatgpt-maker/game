@@ -36,7 +36,18 @@ function selectProblem(s,ci){const c=s.capitals[ci],need=3-s.trust[caps[ci].nati
 function plan(s){if(s.terminal)return;R.regroup(s);if(!s.deadMarked){const remaining=s.capitals.filter(c=>!c.stable).length,slots=(21-s.day)*(s.n===4?2:1)+s.heroes.filter(h=>h.ability===9&&!h.once).length;if(remaining>slots){s.deadMarked=true;metric(s,'provenCapitalBudgetDead');metric(s,'provenCapitalBudgetDeadDay',s.day);}}if(s.tree.started){if(s.tree.retryDay>s.day){advance(s);return;}s.phase='final';return;}
  if(s.n===4&&s.groups.length===1&&(s.options.group==='split'||s.options.group==='mixed'&&s.day>=6)&&!allStable(s)&&s.heroes.every(h=>!h.acted)&&new Set(s.heroes.map(h=>h.tile)).size===1)K.split(s);
  if(allStable(s)&&s.heroes.every(h=>h.tile==='C-1'))K.merge(s);
- let g=s.bonus;s.isBonus=!!g;if(g)s.bonus=null;else {g=s.groups.find(g=>g.some(i=>!s.heroes[i].acted));if(!g){advance(s);return;}g=g.filter(i=>!s.heroes[i].acted);if(g.length<2)throw Error('singleton activation');K.activate(s,g);}
+ let g=s.bonus;s.isBonus=!!g;if(g)s.bonus=null;else {
+   g=s.groups.find(g=>g.some(i=>!s.heroes[i].acted));
+   if(!g&&s.options?.teamDailyBonusActivations===1&&s.teamDailyBonusDay!==s.day){
+     // One shared team bonus activation after all normal group activations.
+     // Choose the group with the least route slack (most urgent remaining work).
+     g=s.groups.slice().sort((a,b)=>R.score(s,a).slack-R.score(s,b).slack)[0];
+     s.isBonus=true;s.teamDailyBonusDay=s.day;metric(s,'diagnosticTeamBonusActivation');
+   } else {
+     if(!g){advance(s);return;}
+     g=g.filter(i=>!s.heroes[i].acted);if(g.length<2)throw Error('singleton activation');K.activate(s,g);
+   }
+ }
  s.active=[...g];s.policyCrossings=[];s.activationId=(s.activationId||0)+1;s.audit.push({type:'activation',id:s.activationId,group:g,positions:s.heroes.map(h=>[h.tile,h.cell]),energy:s.energy,trust:{...s.trust}});E.recover(s);s.mode='explore';const t=s.heroes[g[0]].tile,ci=caps.findIndex(c=>c.tile===t);if(ci>=0&&!s.capitals[ci].stable&&ownCapital(s,ci)&&g.every(i=>geo.tiles[t].city.includes(s.heroes[i].cell))&&s.capitals[ci].retryDay<=s.day){s.mode='capital';s.audit.push({type:'help',tile:t});metric(s,'capitalActivations');}
  else metric(s,'travelActivations');s.rollIndex=0;s.budget={};s.walk=0;s.phase='rollMove';}
 function move(s){const t=s.heroes[s.active[0]].tile,ci=caps.findIndex(c=>c.tile===t);
