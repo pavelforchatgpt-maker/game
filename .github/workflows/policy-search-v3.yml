@@ -1,0 +1,46 @@
+name: Policy search V3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/v2/route.cjs"
+      - "simulation/v2/engine.cjs"
+      - "simulation/v3/**"
+      - ".github/workflows/policy-search-v3.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  search:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - players: 2
+            group: together
+          - players: 3
+            group: together
+          - players: 4
+            group: together
+          - players: 4
+            group: split
+          - players: 4
+            group: dynamic
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run V3 policy search
+        run: node simulation/v3/policy_search.cjs ${{ matrix.players }} ${{ matrix.group }}
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: v3-${{ matrix.players }}-${{ matrix.group }}
+          path: simulation/v3/results/${{ matrix.players }}-${{ matrix.group }}.json
+          if-no-files-found: error
