@@ -1,0 +1,28 @@
+name: Capital difficulty counterfactual
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/capital-shift-quick.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run counterfactual
+        run: node simulation/analysis/capital_shift_counterfactual.cjs 24 940000
+      - uses: actions/upload-artifact@v4
+        with:
+          name: capital-shift-quick
+          path: simulation/analysis/capital-shift/quick.json
+          if-no-files-found: error
