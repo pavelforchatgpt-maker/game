@@ -1,0 +1,53 @@
+name: Low-player activation economy diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/activation-economy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  p2-c2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 2 together -2 0 2 96
+      - uses: actions/upload-artifact@v4
+        with: { name: activation-p2-c2, path: simulation/analysis/deadline-cdf/*.json }
+  p2-c1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 2 together -2 0 1 96
+      - uses: actions/upload-artifact@v4
+        with: { name: activation-p2-c1, path: simulation/analysis/deadline-cdf/*.json }
+  p3-c2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 3 together -1 0 2 96
+      - uses: actions/upload-artifact@v4
+        with: { name: activation-p3-c2, path: simulation/analysis/deadline-cdf/*.json }
+  p3-c1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/deadline_cdf.cjs 3 together -1 0 1 96
+      - uses: actions/upload-artifact@v4
+        with: { name: activation-p3-c1, path: simulation/analysis/deadline-cdf/*.json }
