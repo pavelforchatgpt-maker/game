@@ -20,12 +20,12 @@ function tally(r){
  if(x.poi!==x.afterPoi)throw Error('POI continuation count inconsistent '+r.seed);
  return x;
 }
-const modes=['marginal','trust1','cut05','cut07','cut09','cut11','cut13','cut15','cut17','cut19','cut20'];
-const mode=process.argv[2]||'cut13',samples=+(process.argv[3]||512),seedOffset=+(process.argv[4]||0);
+const modes=['marginal','trust1','cut05','cut07','cut09','cut11','cut12','cut13','cut14','cut15','cut17','cut19','cut20'];
+const mode=process.argv[2]||'cut13',samples=+(process.argv[3]||512),seedOffset=+(process.argv[4]||0),st=process.argv[5]||'ST-NEUTRAL';
 if(!modes.includes(mode)||!(samples>0))throw Error('Unsupported mode '+mode);
 const opts={players:3,group:'together',experiment:'ordinary',planner:'global',poiAware:true,resourceAware:true,
  poiStrategy:mode==='marginal'?'marginal':'legacy',
- st:'ST-NEUTRAL',talentRate:0,horizon:50,
+ st,talentRate:0,horizon:50,
  capitalDifficultyShift:-3,teamDailyBonusActivations:1,teamBonusSkipCadence:6,
  poiContinueMovement:true};
 if(mode!=='marginal'){opts.trustTarget=1;if(mode.startsWith('cut'))opts.poiTrustUntilDay=Number(mode.slice(3));}
@@ -52,11 +52,11 @@ function group(a){return {n:a.length,poiMean:mean(a.map(x=>x.work.poi)),poiMedia
  firstOver210:a.length?a.filter(x=>x.duration.firstPlay>210).length/a.length:null,
  normalOver180:a.length?a.filter(x=>x.duration.normal>180).length/a.length:null};
 }
-const out={mode,samples,seedOffset,opts,wins:wins.length,winRate:wins.length/samples,win95:wilson(wins.length,samples),
+const out={mode,samples,seedOffset,st,opts,wins:wins.length,winRate:wins.length/samples,win95:wilson(wins.length,samples),
  all:group(rows),winning:group(wins),losing:group(losses),
  targets:{winRateMin:.45,winningPOIMin:16,winningPOIMax:18,firstPlayMaxMinutes:210},
  targetSatisfied:wins.length/samples>=.45&&mean(wins.map(x=>x.work.poi))>=16&&mean(wins.map(x=>x.work.poi))<=18&&mean(rows.map(x=>x.duration.firstPlay))<=210,
  note:'Noncanonical planner exploration target timing; fixed 20-day deadline and Variant A movement rule. First-play durations are estimates, not measured.'};
 const dir=path.join(__dirname,'variant-a-3p-horizon');fs.mkdirSync(dir,{recursive:true});
-fs.writeFileSync(path.join(dir,mode+'-'+seedOffset+'.json'),JSON.stringify(out,null,2));
+fs.writeFileSync(path.join(dir,mode+'-'+seedOffset+'-'+st+'.json'),JSON.stringify(out,null,2));
 console.log(JSON.stringify(out,null,2));
