@@ -1,0 +1,33 @@
+name: Candidate F scaled-capital workload
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/candidate_f_scaled_capitals.cjs"
+      - ".github/workflows/candidate-f-scaled-capitals.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, shift: 0 }
+          - { players: 2, shift: -1 }
+          - { players: 2, shift: -2 }
+          - { players: 3, shift: 0 }
+          - { players: 3, shift: -1 }
+          - { players: 3, shift: -2 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_f_scaled_capitals.cjs ${{ matrix.players }} ${{ matrix.shift }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-f-${{ matrix.players }}p-s${{ matrix.shift }}
+          path: simulation/analysis/candidate-f-scaled-capitals/*.json
