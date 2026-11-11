@@ -35,3 +35,4 @@ const out={
 };
 const dir=path.join(__dirname,'candidate-f-scaled-capitals');fs.mkdirSync(dir,{recursive:true});
 fs.writeFileSync(path.join(dir,players+'p-s'+shift+'.json'),JSON.stringify(out,null,2));console.log(JSON.stringify(out,null,2));
+// trigger workflow registration
