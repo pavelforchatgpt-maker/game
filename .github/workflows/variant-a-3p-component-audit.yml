@@ -1,0 +1,42 @@
+name: Variant A - 35 day component audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-3p-component-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mode: all, offset: 0, talent: 0 }
+          - { mode: all, offset: 7000000, talent: 0 }
+          - { mode: noAbilities, offset: 0, talent: 0 }
+          - { mode: noAbilities, offset: 7000000, talent: 0 }
+          - { mode: noItems, offset: 0, talent: 0 }
+          - { mode: noItems, offset: 7000000, talent: 0 }
+          - { mode: noHelp, offset: 0, talent: 0 }
+          - { mode: noHelp, offset: 7000000, talent: 0 }
+          - { mode: noAbilityItem, offset: 0, talent: 0 }
+          - { mode: noAbilityItem, offset: 7000000, talent: 0 }
+          - { mode: bare, offset: 0, talent: 0 }
+          - { mode: bare, offset: 7000000, talent: 0 }
+          - { mode: all, offset: 0, talent: 0.2 }
+          - { mode: noAbilities, offset: 0, talent: 0.2 }
+          - { mode: noItems, offset: 0, talent: 0.2 }
+          - { mode: noHelp, offset: 0, talent: 0.2 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_3p_component_audit.cjs ${{ matrix.mode }} 512 ${{ matrix.offset }} ${{ matrix.talent }} ST-NEUTRAL
+      - uses: actions/upload-artifact@v4
+        with:
+          name: component-${{ matrix.mode }}-${{ matrix.offset }}-${{ matrix.talent }}
+          path: simulation/analysis/variant-a-3p-component-audit/*.json
