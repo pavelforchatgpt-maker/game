@@ -1,0 +1,45 @@
+name: Activation component diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/activation_components.cjs"
+      - ".github/workflows/activation-components.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, mode: control }
+          - { players: 2, mode: travel }
+          - { players: 2, mode: explore }
+          - { players: 2, mode: capital }
+          - { players: 2, mode: full }
+          - { players: 3, mode: control }
+          - { players: 3, mode: travel }
+          - { players: 3, mode: explore }
+          - { players: 3, mode: capital }
+          - { players: 3, mode: full }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Kernel tests
+        run: node simulation/tests/kernel.test.cjs
+      - name: Effects tests
+        run: node simulation/tests/effects.test.cjs
+      - run: node simulation/analysis/activation_components.cjs ${{ matrix.players }} ${{ matrix.mode }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: activation-${{ matrix.players }}p-${{ matrix.mode }}
+          path: simulation/analysis/activation-components/${{ matrix.players }}p-${{ matrix.mode }}.json
