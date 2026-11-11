@@ -171,3 +171,15 @@ Conclusion: local movement speed alone is not the main bottleneck. Even +2 for 2
 Candidate B = one shared team bonus activation/day + capital DC -2 for 2/3p + pair DC -1 for 4p; group-of-4 capital DC unchanged. Final DC, energy, map, movement and Day 20 unchanged.
 
 This currently gives the desired strategic asymmetry: 4 together remains weaker while reasonable 2p/3p/4p split strategies cluster near 57–63%. Workload metrics show the bonus mostly increases movement/throughput rather than POI count, so duration must be measured physically rather than assumed to scale linearly with activation count.
+
+
+## 2026-11-11 — Reduced-activation balance candidate
+
+A 512-run validation produced the current best diagnostic balance profile without changing the 20-day deadline:
+- 2p: bonus activation 3/4 days, capital DC -3 → 57.8% win, 32.55 activations;
+- 3p: bonus activation 5/6 days, capital DC -3 → 55.1%, 34.19 activations;
+- 4p split: shared bonus every 2nd day, pair capital DC -2 → 59.4%, 45.25 activations;
+- 4p dynamic: same → 62.5%, 44.74 activations;
+- 4p together: same global 4p schedule but no pair DC shift while together → 1.0%, intentionally inefficient per approved design direction.
+
+Compared with Candidate B, workload falls about 6–16% depending on configuration while preserving the intended ~55–63% win corridor for 2p/3p/4p split/dynamic. This remains diagnostic only; physical duration is not established and canonical rules are unchanged. See simulation/analysis/REDUCED_ACTIVATION_BALANCE_CANDIDATE.md.
