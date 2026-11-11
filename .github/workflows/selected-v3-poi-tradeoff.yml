@@ -1,0 +1,39 @@
+name: Selected V3 POI tradeoff
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/selected-v3-poi-tradeoff.yml"
+      - "simulation/analysis/selected_poi_tradeoff.cjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, group: together, variant: legacy }
+          - { players: 2, group: together, variant: marginal }
+          - { players: 2, group: together, variant: trust1 }
+          - { players: 2, group: together, variant: trust2 }
+          - { players: 3, group: together, variant: legacy }
+          - { players: 3, group: together, variant: marginal }
+          - { players: 3, group: together, variant: trust1 }
+          - { players: 3, group: together, variant: trust2 }
+          - { players: 4, group: split, variant: legacy }
+          - { players: 4, group: split, variant: marginal }
+          - { players: 4, group: split, variant: trust1 }
+          - { players: 4, group: split, variant: trust2 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/selected_poi_tradeoff.cjs ${{ matrix.players }} ${{ matrix.group }} ${{ matrix.variant }} 384
+      - uses: actions/upload-artifact@v4
+        with:
+          name: selected-poi-${{ matrix.players }}-${{ matrix.group }}-${{ matrix.variant }}
+          path: simulation/analysis/poi-tradeoff/*.json
