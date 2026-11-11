@@ -1,0 +1,26 @@
+name: Variant A - 3p exploration horizon search
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-3p-horizon.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  search:
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [marginal, trust1, cut05, cut07, cut09, cut11, cut13, cut15, cut17, cut19, cut20]
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_3p_exploration_horizon.cjs ${{ matrix.mode }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: variant-a-horizon-${{ matrix.mode }}
+          path: simulation/analysis/variant-a-3p-horizon/*.json
