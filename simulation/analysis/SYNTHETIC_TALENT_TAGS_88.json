@@ -1,0 +1,1271 @@
+{
+  "status": "NONCANONICAL SYNTHETIC TALENT-ELIGIBILITY DRAFT, not author-approved scenes",
+  "description": "Provides 1 or 2 candidate talent IDs per mechanical event path, strictly matching the attribute. Used only for provisional balancing. Text of scene, actual applicability and city tasks have not yet been written.",
+  "talentNames": [
+    "Атлет",
+    "Скалолаз",
+    "Акробат",
+    "Ловкие руки",
+    "Мастер механизмов",
+    "Наблюдательный",
+    "Хладнокровный",
+    "Выносливый",
+    "Дипломат",
+    "Чуткий",
+    "Следопыт",
+    "Выживальщик"
+  ],
+  "attributes": {
+    "Сила": {
+      "paths": 24,
+      "tags": 24
+    },
+    "Ловкость": {
+      "paths": 25,
+      "tags": 37
+    },
+    "Разум": {
+      "paths": 26,
+      "tags": 27
+    },
+    "Воля": {
+      "paths": 25,
+      "tags": 25
+    },
+    "Общение": {
+      "paths": 27,
+      "tags": 27
+    }
+  },
+  "talentCounts": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 11,
+    "6": 11,
+    "7": 10,
+    "8": 10,
+    "9": 14,
+    "10": 13,
+    "11": 12,
+    "12": 11
+  },
+  "cards": [
+    {
+      "id": "ИСС-01",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-02",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-03",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-04",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-05",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-06",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-07",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-08",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-09",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-10",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-11",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-12",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-13",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-14",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-15",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-16",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-17",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-18",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-19",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-20",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-21",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-22",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            11,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-23",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-24",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-25",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-26",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4,
+            11
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-27",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-28",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            2
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-29",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-30",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-31",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-32",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-33",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-34",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-35",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСС-36",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-01",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-02",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-03",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-04",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-05",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-06",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-07",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-08",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-09",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-10",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-11",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-12",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-13",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-14",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-15",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-16",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            12
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-17",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-18",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-19",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-20",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            12
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-21",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-22",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4,
+            3
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-23",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-24",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-25",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            12
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-26",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-27",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3,
+            11
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-28",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-29",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-30",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-31",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        },
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-32",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-33",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        },
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ВСТ-34",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-01",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-02",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-03",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-04",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-05",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-06",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-07",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-08",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-09",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-10",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-11",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-12",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-13",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-14",
+      "paths": [
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-15",
+      "paths": [
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        },
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-16",
+      "paths": [
+        {
+          "attribute": "Воля",
+          "talents": [
+            7
+          ]
+        },
+        {
+          "attribute": "Сила",
+          "talents": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-17",
+      "paths": [
+        {
+          "attribute": "Разум",
+          "talents": [
+            6
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ИСП-18",
+      "paths": [
+        {
+          "attribute": "Общение",
+          "talents": [
+            9
+          ]
+        },
+        {
+          "attribute": "Ловкость",
+          "talents": [
+            3,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}
