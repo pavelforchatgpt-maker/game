@@ -1,0 +1,35 @@
+name: Candidate G partial bonus cadence
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/candidate_g_partial_cadence.cjs"
+      - ".github/workflows/candidate-g-partial-cadence.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, skip: 3, shift: -2 }
+          - { players: 2, skip: 3, shift: -3 }
+          - { players: 2, skip: 4, shift: -2 }
+          - { players: 2, skip: 4, shift: -3 }
+          - { players: 3, skip: 3, shift: -2 }
+          - { players: 3, skip: 3, shift: -3 }
+          - { players: 3, skip: 4, shift: -2 }
+          - { players: 3, skip: 4, shift: -3 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_g_partial_cadence.cjs ${{ matrix.players }} ${{ matrix.skip }} ${{ matrix.shift }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-g-${{ matrix.players }}p-skip${{ matrix.skip }}-s${{ matrix.shift }}
+          path: simulation/analysis/candidate-g-partial-cadence/*.json
