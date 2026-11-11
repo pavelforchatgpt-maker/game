@@ -10,11 +10,12 @@ function wilson(w,n){if(!n)return [0,0];const z=1.96,p=w/n,d=1+z*z/n,m=(p+z*z/(2
 function count(r,type,day,fn=()=>true){return (r.ledger||[]).reduce((a,d)=>a+(d.day<=day?(d.events||[]).filter(e=>e.type===type&&fn(e)).length:0),0);}
 const days=+(process.argv[2]||35),policy=process.argv[3]||'trust1',samples=+(process.argv[4]||512),
  talentRate=+(process.argv[5]||0),st=process.argv[6]||'ST-NEUTRAL',seedOffset=+(process.argv[7]||0),capitalShift=process.argv[8]===undefined?-3:Number(process.argv[8]),stageScaleWithHorizon=process.argv[9]==='scaled';
-if(days<20||days>50||!['trust1','cut13','legacy','marginal'].includes(policy)||samples<1||talentRate<0||talentRate>1)throw Error('invalid args');
+if(days<20||days>50||!['trust1','trust2','cut13','legacy','marginal'].includes(policy)||samples<1||talentRate<0||talentRate>1)throw Error('invalid args');
 const base={players:3,group:'together',experiment:'ordinary',planner:'global',poiAware:true,resourceAware:true,
  poiContinueMovement:true,st,talentRate,horizon:days,poiStrategy:policy==='marginal'?'marginal':'legacy',
  capitalDifficultyShift:capitalShift,stageScaleWithHorizon};
 if(policy==='trust1'||policy==='cut13')base.trustTarget=1;
+if(policy==='trust2')base.trustTarget=2;
 if(policy==='cut13')base.poiTrustUntilDay=13;
 // No teamDailyBonusActivations, no lowPlayerExtraCadence, no group activation slots.
 // Ability 9 may still create its one canonically defined extra activation.
