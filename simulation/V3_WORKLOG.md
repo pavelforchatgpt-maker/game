@@ -157,3 +157,17 @@ Results (512 each):
 - 4p split control: 1.6% win.
 
 Conclusion: local movement speed alone is not the main bottleneck. Even +2 for 2p does not create a viable win corridor. The next diagnostic should decompose the value of a full extra activation into travel/exploration vs POI resolution vs capital work and identify the smallest throughput compensation for low-player games. Canonical movement remains unchanged.
+
+
+## 2026-11-11 — Candidate B large validation
+
+512-run ST-NEUTRAL validation with approved hero-profile combinations cycled:
+- 2p together: 59.2% win, mean win Day 17.48;
+- 3p together: 57.2%, Day 17.91;
+- 4p together: 26.6%, Day 18.77;
+- 4p split: 62.7%, Day 17.55;
+- 4p dynamic: 60.7%, Day 17.56.
+
+Candidate B = one shared team bonus activation/day + capital DC -2 for 2/3p + pair DC -1 for 4p; group-of-4 capital DC unchanged. Final DC, energy, map, movement and Day 20 unchanged.
+
+This currently gives the desired strategic asymmetry: 4 together remains weaker while reasonable 2p/3p/4p split strategies cluster near 57–63%. Workload metrics show the bonus mostly increases movement/throughput rather than POI count, so duration must be measured physically rather than assumed to scale linearly with activation count.
