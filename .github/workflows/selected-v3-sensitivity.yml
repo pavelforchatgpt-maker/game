@@ -1,0 +1,40 @@
+name: Selected V3 sensitivity
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/selected-v3-sensitivity.yml"
+      - "simulation/analysis/selected_candidate_sensitivity.cjs"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sensitivity:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, group: together, st: ST-NEUTRAL }
+          - { players: 2, group: together, st: ST-MODERATE }
+          - { players: 2, group: together, st: ST-HARSH }
+          - { players: 3, group: together, st: ST-NEUTRAL }
+          - { players: 3, group: together, st: ST-MODERATE }
+          - { players: 3, group: together, st: ST-HARSH }
+          - { players: 4, group: split, st: ST-NEUTRAL }
+          - { players: 4, group: split, st: ST-MODERATE }
+          - { players: 4, group: split, st: ST-HARSH }
+          - { players: 4, group: dynamic, st: ST-NEUTRAL }
+          - { players: 4, group: dynamic, st: ST-MODERATE }
+          - { players: 4, group: dynamic, st: ST-HARSH }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Run selected diagnostic
+        run: node simulation/analysis/selected_candidate_sensitivity.cjs ${{ matrix.players }} ${{ matrix.group }} ${{ matrix.st }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: selected-sensitivity-${{ matrix.players }}-${{ matrix.group }}-${{ matrix.st }}
+          path: simulation/analysis/selected-candidate-sensitivity/*.json
