@@ -39,7 +39,8 @@ function plan(s){if(s.terminal)return;R.regroup(s);if(!s.deadMarked){const remai
  let g=s.bonus;s.isBonus=!!g;if(g)s.bonus=null;else {
    g=s.groups.find(g=>g.some(i=>!s.heroes[i].acted));
    const teamBonusCadence=s.options?.teamBonusCadence||1;
-   const teamBonusEligible=s.day%teamBonusCadence===0;
+   const teamBonusSkipCadence=s.options?.teamBonusSkipCadence||0;
+   const teamBonusEligible=teamBonusSkipCadence? s.day%teamBonusSkipCadence!==0 : s.day%teamBonusCadence===0;
    if(!g&&s.options?.teamDailyBonusActivations===1&&teamBonusEligible&&s.teamDailyBonusDay!==s.day){
      // Diagnostic shared team bonus activation after all normal group activations.
      // teamBonusCadence=1 preserves the previous daily diagnostic behaviour.
