@@ -1,0 +1,34 @@
+name: Candidate G 3p refinement
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/candidate_g_3p_refine.cjs"
+      - ".github/workflows/candidate-g-3p-refine.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { skip: 4, shift: -4 }
+          - { skip: 5, shift: -2 }
+          - { skip: 5, shift: -3 }
+          - { skip: 5, shift: -4 }
+          - { skip: 6, shift: -2 }
+          - { skip: 6, shift: -3 }
+          - { skip: 6, shift: -4 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_g_3p_refine.cjs ${{ matrix.skip }} ${{ matrix.shift }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-g3-skip${{ matrix.skip }}-s${{ matrix.shift }}
+          path: simulation/analysis/candidate-g-3p-refine/*.json
