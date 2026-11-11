@@ -1,0 +1,34 @@
+name: Variant A 3p - per-hero synthetic talent test
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-synthetic-talents.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { choice: rational, offset: 0, st: ST-NEUTRAL }
+          - { choice: rational, offset: 7000000, st: ST-NEUTRAL }
+          - { choice: cyclic, offset: 0, st: ST-NEUTRAL }
+          - { choice: cyclic, offset: 7000000, st: ST-NEUTRAL }
+          - { choice: rational, offset: 0, st: ST-MODERATE }
+          - { choice: cyclic, offset: 0, st: ST-MODERATE }
+          - { choice: rational, offset: 0, st: ST-HARSH }
+          - { choice: cyclic, offset: 0, st: ST-HARSH }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_no_bonus_day_count.cjs 35 trust1 512 0 ${{ matrix.st }} ${{ matrix.offset }} -3 scaled synthetic ${{ matrix.choice }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-talent-${{ matrix.choice }}-${{ matrix.st }}-${{ matrix.offset }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
