@@ -1,5 +1,17 @@
 const R=require('./route.cjs');const K=require('./kernel.cjs'),E=require('./effects.cjs'),{cfg,geo,clone}=K;
 const cards=Object.fromEntries(cfg.cards.map(c=>[c.id,c]));
+// Never canonical: synthetic tags only for explicit talentModel='synthetic' diagnostics.
+const syntheticTags=require('../analysis/SYNTHETIC_TALENT_TAGS_88.json');
+const syntheticByCard=Object.fromEntries(syntheticTags.cards.map(c=>[c.id,c.paths]));
+function chooseSyntheticTalent(h,i,options){
+ if(options.talents?.[i])return options.talents[i];
+ if(options.talentChoice==='cyclic')return (h.profile*5+i*3)%12+1;
+ const scores=Array(13).fill(0);
+ for(const card of syntheticTags.cards)for(const path of card.paths)
+  for(const id of path.talents)scores[id]+=Math.max(1,h.attributes[path.attribute]-3);
+ let best=1;for(let id=2;id<=12;id++)if(scores[id]>scores[best])best=id;
+ return best;
+}
 const caps=[
  {tile:'A-3',nation:'Рост',problems:[{cells:[10],paths:[['Разум',9],['Воля',9]]},{cells:[4],paths:[['Сила',8],['Ловкость',9]]},{cells:[19],paths:[['Общение',9],['Разум',10]]}]},
  {tile:'A-5',nation:'Поток',problems:[{cells:[10,14],paths:[['Разум',10],['Ловкость',10]]},{cells:[11],paths:[['Сила',9],['Разум',9]]},{cells:[17],paths:[['Ловкость',9],['Общение',9]]}]},
@@ -11,7 +23,7 @@ const direct={'A-1':'wild','B-1':'wild','A-3':'Рост','B-2':'Рост','A-5':
 const border={'A-2':['wild','Рост'],'A-4':['Рост','Поток'],'A-6':['Поток','Искра'],'A-8':['Искра','Слово'],'A-10':['Слово','Камень'],'A-12':['Камень','wild']};
 // Explicit scenario assumption, not a canonical assignment of territorial cells.
 function territory(tile,cell,mode='alternate'){return direct[tile]||(border[tile]?border[tile][mode==='left'?0:mode==='right'?1:geo.tiles[tile].poi.findIndex(p=>p[0]===cell)%2]:null);}
-function initial(n,options){let s=K.initial(n,options.profiles||[1,6,4,8]);s.capitals=caps.map(()=>({stable:false,solved:[false,false,false],leaders:[null,null,null],retryDay:0}));s.options=options;if(options.disableAbilities||options.disableItems)s.heroes.forEach(h=>{h.disableAbilities=!!options.disableAbilities;h.disableItems=!!options.disableItems;});if(options.heroOrder)s.groups=[options.heroOrder];s.jobs={};s.metrics={};if(options.abilities)s.heroes.forEach((h,i)=>h.ability=options.abilities[i]);if(options.abilityMode==='time')s.heroes[0].ability=9;if(options.abilityMode==='mobility')s.heroes.forEach((h,i)=>h.ability=i%2?3:8);if(options.earlyDelay)s.heroes.forEach(h=>h.delay=3);if(!options.abilities&&!options.abilityMode){s.phase='draft';s.abilityDeck=Array.from({length:20},(_,i)=>i+1);s.abilityOffer=[];s.draftHero=0;}return s;}
+function initial(n,options){let s=K.initial(n,options.profiles||[1,6,4,8]);s.capitals=caps.map(()=>({stable:false,solved:[false,false,false],leaders:[null,null,null],retryDay:0}));s.options=options;if(options.talentModel==='synthetic')s.heroes.forEach((h,i)=>h.talent=chooseSyntheticTalent(h,i,options));if(options.disableAbilities||options.disableItems)s.heroes.forEach(h=>{h.disableAbilities=!!options.disableAbilities;h.disableItems=!!options.disableItems;});if(options.heroOrder)s.groups=[options.heroOrder];s.jobs={};s.metrics={};if(options.abilities)s.heroes.forEach((h,i)=>h.ability=options.abilities[i]);if(options.abilityMode==='time')s.heroes[0].ability=9;if(options.abilityMode==='mobility')s.heroes.forEach((h,i)=>h.ability=i%2?3:8);if(options.earlyDelay)s.heroes.forEach(h=>h.delay=3);if(!options.abilities&&!options.abilityMode){s.phase='draft';s.abilityDeck=Array.from({length:20},(_,i)=>i+1);s.abilityOffer=[];s.draftHero=0;}return s;}
 function publicView(s){return {day:s.day,stage:s.stage,opened:s.opened,heroes:s.heroes,trust:s.trust,energy:s.energy,capitals:s.capitals,tree:s.tree,used:s.used,visibleTiles:Object.fromEntries(s.opened.map(id=>[id,geo.tiles[id]])),card:s.card?cards[s.card]:null};}
 const metric=(s,k,v=1)=>s.metrics[k]=(s.metrics[k]||0)+v;function advance(s){s.audit.push({type:'dayEnd',day:s.day});K.nextDay(s);}
 function branch(s,values,fn){return values.map(([value,p])=>{const t=clone(s);t.metrics={...s.metrics};fn(t,value);return {state:t,p};});}
@@ -80,9 +92,18 @@ function step(input){let s=clone(input);s.metrics={};s.audit=[];for(let guard=0;
  if(s.phase==='draw'){const i=s.event.hero;if(E.ready(s.heroes[i],16)&&s.decks[s.event.deck].bag.length+s.decks[s.event.deck].bottom.length>=2){E.use(s,i,16);s.whisper=true;}return K.draw(s.decks[s.event.deck]).map(d=>{const t=clone(s);t.decks[s.event.deck]=d.deck;t.card=d.id;t.phase=t.whisper?'drawSecond':'event';return {state:t,p:d.p};});}
  if(s.phase==='drawSecond'){return K.draw(s.decks[s.event.deck]).map(d=>{const t=clone(s);t.decks[s.event.deck]=d.deck;const value=id=>Math.max(...cards[id].paths.map(p=>probability(t.heroes[t.event.hero].attributes[p.attribute],p.difficulty)));const keep=value(d.id)>value(t.card)?d.id:t.card;K.putBottom(t.decks[t.event.deck],keep===d.id?t.card:d.id);t.card=keep;delete t.whisper;t.phase='event';return {state:t,p:d.p};});}
  if(s.phase==='event'){const card=cards[s.card],hero=s.event.hero,h=s.heroes[hero],pi=pathIndex(s,card.paths,hero),p=card.paths[pi];const helper=s.options.disableHelp?null:E.helper(s,hero,true);if(helper){metric(s,'eventAllyHelp');metric(s,'eventAllyHelp_'+helper.effect);}let n=helper?2:1,mod=bonus(s,hero,p.attribute);if(helper&&helper.effect!=='ring'&&E.itemReady(s.heroes[helper.i],'Путевой посох')){E.item(s,helper.i,'Путевой посох');mod++;}if(E.ready(h,11)&&n<3){E.use(s,hero,11);n++;}metric(s,'attribute_'+p.attribute);s.pending={pi,mod,n,helper:helper?.i??null};s.phase='eventRoll';continue;}
- if(s.phase==='eventRoll'){const card=cards[s.card],p=card.paths[s.pending.pi],hero=s.event.hero;const talent=s.options.talentRate||0;let rolls=E.diceOptions(s,hero,s.pending.n,{ordinary:true});
+ if(s.phase==='eventRoll'){const card=cards[s.card],p=card.paths[s.pending.pi],hero=s.event.hero;const talent=s.options.talentRate||0;
+ const synthetic=s.options.talentModel==='synthetic';
+ const eligible=synthetic?(syntheticByCard[s.card]?.[s.pending.pi]?.talents||[]):[];
+ const ownBonus=synthetic&&eligible.includes(s.heroes[hero].talent)?1:0;
+ const lender=synthetic&&!ownBonus?s.active.find(i=>i!==hero&&E.ready(s.heroes[i],13)&&eligible.includes(s.heroes[i].talent)&&E.distance(s,i,hero)<=3):undefined;
+ const syntheticBonus=ownBonus||lender!==undefined?1:0;
+ let rolls=E.diceOptions(s,hero,s.pending.n,{ordinary:true});
  const helper=s.pending.helper; if(helper!==null&&E.ready(s.heroes[helper],15))rolls=rolls.flatMap(o=>{if(o.value>0)return [o];E.use(o.state,helper,15);const at=o.dice.indexOf(Math.min(...o.dice));return K.faces.map(([v,q])=>{const dice=[...o.dice];dice[at]=v;return {state:clone(o.state),p:o.p*q,value:Math.max(...dice),dice};});});
- return rolls.flatMap(o=>(talent?[[0,1-talent],[1,talent]]:[[0,1]]).map(([talentBonus,q])=>{const t=clone(o.state);let total=t.heroes[hero].attributes[p.attribute]+s.pending.mod+o.value+talentBonus;if(talentBonus)metric(t,'talentApplied');const penalty=card.stage?cfg.assumptions.stageDifficultyPenalties[s.options.st][s.stage-1]:0;const difficulty=p.difficulty+penalty;const heart=E.heart(t,hero,total,difficulty);total+=heart;
+ return rolls.flatMap(o=>(synthetic?[[syntheticBonus,1]]:talent?[[0,1-talent],[1,talent]]:[[0,1]]).map(([talentBonus,q])=>{const t=clone(o.state);
+ if(lender!==undefined){E.use(t,lender,13);metric(t,'sharedTalent13');}
+ if(synthetic&&ownBonus)metric(t,'ownTalentUsed');
+ let total=t.heroes[hero].attributes[p.attribute]+s.pending.mod+o.value+talentBonus;if(talentBonus)metric(t,'talentApplied');const penalty=card.stage?cfg.assumptions.stageDifficultyPenalties[s.options.st][s.stage-1]:0;const difficulty=p.difficulty+penalty;const heart=E.heart(t,hero,total,difficulty);total+=heart;
  const spend=!heart&&(t.options.aggressiveEnergy?total<difficulty+2:total===difficulty-1&&t.energy>cfg.final.requirements[t.n]);if(spend&&t.energy>0){t.energy--;t.spent++;total++;metric(t,'energySpent');}
  let resolvedReward=null;if(total<difficulty)E.failure(t,hero,card.failure);else{resolvedReward=card.template==='1Х'&&total>=difficulty+2?'Энергия':p.reward;if(t.options.strongSuccessChoice&&card.template==='1Х'&&total>=difficulty+2&&p.reward==='Доверие'){const terr=territory(t.event.tile,t.event.cell,t.options.territory);const target=t.options.trustTargets?.[terr]??t.options.trustTarget??0;if(terr!=='wild'&&target>0&&(t.trust[terr]||0)<target)resolvedReward='Доверие';}const delta=E.award(t,resolvedReward,territory(t.event.tile,t.event.cell,t.options.territory),hero);for(const [k,v]of Object.entries(delta))metric(t,k,v);}
  t.audit.push({type:'eventResult',card:t.card,hero,attribute:p.attribute,difficulty,total,dice:o.dice,bonus:s.pending.mod+talentBonus,reward:resolvedReward,energy:t.energy,trust:{...t.trust}});K.discard(t.decks[t.event.deck],t.card);if(E.ready(t.heroes[hero],1)){const port=chooseExit(t,t.heroes[hero].tile);if(port){E.use(t,hero,1);const remaining=t.budget[hero];t.budget[hero]=1;walk(t,hero,port[0]);t.budget[hero]=t.options.poiContinueMovement?remaining:0;}}
