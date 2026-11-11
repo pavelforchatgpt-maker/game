@@ -1,0 +1,34 @@
+name: Variant A 3p deadline tradeoff
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-3p-deadline.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deadline:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mode: cut13, deadline: 20 }
+          - { mode: cut13, deadline: 21 }
+          - { mode: cut13, deadline: 22 }
+          - { mode: cut13, deadline: 23 }
+          - { mode: trust1, deadline: 20 }
+          - { mode: trust1, deadline: 21 }
+          - { mode: trust1, deadline: 22 }
+          - { mode: trust1, deadline: 23 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_3p_deadline_tradeoff.cjs ${{ matrix.mode }} ${{ matrix.deadline }} 512 7000000 ST-NEUTRAL
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deadline-${{ matrix.mode }}-${{ matrix.deadline }}
+          path: simulation/analysis/variant-a-3p-deadline/*.json
