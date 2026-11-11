@@ -2,14 +2,14 @@
 const K=require('./kernel.cjs');
 const metric=(s,k,v=1)=>s.metrics[k]=(s.metrics[k]||0)+v;
 const tileLimited=new Set([1,5,11,12,16,20]);
-function ready(h,id){return h.ability===id&&!((tileLimited.has(id)?h.tileUses[h.tile]:h.daily)||[]).includes(id);}
+function ready(h,id){return !h.disableAbilities&&h.ability===id&&!((tileLimited.has(id)?h.tileUses[h.tile]:h.daily)||[]).includes(id);}
 function use(s,i,id){const h=s.heroes[i];if(!ready(h,id))throw Error('ability unavailable '+id);if(tileLimited.has(id)){h.tileUses[h.tile]??=[];h.tileUses[h.tile].push(id);}else h.daily.push(id);metric(s,'ability'+id);}
-function itemReady(h,name){return h.items.includes(name)&&!h.itemDaily.includes(name);}
+function itemReady(h,name){return !h.disableItems&&h.items.includes(name)&&!h.itemDaily.includes(name);}
 function item(s,i,name){const h=s.heroes[i];if(!itemReady(h,name))throw Error('item unavailable');h.itemDaily.push(name);metric(s,'item_'+name);}
 function distance(s,a,b){const h=s.heroes[a],v=s.heroes[b];return h.tile===v.tile?K.geo.dist(h.tile,h.cell,v.cell,s.capitals[1].solved[0]):Infinity;}
 function helper(s,leader,consume=false){
  const candidates=s.active.filter(i=>i!==leader&&s.heroes[i].tile===s.heroes[leader].tile).map(i=>{const h=s.heroes[i],d=distance(s,i,leader);let effect=null;
- if(d<=3||h.ability===7&&d<=5)effect='base';else if(itemReady(h,'Кольцо связи')&&d<=4)effect='ring';else if(ready(h,17))effect='root';return {i,effect};}).filter(x=>x.effect);
+ if(d<=3||!h.disableAbilities&&h.ability===7&&d<=5)effect='base';else if(itemReady(h,'Кольцо связи')&&d<=4)effect='ring';else if(ready(h,17))effect='root';return {i,effect};}).filter(x=>x.effect);
  candidates.sort((a,b)=>Number(itemReady(s.heroes[b.i],'Путевой посох'))-Number(itemReady(s.heroes[a.i],'Путевой посох')));
  if(!candidates.length)return null;const c=candidates[0];if(consume){if(c.effect==='ring')item(s,c.i,'Кольцо связи');if(c.effect==='root')use(s,c.i,17);}return c;
 }
