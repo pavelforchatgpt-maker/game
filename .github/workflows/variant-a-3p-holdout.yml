@@ -1,0 +1,37 @@
+name: Variant A 3p - holdout and sensitivity
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-3p-holdout.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  holdout:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mode: cut12, offset: 0, st: ST-NEUTRAL }
+          - { mode: cut14, offset: 0, st: ST-NEUTRAL }
+          - { mode: cut11, offset: 7000000, st: ST-NEUTRAL }
+          - { mode: cut12, offset: 7000000, st: ST-NEUTRAL }
+          - { mode: cut13, offset: 7000000, st: ST-NEUTRAL }
+          - { mode: cut14, offset: 7000000, st: ST-NEUTRAL }
+          - { mode: cut15, offset: 7000000, st: ST-NEUTRAL }
+          - { mode: cut12, offset: 7000000, st: ST-MODERATE }
+          - { mode: cut12, offset: 7000000, st: ST-HARSH }
+          - { mode: cut13, offset: 7000000, st: ST-MODERATE }
+          - { mode: cut13, offset: 7000000, st: ST-HARSH }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_3p_exploration_horizon.cjs ${{ matrix.mode }} 512 ${{ matrix.offset }} ${{ matrix.st }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: var-a-3p-${{ matrix.mode }}-${{ matrix.offset }}-${{ matrix.st }}
+          path: simulation/analysis/variant-a-3p-horizon/*.json
