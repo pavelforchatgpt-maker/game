@@ -1,0 +1,33 @@
+name: Candidate D explore-plus-DC grid
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/candidate_d_explore.cjs"
+      - ".github/workflows/candidate-d-explore.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, shift: -2 }
+          - { players: 2, shift: -3 }
+          - { players: 2, shift: -4 }
+          - { players: 3, shift: -2 }
+          - { players: 3, shift: -3 }
+          - { players: 3, shift: -4 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/candidate_d_explore.cjs ${{ matrix.players }} ${{ matrix.shift }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-d-${{ matrix.players }}p-s${{ matrix.shift }}
+          path: simulation/analysis/candidate-d-explore/*.json
