@@ -1,0 +1,33 @@
+name: Variant A 3p - 21-day independent validation
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-3p-21day-validation.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mode: cut13, offset: 0, st: ST-NEUTRAL }
+          - { mode: cut13, offset: 0, st: ST-MODERATE }
+          - { mode: cut13, offset: 0, st: ST-HARSH }
+          - { mode: trust1, offset: 0, st: ST-NEUTRAL }
+          - { mode: trust1, offset: 0, st: ST-MODERATE }
+          - { mode: trust1, offset: 0, st: ST-HARSH }
+          - { mode: trust1, offset: 14000000, st: ST-NEUTRAL }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_3p_deadline_tradeoff.cjs ${{ matrix.mode }} 21 512 ${{ matrix.offset }} ${{ matrix.st }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validator-${{ matrix.mode }}-${{ matrix.offset }}-${{ matrix.st }}
+          path: simulation/analysis/variant-a-3p-deadline/*.json
