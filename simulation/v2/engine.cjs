@@ -32,7 +32,7 @@ function route(s,start,goal){ // only revealed tile geometry; unknown neighbours
  const q=[[start]],seen=new Set([start]);while(q.length){const p=q.shift(),x=p.at(-1);if(x===goal)return p;for(const [,to]of geo.tiles[x].ports){if(!s.opened.includes(to)||seen.has(to))continue;seen.add(to);q.push([...p,to]);}}return null;}
 function chooseExit(s,t){return R.exit(s,t);}
 function desirePOI(s,t){return R.wantPOI(s,t,territory(t,available(s,t)[0]?.[0],s.options.territory));}
-function selectProblem(s,ci){const c=s.capitals[ci],need=3-s.trust[caps[ci].nation];if(c.solved[0]&&c.solved.filter(Boolean).length>=need){c.stable=true;return -1;}return c.solved.findIndex(x=>!x);}
+function selectProblem(s,ci){const c=s.capitals[ci],effectiveTrust=Math.min(2,s.trust[caps[ci].nation]+(s.options?.capitalTrustOffset||0)),need=3-effectiveTrust;if(c.solved[0]&&c.solved.filter(Boolean).length>=need){c.stable=true;return -1;}return c.solved.findIndex(x=>!x);}
 function plan(s){if(s.terminal)return;R.regroup(s);if(!s.deadMarked){const remaining=s.capitals.filter(c=>!c.stable).length,slots=(21-s.day)*(s.n===4?2:1)+s.heroes.filter(h=>h.ability===9&&!h.once).length;if(remaining>slots){s.deadMarked=true;metric(s,'provenCapitalBudgetDead');metric(s,'provenCapitalBudgetDeadDay',s.day);}}if(s.tree.started){if(s.tree.retryDay>s.day){advance(s);return;}s.phase='final';return;}
  if(s.n===4&&s.groups.length===1&&((s.options.group==='split'&&s.day>=(s.options.splitDay??1))||(s.options.group==='mixed'&&s.day>=(s.options.splitDay??6)))&&!allStable(s)&&s.heroes.every(h=>!h.acted)&&new Set(s.heroes.map(h=>h.tile)).size===1)K.split(s);
  if(allStable(s)&&s.heroes.every(h=>h.tile==='C-1'))K.merge(s);
