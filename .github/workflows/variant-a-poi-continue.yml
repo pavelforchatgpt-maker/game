@@ -1,0 +1,47 @@
+name: Variant A POI continuation comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-poi-continue.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  paired:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, group: together, policy: legacy, variant: control }
+          - { players: 2, group: together, policy: legacy, variant: A }
+          - { players: 2, group: together, policy: marginal, variant: control }
+          - { players: 2, group: together, policy: marginal, variant: A }
+          - { players: 2, group: together, policy: trust1, variant: control }
+          - { players: 2, group: together, policy: trust1, variant: A }
+          - { players: 3, group: together, policy: legacy, variant: control }
+          - { players: 3, group: together, policy: legacy, variant: A }
+          - { players: 3, group: together, policy: marginal, variant: control }
+          - { players: 3, group: together, policy: marginal, variant: A }
+          - { players: 3, group: together, policy: trust1, variant: control }
+          - { players: 3, group: together, policy: trust1, variant: A }
+          - { players: 4, group: split, policy: legacy, variant: control }
+          - { players: 4, group: split, policy: legacy, variant: A }
+          - { players: 4, group: split, policy: marginal, variant: control }
+          - { players: 4, group: split, policy: marginal, variant: A }
+          - { players: 4, group: split, policy: trust1, variant: control }
+          - { players: 4, group: split, policy: trust1, variant: A }
+          - { players: 4, group: dynamic, policy: legacy, variant: control }
+          - { players: 4, group: dynamic, policy: legacy, variant: A }
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Simulate matched control and Variant A
+        run: node simulation/analysis/variant_a_poi_continue.cjs ${{ matrix.players }} ${{ matrix.group }} ${{ matrix.policy }} ${{ matrix.variant }} 512
+      - uses: actions/upload-artifact@v4
+        with:
+          name: variant-a-${{ matrix.players }}-${{ matrix.group }}-${{ matrix.policy }}-${{ matrix.variant }}
+          path: simulation/analysis/variant-a-poi-continue/*.json
