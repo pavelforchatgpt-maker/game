@@ -35,7 +35,7 @@ for(let i=0;i<samples;i++){
  stable:r.terminal.capitals.filter(c=>c.stable).length,metrics:r.metrics,
  abilitiesUsed:Object.entries(r.metrics).filter(([k])=>/^ability\d+$/.test(k)).reduce((a,[,v])=>a+v,0),
  itemsUsed:Object.entries(r.metrics).filter(([k])=>k.startsWith('item_')).reduce((a,[,v])=>a+v,0),
- talentUses:r.metrics.talentApplied||0,provenDeadMarked:r.metrics.provenCapitalBudgetDead||0});
+ talentUses:r.metrics.talentApplied||0,ownTalentUses:r.metrics.ownTalentUsed||0,sharedTalentUses:r.metrics.sharedTalent13||0,provenDeadMarked:r.metrics.provenCapitalBudgetDead||0});
 }
 const wins=rows.filter(x=>x.win),loss=rows.filter(x=>!x.win);
 function summary(a){return {n:a.length,POI:mean(a.map(x=>x.work.poi)),POIMedian:q(a.map(x=>x.work.poi),.5),
@@ -45,7 +45,7 @@ function summary(a){return {n:a.length,POI:mean(a.map(x=>x.work.poi)),POIMedian:
  normalOver180:a.length?a.filter(x=>x.time.normal>180).length/a.length:null,
  firstMean:mean(a.map(x=>x.time.firstPlay)),firstP90:q(a.map(x=>x.time.firstPlay),.9),
  firstOver210:a.length?a.filter(x=>x.time.firstPlay>210).length/a.length:null,
- abilitiesUsed:mean(a.map(x=>x.abilitiesUsed)),itemsUsed:mean(a.map(x=>x.itemsUsed)),talentUses:mean(a.map(x=>x.talentUses)),
+ abilitiesUsed:mean(a.map(x=>x.abilitiesUsed)),itemsUsed:mean(a.map(x=>x.itemsUsed)),talentUses:mean(a.map(x=>x.talentUses)),ownTalentUses:mean(a.map(x=>x.ownTalentUses)),sharedTalentUses:mean(a.map(x=>x.sharedTalentUses)),
  capitalDeadMetric:mean(a.map(x=>x.provenDeadMarked)),trust:mean(a.map(x=>x.trust)),stable:mean(a.map(x=>x.stable))};}
 const out={status:'NONCANONICAL, not tabletop-measured',players:3,days,policy,samples,st,talentRate,seedOffset,capitalShift,stageScaleWithHorizon,talentModel,talentChoice,
  wins:wins.length,winRate:wins.length/samples,win95:wilson(wins.length,samples),
@@ -54,7 +54,8 @@ const out={status:'NONCANONICAL, not tabletop-measured',players:3,days,policy,sa
  'One ordinary activation per group per day; no systematic bonus activations. Ability #9 retains its approved once-per-game exception.',
  'Variant A POI continuation enabled; -3 capital difficulty shift carried over as diagnostic only.',
  '12 talent categories not mapped to mechanically abstract event cards: talentRate is only a per-POI-check Bernoulli +1 proxy (not true talents, not capital checks).',
- 'Talents 0 baseline vs .2/.4/.6 sensitivity must not be described as accurate full talents.',
+ 'Talent scenario synthetic matches a single assigned character talent against noncanonical provisional per-path tags. It is more structured than a Bernoulli +1, but still not validated against story text; talent power in capital/final checks remains unmodelled.',
+ 'Talents 0 baseline vs .2/.4/.6 proxy sensitivity must not be described as accurate full talents.',
  'ST stages are not rescaled: stage III remains days >=16, across the entire extended horizon.',
  'Days, card reading and all timing are estimated, not physical playtests.',
  'Planner is map-aware optimising virtual agent, not a human family.'
