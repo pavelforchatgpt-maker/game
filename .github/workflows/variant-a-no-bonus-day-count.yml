@@ -1,0 +1,44 @@
+name: Variant A without artificial extra activations
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-no-bonus-day-count.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { days: 24, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 28, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 30, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 32, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 34, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 36, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 38, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 40, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 42, policy: trust1, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 28, policy: cut13, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 32, policy: cut13, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 36, policy: cut13, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 40, policy: cut13, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 44, policy: cut13, talent: 0, st: ST-NEUTRAL, offset: 0 }
+          - { days: 28, policy: trust1, talent: 0.3, st: ST-NEUTRAL, offset: 0 }
+          - { days: 32, policy: trust1, talent: 0.3, st: ST-NEUTRAL, offset: 0 }
+          - { days: 36, policy: trust1, talent: 0.3, st: ST-NEUTRAL, offset: 0 }
+          - { days: 40, policy: trust1, talent: 0.3, st: ST-NEUTRAL, offset: 0 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_no_bonus_day_count.cjs ${{ matrix.days }} ${{ matrix.policy }} 512 ${{ matrix.talent }} ${{ matrix.st }} ${{ matrix.offset }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: no-bonus-${{ matrix.days }}-${{ matrix.policy }}-${{ matrix.talent }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
