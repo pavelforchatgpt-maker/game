@@ -1,0 +1,48 @@
+name: Variant A one activation - focused balance validation
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-no-bonus-focused.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { days: 33, tal: 0, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 37, tal: 0, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 33, tal: 0.2, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 33, tal: 0.3, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 34, tal: 0.2, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 34, tal: 0.3, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0.2, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0.3, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 36, tal: 0.2, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 36, tal: 0.3, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0.2, st: ST-MODERATE, shift: -3, scale: scaled, offset: 0 }
+          - { days: 35, tal: 0.2, st: ST-MODERATE, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0.2, st: ST-HARSH, shift: -3, scale: scaled, offset: 0 }
+          - { days: 35, tal: 0.2, st: ST-HARSH, shift: -3, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0, st: ST-NEUTRAL, shift: -2, scale: fixed, offset: 0 }
+          - { days: 36, tal: 0, st: ST-NEUTRAL, shift: -2, scale: fixed, offset: 0 }
+          - { days: 38, tal: 0, st: ST-NEUTRAL, shift: -2, scale: fixed, offset: 0 }
+          - { days: 40, tal: 0, st: ST-NEUTRAL, shift: -2, scale: fixed, offset: 0 }
+          - { days: 35, tal: 0, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 7000000 }
+          - { days: 35, tal: 0.2, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 7000000 }
+          - { days: 35, tal: 0.3, st: ST-NEUTRAL, shift: -3, scale: fixed, offset: 7000000 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_no_bonus_day_count.cjs ${{ matrix.days }} trust1 512 ${{ matrix.tal }} ${{ matrix.st }} ${{ matrix.offset }} ${{ matrix.shift }} ${{ matrix.scale }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: focused-${{ matrix.days }}-${{ matrix.tal }}-${{ matrix.st }}-${{ matrix.shift }}-${{ matrix.scale }}-${{ matrix.offset }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
