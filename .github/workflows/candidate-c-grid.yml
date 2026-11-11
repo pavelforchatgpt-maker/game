@@ -1,0 +1,41 @@
+name: Candidate C cadence-2 grid
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "simulation/analysis/candidate_c_grid.cjs"
+      - ".github/workflows/candidate-c-grid.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  simulate:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, group: together, shift: -2, pair: -1 }
+          - { players: 2, group: together, shift: -3, pair: -1 }
+          - { players: 2, group: together, shift: -4, pair: -1 }
+          - { players: 3, group: together, shift: -2, pair: -1 }
+          - { players: 3, group: together, shift: -3, pair: -1 }
+          - { players: 3, group: together, shift: -4, pair: -1 }
+          - { players: 4, group: split, shift: 0, pair: -1 }
+          - { players: 4, group: split, shift: 0, pair: -2 }
+          - { players: 4, group: dynamic, shift: 0, pair: -1 }
+          - { players: 4, group: dynamic, shift: 0, pair: -2 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node simulation/analysis/candidate_c_grid.cjs ${{ matrix.players }} ${{ matrix.group }} ${{ matrix.shift }} ${{ matrix.pair }} 256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-c-${{ matrix.players }}-${{ matrix.group }}-s${{ matrix.shift }}-p${{ matrix.pair }}
+          path: simulation/analysis/candidate-c-grid/*.json
