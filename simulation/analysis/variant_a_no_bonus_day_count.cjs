@@ -9,13 +9,14 @@ function q(a,p){if(!a.length)return null;const b=[...a].sort((x,y)=>x-y),x=(b.le
 function wilson(w,n){if(!n)return [0,0];const z=1.96,p=w/n,d=1+z*z/n,m=(p+z*z/(2*n))/d,h=z*Math.sqrt(p*(1-p)/n+z*z/(4*n*n))/d;return [Math.max(0,m-h),Math.min(1,m+h)];}
 function count(r,type,day,fn=()=>true){return (r.ledger||[]).reduce((a,d)=>a+(d.day<=day?(d.events||[]).filter(e=>e.type===type&&fn(e)).length:0),0);}
 const days=+(process.argv[2]||35),policy=process.argv[3]||'trust1',samples=+(process.argv[4]||512),
- talentRate=+(process.argv[5]||0),st=process.argv[6]||'ST-NEUTRAL',seedOffset=+(process.argv[7]||0),capitalShift=process.argv[8]===undefined?-3:Number(process.argv[8]),stageScaleWithHorizon=process.argv[9]==='scaled';
+ talentRate=+(process.argv[5]||0),st=process.argv[6]||'ST-NEUTRAL',seedOffset=+(process.argv[7]||0),capitalShift=process.argv[8]===undefined?-3:Number(process.argv[8]),stageScaleWithHorizon=process.argv[9]==='scaled',talentModel=process.argv[10]||'proxy',talentChoice=process.argv[11]||'rational';
 if(days<20||days>50||!['trust1','trust2','cut13','legacy','marginal'].includes(policy)||samples<1||talentRate<0||talentRate>1)throw Error('invalid args');
 const base={players:3,group:'together',experiment:'ordinary',planner:'global',poiAware:true,resourceAware:true,
  poiContinueMovement:true,st,talentRate,horizon:days,poiStrategy:policy==='marginal'?'marginal':'legacy',
  capitalDifficultyShift:capitalShift,stageScaleWithHorizon};
 if(policy==='trust1'||policy==='cut13')base.trustTarget=1;
 if(policy==='trust2')base.trustTarget=2;
+if(talentModel==='synthetic'){base.talentModel='synthetic';base.talentChoice=talentChoice;}
 if(policy==='cut13')base.poiTrustUntilDay=13;
 // No teamDailyBonusActivations, no lowPlayerExtraCadence, no group activation slots.
 // Ability 9 may still create its one canonically defined extra activation.
@@ -46,7 +47,7 @@ function summary(a){return {n:a.length,POI:mean(a.map(x=>x.work.poi)),POIMedian:
  firstOver210:a.length?a.filter(x=>x.time.firstPlay>210).length/a.length:null,
  abilitiesUsed:mean(a.map(x=>x.abilitiesUsed)),itemsUsed:mean(a.map(x=>x.itemsUsed)),talentUses:mean(a.map(x=>x.talentUses)),
  capitalDeadMetric:mean(a.map(x=>x.provenDeadMarked)),trust:mean(a.map(x=>x.trust)),stable:mean(a.map(x=>x.stable))};}
-const out={status:'NONCANONICAL, not tabletop-measured',players:3,days,policy,samples,st,talentRate,seedOffset,capitalShift,stageScaleWithHorizon,
+const out={status:'NONCANONICAL, not tabletop-measured',players:3,days,policy,samples,st,talentRate,seedOffset,capitalShift,stageScaleWithHorizon,talentModel,talentChoice,
  wins:wins.length,winRate:wins.length/samples,win95:wilson(wins.length,samples),
  all:summary(rows),winning:summary(wins),losing:summary(loss),
  notes:[
@@ -59,5 +60,5 @@ const out={status:'NONCANONICAL, not tabletop-measured',players:3,days,policy,sa
  'Planner is map-aware optimising virtual agent, not a human family.'
  ]};
 fs.mkdirSync(path.join(__dirname,'variant-a-no-bonus-day-count'),{recursive:true});
-fs.writeFileSync(path.join(__dirname,'variant-a-no-bonus-day-count',policy+'-d'+days+'-t'+talentRate+'-'+st+'-'+seedOffset+'-s'+capitalShift+'-'+(stageScaleWithHorizon?'scaled':'fixed')+'.json'),JSON.stringify(out,null,2));
+fs.writeFileSync(path.join(__dirname,'variant-a-no-bonus-day-count',policy+'-d'+days+'-t'+talentRate+'-'+st+'-'+seedOffset+'-s'+capitalShift+'-'+(stageScaleWithHorizon?'scaled':'fixed')+'-'+talentModel+'-'+talentChoice+'.json'),JSON.stringify(out,null,2));
 console.log(JSON.stringify(out,null,2));
