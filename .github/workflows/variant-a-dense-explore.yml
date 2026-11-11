@@ -1,0 +1,39 @@
+name: Variant A - dense exploration no extra activations
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/variant-a-dense-explore.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  explore:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { days: 35, policy: trust2, tal: 0, offset: 0 }
+          - { days: 38, policy: trust2, tal: 0, offset: 0 }
+          - { days: 40, policy: trust2, tal: 0, offset: 0 }
+          - { days: 42, policy: trust2, tal: 0, offset: 0 }
+          - { days: 45, policy: trust2, tal: 0, offset: 0 }
+          - { days: 35, policy: trust2, tal: 0.2, offset: 0 }
+          - { days: 38, policy: trust2, tal: 0.2, offset: 0 }
+          - { days: 40, policy: trust2, tal: 0.2, offset: 0 }
+          - { days: 42, policy: trust2, tal: 0.2, offset: 0 }
+          - { days: 38, policy: trust2, tal: 0.2, offset: 7000000 }
+          - { days: 40, policy: trust2, tal: 0.2, offset: 7000000 }
+          - { days: 35, policy: trust1, tal: 0.2, offset: 7000000 }
+          - { days: 40, policy: trust1, tal: 0.2, offset: 7000000 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/variant_a_no_bonus_day_count.cjs ${{ matrix.days }} ${{ matrix.policy }} 512 ${{ matrix.tal }} ST-NEUTRAL ${{ matrix.offset }} -3 scaled
+      - uses: actions/upload-artifact@v4
+        with:
+          name: density-${{ matrix.days }}-${{ matrix.policy }}-${{ matrix.tal }}-${{ matrix.offset }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
