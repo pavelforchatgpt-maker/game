@@ -20,7 +20,12 @@ function tour(s,g,required=mask(s),target='C-1'){
 function ownership(s,g){let m=mask(s);for(let i=0;i<5;i++){const job=s.jobs?.[cities[i]];if(job&&!job.some(j=>g.includes(j)))m&=~(1<<i);}return m;}
 function score(s,g){const route=tour(s,g,ownership(s,g));const need=Math.max(0,K.cfg.final.requirements[s.n]-s.energy),resource=need/(.5*g.length);return {remainingDays:route.cost+resource,slack:21-s.day-route.cost-resource,energyDeficit:need,routeCost:route.cost,problems:nations.reduce((a,n,i)=>a+(s.capitals[i].stable?0:3-s.trust[n]),0),probability:probability(s,g),route};}
 function exit(s,t){if(s.rendezvous)return tour(s,s.active,0,s.rendezvous).first;const required=ownership(s,s.active);if(!required&&s.energy<K.cfg.final.requirements[s.n]){const candidates=Object.keys(G.tiles).filter(id=>G.tiles[id].poi.some(([c])=>!s.used.includes(id+':'+c)));const routes=candidates.map(id=>tour(s,s.active,0,id)).filter(r=>r.first).sort((a,b)=>a.cost-b.cost);if(routes.length)return routes[0].first;}if(s.options.order){const next=s.options.order.find(i=>required&(1<<i));if(next!==undefined)return tour(s,s.active,0,cities[next]).first;}return tour(s,s.active,required).first;}
-function targetTrust(s,territory){return s.options.trustTargets?.[territory]??s.options.trustTarget??0;}
+function targetTrust(s,territory){
+ // Diagnostic policy only: stop actively pursuing new Trust once this day passes.
+ // Without poiTrustUntilDay, behaviour is byte-for-byte equivalent to the prior policy.
+ if(s.options?.poiTrustUntilDay!==undefined&&s.day>s.options.poiTrustUntilDay)return 0;
+ return s.options.trustTargets?.[territory]??s.options.trustTarget??0;
+}
 function wantPOI(s,t,territory){const need=Math.max(0,K.cfg.final.requirements[s.n]-s.energy);if(need)return true;const ci=nations.indexOf(territory);if(ci<0||s.capitals[ci].stable||s.trust[territory]>=2)return false;if(s.options.trustTargets||s.options.trustTarget!==undefined)return s.trust[territory]<targetTrust(s,territory);const p=probability(s,s.active),saved=(1-p)/p;return (s.options.trustWeight??1)*.45*saved>1/s.active.length+.15;}
 const poiPrior={
  'Исследование':{energy:.44,trust:.75,item:.19},
