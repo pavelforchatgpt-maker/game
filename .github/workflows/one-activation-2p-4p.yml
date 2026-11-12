@@ -1,0 +1,42 @@
+name: One activation - 2p and 4p diagnostic
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/one-activation-2p-4p.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 2, days: 28, group: together, talent: synthetic, choice: cyclic }
+          - { players: 2, days: 32, group: together, talent: synthetic, choice: cyclic }
+          - { players: 2, days: 35, group: together, talent: synthetic, choice: cyclic }
+          - { players: 2, days: 38, group: together, talent: synthetic, choice: cyclic }
+          - { players: 2, days: 42, group: together, talent: synthetic, choice: cyclic }
+          - { players: 4, days: 28, group: split, talent: synthetic, choice: cyclic }
+          - { players: 4, days: 32, group: split, talent: synthetic, choice: cyclic }
+          - { players: 4, days: 35, group: split, talent: synthetic, choice: cyclic }
+          - { players: 4, days: 38, group: split, talent: synthetic, choice: cyclic }
+          - { players: 4, days: 42, group: split, talent: synthetic, choice: cyclic }
+          - { players: 2, days: 32, group: together, talent: proxy, choice: rational }
+          - { players: 2, days: 35, group: together, talent: proxy, choice: rational }
+          - { players: 2, days: 38, group: together, talent: proxy, choice: rational }
+          - { players: 4, days: 32, group: split, talent: proxy, choice: rational }
+          - { players: 4, days: 35, group: split, talent: proxy, choice: rational }
+          - { players: 4, days: 38, group: split, talent: proxy, choice: rational }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/one_activation_all_player_counts.cjs ${{ matrix.days }} trust1 256 0 ST-NEUTRAL 0 -3 scaled ${{ matrix.talent }} ${{ matrix.choice }} ${{ matrix.players }} ${{ matrix.group }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compare-${{ matrix.players }}-${{ matrix.days }}-${{ matrix.talent }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
