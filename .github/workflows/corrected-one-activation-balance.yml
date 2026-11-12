@@ -1,0 +1,37 @@
+name: 2p-4p corrected one-activation comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/corrected-one-activation-balance.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { players: 4, days: 18, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 20, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 22, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 24, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 26, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 28, group: split, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 20, group: together, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 4, days: 24, group: together, policy: trust1, shift: 0, choice: cyclic }
+          - { players: 2, days: 30, group: together, policy: trust2, shift: -3, choice: cyclic }
+          - { players: 2, days: 32, group: together, policy: trust2, shift: -3, choice: cyclic }
+          - { players: 2, days: 34, group: together, policy: trust2, shift: -3, choice: cyclic }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: node simulation/analysis/one_activation_all_player_counts.cjs ${{ matrix.days }} ${{ matrix.policy }} 256 0 ST-NEUTRAL 0 ${{ matrix.shift }} scaled synthetic ${{ matrix.choice }} ${{ matrix.players }} ${{ matrix.group }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: corrected-${{ matrix.players }}-${{ matrix.days }}-${{ matrix.group }}-${{ matrix.policy }}
+          path: simulation/analysis/variant-a-no-bonus-day-count/*.json
