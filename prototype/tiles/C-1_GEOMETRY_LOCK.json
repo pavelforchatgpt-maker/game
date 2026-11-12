@@ -1,0 +1,172 @@
+{
+  "status": "geometric-reference, not painterly final art",
+  "tile": "C-1",
+  "cellCount": 19,
+  "rows": [
+    3,
+    4,
+    5,
+    4,
+    3
+  ],
+  "blockCell": 10,
+  "passable": 18,
+  "ordinaryPOIs": 0,
+  "exits": [
+    {
+      "fromCell": 8,
+      "neighbor": "B-3",
+      "border": "upper-left"
+    },
+    {
+      "fromCell": 7,
+      "neighbor": "B-5",
+      "border": "upper-right"
+    }
+  ],
+  "anchors": [
+    {
+      "cell": 2,
+      "name": "Искра"
+    },
+    {
+      "cell": 4,
+      "name": "Поток"
+    },
+    {
+      "cell": 7,
+      "name": "Слово"
+    },
+    {
+      "cell": 13,
+      "name": "Рост"
+    },
+    {
+      "cell": 16,
+      "name": "Камень"
+    }
+  ],
+  "noInternalRivers": true,
+  "blockedOtherBorders": [
+    "top",
+    "bottom-right",
+    "bottom",
+    "bottom-left"
+  ],
+  "cells": [
+    {
+      "id": 1,
+      "x": 544,
+      "y": 356,
+      "passable": true
+    },
+    {
+      "id": 2,
+      "x": 800,
+      "y": 356,
+      "passable": true
+    },
+    {
+      "id": 3,
+      "x": 1056,
+      "y": 356,
+      "passable": true
+    },
+    {
+      "id": 4,
+      "x": 415,
+      "y": 578,
+      "passable": true
+    },
+    {
+      "id": 5,
+      "x": 672,
+      "y": 578,
+      "passable": true
+    },
+    {
+      "id": 6,
+      "x": 928,
+      "y": 578,
+      "passable": true
+    },
+    {
+      "id": 7,
+      "x": 1185,
+      "y": 578,
+      "passable": true
+    },
+    {
+      "id": 8,
+      "x": 287,
+      "y": 800,
+      "passable": true
+    },
+    {
+      "id": 9,
+      "x": 544,
+      "y": 800,
+      "passable": true
+    },
+    {
+      "id": 10,
+      "x": 800,
+      "y": 800,
+      "passable": false
+    },
+    {
+      "id": 11,
+      "x": 1056,
+      "y": 800,
+      "passable": true
+    },
+    {
+      "id": 12,
+      "x": 1313,
+      "y": 800,
+      "passable": true
+    },
+    {
+      "id": 13,
+      "x": 415,
+      "y": 1022,
+      "passable": true
+    },
+    {
+      "id": 14,
+      "x": 672,
+      "y": 1022,
+      "passable": true
+    },
+    {
+      "id": 15,
+      "x": 928,
+      "y": 1022,
+      "passable": true
+    },
+    {
+      "id": 16,
+      "x": 1185,
+      "y": 1022,
+      "passable": true
+    },
+    {
+      "id": 17,
+      "x": 544,
+      "y": 1244,
+      "passable": true
+    },
+    {
+      "id": 18,
+      "x": 800,
+      "y": 1244,
+      "passable": true
+    },
+    {
+      "id": 19,
+      "x": 1056,
+      "y": 1244,
+      "passable": true
+    }
+  ]
+}
